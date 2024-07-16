@@ -1,0 +1,27 @@
+﻿CHARACTERS = {
+	c:SIA = {
+		create_character = {
+			first_name = "Phrachao_Suea_Supasawat"
+			is_admiral = yes
+			commander_rank = commander_rank_1
+			birth_date = 1780.11.1
+			traits = {
+				opium_addiction 
+			}
+		}
+
+		create_character = {
+			first_name = "Ramaracha_Na_Kedah"
+			ruler = yes
+			is_general = yes
+			commander_rank = commander_rank_2
+			culture = cu:khmer
+			religion = rel:shinto
+			birth_date = 1792.8.11
+			traits = {
+				meticulous 
+			}
+		}
+
+	}
+}

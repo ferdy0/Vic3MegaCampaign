@@ -1,0 +1,264 @@
+﻿CHARACTERS = {
+	c:W80 = {
+		create_character = {
+			first_name = "Kailaspala_Kachwaha"
+			is_general = yes
+			commander_rank = commander_rank_2
+			birth_date = 1808.2.27
+		}
+
+		create_character = {
+			first_name = "Talwar_Singh_Guhilot"
+			is_general = yes
+			commander_rank = commander_rank_4
+			birth_date = 1816.12.30
+			traits = {
+				basic_defensive_strategist 
+			}
+		}
+
+		create_character = {
+			first_name = "Jaganpal_Bargujar"
+			is_general = yes
+			commander_rank = commander_rank_4
+			birth_date = 1807.9.14
+			traits = {
+				basic_defensive_strategist 
+			}
+		}
+
+		create_character = {
+			first_name = "Vikramaditya_Dahiya"
+			is_general = yes
+			commander_rank = commander_rank_1
+			birth_date = 1809.12.16
+			traits = {
+				cocaine_addiction 
+			}
+		}
+
+		create_character = {
+			first_name = "Anekonda_Khirwara"
+			is_general = yes
+			commander_rank = commander_rank_3
+			birth_date = 1801.7.31
+			traits = {
+				basic_offensive_planner 
+			}
+		}
+
+		create_character = {
+			first_name = "Yachama_Dahiya"
+			is_general = yes
+			commander_rank = commander_rank_2
+			birth_date = 1805.4.25
+			traits = {
+				shellshocked 
+			}
+		}
+
+		create_character = {
+			first_name = "Talwar_Singh_Faruqi"
+			is_general = yes
+			commander_rank = commander_rank_2
+			birth_date = 1800.11.23
+		}
+
+		create_character = {
+			first_name = "Jayapala_Nauhwara"
+			is_general = yes
+			commander_rank = commander_rank_2
+			birth_date = 1793.4.7
+			traits = {
+				psychological_affliction 
+			}
+		}
+
+		create_character = {
+			first_name = "Talwar_Singh_Hada"
+			is_general = yes
+			commander_rank = commander_rank_4
+			birth_date = 1810.9.23
+			traits = {
+				basic_defensive_strategist 
+			}
+		}
+
+		create_character = {
+			first_name = "Babji_Ballal_Sah_Ganesha"
+			is_general = yes
+			commander_rank = commander_rank_4
+			birth_date = 1811.1.13
+			traits = {
+				basic_defensive_strategist 
+			}
+		}
+
+		create_character = {
+			first_name = "Khadag_Samma"
+			is_general = yes
+			commander_rank = commander_rank_4
+			birth_date = 1808.6.3
+			traits = {
+				basic_offensive_planner 
+			}
+		}
+
+		create_character = {
+			first_name = "Kailaspala_Holkar"
+			is_general = yes
+			commander_rank = commander_rank_3
+			birth_date = 1806.8.20
+		}
+
+		create_character = {
+			first_name = "Jayayakshamalla_Ghorka"
+			is_general = yes
+			commander_rank = commander_rank_3
+			birth_date = 1792.3.16
+			traits = {
+				psychological_affliction 
+			}
+		}
+
+		create_character = {
+			first_name = "Jaganpal_Ganesha"
+			is_general = yes
+			commander_rank = commander_rank_3
+			birth_date = 1800.5.7
+			traits = {
+				psychological_affliction 
+			}
+		}
+
+		create_character = {
+			first_name = "Ray"
+			last_name = "Ganga"
+			heir = yes
+			culture = cu:dynamic-assamese-bengali-gondi-avadhi-rajput-culture-num1
+			religion = rel:gangan
+			birth_date = 1825.2.9
+			traits = {
+				basic_diplomat trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Kanchani"
+			last_name = "Chand"
+			female = yes
+			culture = cu:dynamic-assamese-bengali-gondi-avadhi-rajput-culture-num1
+			religion = rel:gangan
+			birth_date = 1807.6.19
+			traits = {
+				experienced_political_operator imperious 
+			}
+		}
+
+		create_character = {
+			first_name = "Mahipal_VIII"
+			last_name = "Ganga"
+			ruler = yes
+			culture = cu:dynamic-assamese-bengali-gondi-avadhi-rajput-culture-num1
+			religion = rel:gangan
+			birth_date = 1797.6.1
+			traits = {
+				hedonist 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+		create_character = {
+			first_name = "Vikramaditya_Awadhi"
+			is_general = yes
+			commander_rank = commander_rank_4
+			birth_date = 1796.7.28
+			traits = {
+				basic_offensive_planner 
+			}
+		}
+
+		create_character = {
+			first_name = "Naravarman_Raikat"
+			is_general = yes
+			commander_rank = commander_rank_4
+			birth_date = 1797.7.10
+			traits = {
+				basic_defensive_strategist 
+			}
+		}
+
+		create_character = {
+			first_name = "Vikramaditya_Nagas"
+			is_general = yes
+			commander_rank = commander_rank_4
+			birth_date = 1787.3.11
+			traits = {
+				basic_defensive_strategist 
+			}
+		}
+
+		create_character = {
+			first_name = "Naravarman_Chutiya"
+			is_general = yes
+			commander_rank = commander_rank_3
+			birth_date = 1786.9.21
+			traits = {
+				basic_offensive_planner 
+			}
+		}
+
+		create_character = {
+			first_name = "Vikramaditya_Sanchore"
+			is_general = yes
+			commander_rank = commander_rank_4
+			birth_date = 1791.10.29
+			traits = {
+				basic_defensive_strategist 
+			}
+		}
+
+		create_character = {
+			first_name = "Vikramaditya_Chhinda"
+			is_general = yes
+			commander_rank = commander_rank_3
+			birth_date = 1772.4.29
+			traits = {
+				basic_offensive_planner 
+			}
+		}
+
+		create_character = {
+			first_name = "Yachama_Gujar"
+			is_general = yes
+			commander_rank = commander_rank_1
+			birth_date = 1786.11.23
+			traits = {
+				alcoholic 
+			}
+		}
+
+		create_character = {
+			first_name = "Hari_Singh_Parmari"
+			is_general = yes
+			commander_rank = commander_rank_3
+			birth_date = 1790.3.27
+			traits = {
+				resupply_commander 
+			}
+		}
+
+		create_character = {
+			first_name = "Talwar_Singh_Vaghela"
+			is_admiral = yes
+			commander_rank = commander_rank_4
+			birth_date = 1793.4.12
+			traits = {
+				traditionalist_commander 
+			}
+		}
+
+	}
+}

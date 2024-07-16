@@ -1,0 +1,50 @@
+﻿CHARACTERS = {
+	c:GAL = {
+		create_character = {
+			first_name = "Matveiy_Kolzoff"
+			is_general = yes
+			commander_rank = commander_rank_2
+			birth_date = 1799.2.8
+			traits = {
+				alcoholic 
+			}
+		}
+
+		create_character = {
+			first_name = "Valeriy_Kolzoff"
+			is_general = yes
+			commander_rank = commander_rank_2
+			birth_date = 1801.3.17
+			traits = {
+				cautious 
+			}
+		}
+
+		create_character = {
+			first_name = "Afanasiy"
+			last_name = "Polan"
+			heir = yes
+			culture = cu:ukrainian
+			religion = rel:orthodox
+			birth_date = 1808.4.6
+			traits = {
+				pious 
+			}
+		}
+
+		create_character = {
+			first_name = "Yuliya_I"
+			last_name = "Polan"
+			ruler = yes
+			female = yes
+			interest_group = ig_industrialists
+			culture = cu:ukrainian
+			religion = rel:orthodox
+			birth_date = 1771.4.5
+			traits = {
+				expert_political_operator hedonist 
+			}
+		}
+
+	}
+}

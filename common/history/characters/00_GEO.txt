@@ -1,0 +1,50 @@
+﻿CHARACTERS = {
+	c:GEO = {
+		create_character = {
+			first_name = "Zahra"
+			last_name = "Kobulashvili"
+			is_general = yes
+			commander_rank = commander_rank_3
+			female = yes
+			culture = cu:georgian
+			religion = rel:catholic
+			birth_date = 1807.3.21
+			traits = {
+				basic_offensive_planner experienced_political_operator reserved 
+			}
+		}
+
+		create_character = {
+			first_name = "Aristarchus"
+			last_name = "Javakhishvili"
+			heir = yes
+			culture = cu:georgian
+			religion = rel:catholic
+			birth_date = 1824.12.20
+			traits = {
+				trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Innokentios_Avilishvili"
+			is_general = yes
+			commander_rank = commander_rank_3
+			birth_date = 1796.7.31
+			traits = {
+				resupply_commander 
+			}
+		}
+
+		create_character = {
+			first_name = "Niphon_Jandieri"
+			is_general = yes
+			commander_rank = commander_rank_3
+			birth_date = 1799.5.29
+			traits = {
+				ambitious basic_defensive_strategist 
+			}
+		}
+
+	}
+}

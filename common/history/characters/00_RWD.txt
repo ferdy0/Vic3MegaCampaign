@@ -1,0 +1,27 @@
+﻿CHARACTERS = {
+	c:RWD = {
+		create_character = {
+			first_name = "Cyilima_Abanyiginya"
+			ruler = yes
+			is_general = yes
+			commander_rank = commander_rank_2
+			culture = cu:ruanda
+			religion = rel:animist
+			birth_date = 1787.3.11
+			traits = {
+				cautious experienced_diplomat 
+			}
+		}
+
+		create_character = {
+			first_name = "Ndahiro_Abasita"
+			is_general = yes
+			commander_rank = commander_rank_3
+			birth_date = 1787.11.11
+			traits = {
+				cautious 
+			}
+		}
+
+	}
+}

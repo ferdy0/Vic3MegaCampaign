@@ -1,0 +1,63 @@
+﻿CHARACTERS = {
+	c:PRM = {
+		create_character = {
+			first_name = "Chidukhul"
+			last_name = "Keite"
+			culture = cu:ugrian
+			religion = rel:orthodox
+			birth_date = 1810.10.5
+			traits = {
+				basic_political_operator innovative 
+			}
+		}
+
+		create_character = {
+			first_name = "Biyar"
+			last_name = "Azegid"
+			heir = yes
+			culture = cu:ugrian
+			religion = rel:orthodox
+			birth_date = 1834.8.23
+			traits = {
+				basic_political_operator trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Agrafena_IV"
+			last_name = "Azegid"
+			ruler = yes
+			female = yes
+			culture = cu:ugrian
+			religion = rel:orthodox
+			birth_date = 1818.1.31
+			traits = {
+				basic_colonial_administrator cautious 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+		create_character = {
+			first_name = "Pokshayka_Koinov"
+			is_general = yes
+			commander_rank = commander_rank_1
+			birth_date = 1792.7.20
+			traits = {
+				opium_addiction 
+			}
+		}
+
+		create_character = {
+			first_name = "Pokshayka_Kychanov"
+			is_general = yes
+			commander_rank = commander_rank_1
+			birth_date = 1781.12.18
+			traits = {
+				opium_addiction 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,23 @@
+﻿CHARACTERS = {
+	c:HDJ = {
+		create_character = {
+			first_name = "Humaida_II"
+			last_name = "Kauleas"
+			ruler = yes
+			culture = cu:dynamic-greek-al_suryah_arabic-culture-num1
+			religion = rel:quranist
+			birth_date = 1818.1.2
+			traits = {
+				pious 
+			}
+		}
+
+		create_character = {
+			first_name = "Barak0t_Mansour"
+			is_general = yes
+			commander_rank = commander_rank_2
+			birth_date = 1809.12.22
+		}
+
+	}
+}

@@ -1,0 +1,30 @@
+﻿CHARACTERS = {
+	c:W38 = {
+		create_character = {
+			first_name = "Mubashir"
+			last_name = "von_Brandenstein"
+			heir = yes
+			culture = cu:dynamic-greek-al_suryah_arabic-culture-num1
+			religion = rel:samaritan
+			birth_date = 1789.11.5
+			traits = {
+				tactful 
+			}
+		}
+
+		create_character = {
+			first_name = "Theodwin_I"
+			last_name = "von_Minckwitz"
+			ruler = yes
+			is_general = yes
+			commander_rank = commander_rank_2
+			culture = cu:weder_german
+			religion = rel:samaritan
+			birth_date = 1775.4.26
+			traits = {
+				basic_political_operator innovative 
+			}
+		}
+
+	}
+}

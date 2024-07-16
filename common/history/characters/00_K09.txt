@@ -1,0 +1,17 @@
+﻿CHARACTERS = {
+	c:K09 = {
+		create_character = {
+			first_name = "Nyamhandu_Herero"
+			ruler = yes
+			is_general = yes
+			commander_rank = commander_rank_3
+			culture = cu:khoisan
+			religion = rel:shiite
+			birth_date = 1804.10.18
+			traits = {
+				ambitious basic_political_operator 
+			}
+		}
+
+	}
+}

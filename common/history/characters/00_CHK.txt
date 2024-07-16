@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:CHK = {
+		create_character = {
+			first_name = "Chinguli_Chibemba"
+			ruler = yes
+			is_general = yes
+			commander_rank = commander_rank_1
+			interest_group = ig_industrialists
+			culture = cu:lunda
+			religion = rel:animist
+			birth_date = 1769.10.21
+			traits = {
+				basic_diplomat meticulous 
+			}
+		}
+
+		create_character = {
+			first_name = "Chinguli_Kanongesha"
+			is_general = yes
+			commander_rank = commander_rank_3
+			birth_date = 1788.6.24
+			traits = {
+				basic_artillery_commander cautious 
+			}
+		}
+
+	}
+}

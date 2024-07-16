@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:KBA = {
+		create_character = {
+			first_name = "Bope_Mobinji_Kena_Panga"
+			ruler = yes
+			is_general = yes
+			commander_rank = commander_rank_4
+			interest_group = ig_industrialists
+			culture = cu:mongo
+			religion = rel:animist
+			birth_date = 1795.8.2
+			traits = {
+				basic_colonial_administrator brave direct resupply_commander 
+			}
+		}
+
+		create_character = {
+			first_name = "Mishanga_Pelenge_Mbale"
+			is_general = yes
+			commander_rank = commander_rank_3
+			birth_date = 1793.1.19
+			traits = {
+				basic_offensive_planner 
+			}
+		}
+
+	}
+}

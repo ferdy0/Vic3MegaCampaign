@@ -1,0 +1,25 @@
+﻿CHARACTERS = {
+	c:W94 = {
+		create_character = {
+			first_name = "Slavac_Teleki"
+			ruler = yes
+			culture = cu:bulgarian
+			religion = rel:orthodox
+			birth_date = 1762.4.26
+			traits = {
+				arrogant experienced_colonial_administrator 
+			}
+		}
+
+		create_character = {
+			first_name = "Narses_Cometopuli"
+			is_general = yes
+			commander_rank = commander_rank_1
+			birth_date = 1806.11.18
+			traits = {
+				cocaine_addiction 
+			}
+		}
+
+	}
+}

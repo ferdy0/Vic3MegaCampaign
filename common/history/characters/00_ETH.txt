@@ -1,0 +1,94 @@
+﻿CHARACTERS = {
+	c:ETH = {
+		create_character = {
+			first_name = "Melesse"
+			last_name = "Marisid"
+			female = yes
+			culture = cu:amhara
+			religion = rel:jewish
+			birth_date = 1806.9.29
+			traits = {
+				basic_colonial_administrator meticulous 
+			}
+		}
+
+		create_character = {
+			first_name = "Iskinder"
+			last_name = "Tamirat"
+			heir = yes
+			culture = cu:amhara
+			religion = rel:jewish
+			birth_date = 1832.8.22
+			traits = {
+				trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "German_Seyum_II"
+			last_name = "Tamirat"
+			ruler = yes
+			interest_group = ig_industrialists
+			culture = cu:amhara
+			religion = rel:jewish
+			birth_date = 1817.8.22
+			traits = {
+				experienced_colonial_administrator honorable 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+		create_character = {
+			first_name = "Dedem_Ambo"
+			is_admiral = yes
+			commander_rank = commander_rank_1
+			birth_date = 1797.7.21
+			traits = {
+				syphilis 
+			}
+		}
+
+		create_character = {
+			first_name = "Hanukkah_Degife"
+			is_general = yes
+			commander_rank = commander_rank_1
+			birth_date = 1788.7.2
+			traits = {
+				cautious 
+			}
+		}
+
+		create_character = {
+			first_name = "Oda_Gosh_Ezana"
+			is_general = yes
+			commander_rank = commander_rank_4
+			birth_date = 1791.4.3
+			traits = {
+				basic_defensive_strategist meticulous 
+			}
+		}
+
+		create_character = {
+			first_name = "Dedem_Bayisa"
+			is_admiral = yes
+			commander_rank = commander_rank_1
+			birth_date = 1792.9.18
+			traits = {
+				opium_addiction 
+			}
+		}
+
+		create_character = {
+			first_name = "Wededem_Dereje"
+			is_general = yes
+			commander_rank = commander_rank_4
+			birth_date = 1785.10.11
+			traits = {
+				basic_defensive_strategist meticulous 
+			}
+		}
+
+	}
+}
