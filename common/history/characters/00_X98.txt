@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	c:X99 = {
+	c:X98 = {
 		create_character = {
 			first_name = "Akim_Kaibula"
 			is_admiral = yes

@@ -11,7 +11,7 @@
 			member = c:CAT
 			member = c:PRA
 			member = c:TUN
-			member = c:W70
+			member = c:W69
 			member = c:X33
 			member = c:X34
 			member = c:X35
@@ -29,14 +29,17 @@
 			
 			member = c:ASH
 			member = c:CAL
+			member = c:JLF
+			member = c:KON
+			member = c:OYO
 			member = c:SIA
 			member = c:W72
 			member = c:W73
 			member = c:W74
 			member = c:X30
 			member = c:X63
-			member = c:X90
-			member = c:X92
+			member = c:X89
+			member = c:X91
 		}
 	}
 
@@ -68,7 +71,7 @@
 			principle = principle_internal_trade_1
 			
 			member = c:CUB
-			member = c:W54
+			member = c:W53
 			member = c:W76
 			member = c:W77
 			member = c:W91
@@ -110,20 +113,20 @@
 			member = c:SMI
 			member = c:TNS
 			member = c:UZB
-			member = c:W22
-			member = c:W24
-			member = c:W29
+			member = c:W03
+			member = c:W23
+			member = c:W28
+			member = c:W33
 			member = c:W34
-			member = c:W35
-			member = c:W37
+			member = c:W36
+			member = c:W40
 			member = c:W41
-			member = c:W42
-			member = c:W44
+			member = c:W43
+			member = c:W49
 			member = c:W50
-			member = c:W51
-			member = c:W57
-			member = c:W63
-			member = c:W65
+			member = c:W56
+			member = c:W62
+			member = c:W64
 			member = c:W82
 			member = c:W84
 			member = c:W85
@@ -141,10 +144,10 @@
 			member = c:X43
 			member = c:X48
 			member = c:X53
+			member = c:X81
 			member = c:X82
-			member = c:X83
-			member = c:X96
-			member = c:X99
+			member = c:X95
+			member = c:X98
 			member = c:YAK
 		}
 	}

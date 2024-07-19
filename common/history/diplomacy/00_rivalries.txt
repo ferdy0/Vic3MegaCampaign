@@ -1,7 +1,7 @@
 ﻿DIPLOMACY = {
 	c:ANL = {
 		create_diplomatic_pact = {
-			country = c:W39
+			country = c:W38
 			type = rivalry
 		}
 		create_diplomatic_pact = {
@@ -19,7 +19,7 @@
 			type = rivalry
 		}
 		create_diplomatic_pact = {
-			country = c:W43
+			country = c:W42
 			type = rivalry
 		}
 	}
@@ -51,13 +51,13 @@
 			type = rivalry
 		}
 		create_diplomatic_pact = {
-			country = c:X93
+			country = c:X92
 			type = rivalry
 		}
 	}
 	c:CUB = {
 		create_diplomatic_pact = {
-			country = c:W58
+			country = c:W57
 			type = rivalry
 		}
 		create_diplomatic_pact = {
@@ -85,21 +85,15 @@
 	}
 	c:FRA = {
 		create_diplomatic_pact = {
-			country = c:W39
+			country = c:W38
 			type = rivalry
 		}
 		create_diplomatic_pact = {
-			country = c:W43
+			country = c:W42
 			type = rivalry
 		}
 		create_diplomatic_pact = {
 			country = c:YEM
-			type = rivalry
-		}
-	}
-	c:GEO = {
-		create_diplomatic_pact = {
-			country = c:W83
 			type = rivalry
 		}
 	}
@@ -109,11 +103,11 @@
 			type = rivalry
 		}
 		create_diplomatic_pact = {
-			country = c:W43
+			country = c:W42
 			type = rivalry
 		}
 		create_diplomatic_pact = {
-			country = c:W61
+			country = c:W60
 			type = rivalry
 		}
 	}
@@ -123,7 +117,7 @@
 			type = rivalry
 		}
 		create_diplomatic_pact = {
-			country = c:W61
+			country = c:W60
 			type = rivalry
 		}
 		create_diplomatic_pact = {
@@ -175,10 +169,6 @@
 			type = rivalry
 		}
 		create_diplomatic_pact = {
-			country = c:GEO
-			type = rivalry
-		}
-		create_diplomatic_pact = {
 			country = c:YEM
 			type = rivalry
 		}
@@ -205,7 +195,7 @@
 			type = rivalry
 		}
 	}
-	c:W39 = {
+	c:W38 = {
 		create_diplomatic_pact = {
 			country = c:ANL
 			type = rivalry
@@ -215,17 +205,17 @@
 			type = rivalry
 		}
 		create_diplomatic_pact = {
-			country = c:W43
+			country = c:W42
 			type = rivalry
 		}
 	}
-	c:W43 = {
+	c:W42 = {
 		create_diplomatic_pact = {
 			country = c:ARM
 			type = rivalry
 		}
 		create_diplomatic_pact = {
-			country = c:W39
+			country = c:W38
 			type = rivalry
 		}
 		create_diplomatic_pact = {
@@ -233,7 +223,7 @@
 			type = rivalry
 		}
 	}
-	c:W58 = {
+	c:W57 = {
 		create_diplomatic_pact = {
 			country = c:CUB
 			type = rivalry
@@ -243,15 +233,15 @@
 			type = rivalry
 		}
 	}
-	c:W61 = {
+	c:W60 = {
 		create_diplomatic_pact = {
 			country = c:HAU
 			type = rivalry
 		}
 	}
-	c:W67 = {
+	c:W66 = {
 		create_diplomatic_pact = {
-			country = c:X90
+			country = c:X89
 			type = rivalry
 		}
 	}
@@ -307,7 +297,7 @@
 			type = rivalry
 		}
 		create_diplomatic_pact = {
-			country = c:X90
+			country = c:X89
 			type = rivalry
 		}
 	}
@@ -319,7 +309,7 @@
 	}
 	c:X34 = {
 		create_diplomatic_pact = {
-			country = c:W58
+			country = c:W57
 			type = rivalry
 		}
 	}
@@ -349,9 +339,9 @@
 			type = rivalry
 		}
 	}
-	c:X90 = {
+	c:X89 = {
 		create_diplomatic_pact = {
-			country = c:W67
+			country = c:W66
 			type = rivalry
 		}
 		create_diplomatic_pact = {
@@ -359,7 +349,7 @@
 			type = rivalry
 		}
 	}
-	c:X93 = {
+	c:X92 = {
 		create_diplomatic_pact = {
 			country = c:ARM
 			type = rivalry

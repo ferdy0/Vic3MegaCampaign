@@ -322,7 +322,7 @@
 				size = 921
 			}
 		}
-		region_state:W43 = {
+		region_state:W42 = {
 			create_pop = {
 				culture = greek
 				religion = orthodox
@@ -552,7 +552,7 @@
 		}
 	}
 	s:STATE_ALABAMA = {
-		region_state:W67 = {
+		region_state:W66 = {
 			create_pop = {
 				culture = caddoan
 				religion = animist
@@ -1388,7 +1388,7 @@
 		}
 	}
 	s:STATE_ALSACE_LORRAINE = {
-		region_state:W39 = {
+		region_state:W38 = {
 			create_pop = {
 				culture = south_german
 				religion = gnostic_christianity
@@ -1497,7 +1497,7 @@
 		}
 	}
 	s:STATE_ALXA = {
-		region_state:X93 = {
+		region_state:X92 = {
 			create_pop = {
 				culture = han
 				religion = gangan
@@ -2016,7 +2016,7 @@
 				size = 72581
 			}
 		}
-		region_state:W22 = {
+		region_state:W03 = {
 			create_pop = {
 				culture = yakut
 				religion = tengri_pagan_reformed
@@ -2083,7 +2083,7 @@
 				size = 123566
 			}
 		}
-		region_state:X96 = {
+		region_state:X95 = {
 			create_pop = {
 				culture = manchu
 				religion = tengri_pagan_reformed
@@ -2260,7 +2260,7 @@
 		}
 	}
 	s:STATE_ANKARA = {
-		region_state:W43 = {
+		region_state:W42 = {
 			create_pop = {
 				culture = greek
 				religion = orthodox
@@ -3475,7 +3475,7 @@
 		}
 	}
 	s:STATE_ARKANSAS = {
-		region_state:W67 = {
+		region_state:W66 = {
 			create_pop = {
 				culture = caddoan
 				religion = animist
@@ -3599,7 +3599,7 @@
 		}
 	}
 	s:STATE_ARKHANGELSK = {
-		region_state:W24 = {
+		region_state:W23 = {
 			create_pop = {
 				culture = russian
 				religion = orthodox
@@ -3628,7 +3628,7 @@
 				size = 2634
 			}
 		}
-		region_state:X99 = {
+		region_state:X98 = {
 			create_pop = {
 				culture = ugrian
 				religion = orthodox
@@ -3676,19 +3676,17 @@
 			create_pop = {
 				culture = armenian
 				religion = sunni
-				size = 192861
-			}
-		}
-		region_state:GEO = {
-			create_pop = {
-				culture = armenian
-				religion = sunni
 				size = 164503
 			}
 			create_pop = {
 				culture = armenian
 				religion = catholic
 				size = 183717
+			}
+			create_pop = {
+				culture = armenian
+				religion = sunni
+				size = 192861
 			}
 		}
 	}
@@ -3885,7 +3883,7 @@
 				size = 677
 			}
 		}
-		region_state:W61 = {
+		region_state:W60 = {
 			create_pop = {
 				culture = south_german
 				religion = gnostic_christianity
@@ -3949,7 +3947,7 @@
 		}
 	}
 	s:STATE_AUVERGNE_LIMOUSIN = {
-		region_state:W39 = {
+		region_state:W38 = {
 			create_pop = {
 				culture = dynamic-breton-normand-occitain-culture-num1
 				religion = samaritan
@@ -4112,7 +4110,7 @@
 		}
 	}
 	s:STATE_AYDIN = {
-		region_state:W43 = {
+		region_state:W42 = {
 			create_pop = {
 				culture = greek
 				religion = orthodox
@@ -4385,7 +4383,7 @@
 		}
 	}
 	s:STATE_BADEN = {
-		region_state:W54 = {
+		region_state:W53 = {
 			create_pop = {
 				culture = south_german
 				religion = gnostic_christianity
@@ -4789,7 +4787,7 @@
 		}
 	}
 	s:STATE_BAJIO = {
-		region_state:X90 = {
+		region_state:X89 = {
 			create_pop = {
 				culture = chichimecan
 				religion = animist
@@ -5153,7 +5151,7 @@
 		}
 	}
 	s:STATE_BANAT = {
-		region_state:W61 = {
+		region_state:W60 = {
 			create_pop = {
 				culture = romanian
 				religion = catholic
@@ -5490,28 +5488,6 @@
 		}
 	}
 	s:STATE_BAS_CONGO = {
-		region_state:JAP = {
-			create_pop = {
-				culture = bakongo
-				religion = animist
-				size = 67878
-			}
-			create_pop = {
-				culture = bakongo
-				religion = animist
-				size = 2180
-			}
-			create_pop = {
-				culture = bakongo
-				religion = catholic
-				size = 108086
-			}
-			create_pop = {
-				culture = bakongo
-				religion = catholic
-				size = 3472
-			}
-		}
 		region_state:KBA = {
 			create_pop = {
 				culture = lunda
@@ -5554,6 +5530,26 @@
 				culture = bakongo
 				religion = animist
 				size = 7646
+			}
+			create_pop = {
+				culture = bakongo
+				religion = animist
+				size = 67878
+			}
+			create_pop = {
+				culture = bakongo
+				religion = animist
+				size = 2180
+			}
+			create_pop = {
+				culture = bakongo
+				religion = catholic
+				size = 108086
+			}
+			create_pop = {
+				culture = bakongo
+				religion = catholic
+				size = 3472
 			}
 			create_pop = {
 				culture = bakongo
@@ -5742,7 +5738,7 @@
 				size = 457
 			}
 		}
-		region_state:W54 = {
+		region_state:W53 = {
 			create_pop = {
 				culture = south_german
 				religion = catholic
@@ -5766,7 +5762,7 @@
 		}
 	}
 	s:STATE_BEIJING = {
-		region_state:X93 = {
+		region_state:X92 = {
 			create_pop = {
 				culture = mongol
 				religion = gelugpa
@@ -5924,7 +5920,7 @@
 		}
 	}
 	s:STATE_BEKES = {
-		region_state:W61 = {
+		region_state:W60 = {
 			create_pop = {
 				culture = dynamic-hungarian-culture-num1
 				religion = catholic
@@ -5982,31 +5978,29 @@
 			create_pop = {
 				culture = edo
 				religion = sunni
-				size = 341809
+				size = 247538
 			}
 			create_pop = {
 				culture = ibo
 				religion = sunni
-				size = 387700
+				size = 280772
 			}
 			create_pop = {
 				culture = ibo
 				religion = sunni
-				size = 24415
-			}
-		}
-		region_state:JAP = {
-			create_pop = {
-				culture = edo
-				religion = sunni
-				size = 86638
+				size = 17681
 			}
 		}
 		region_state:OYO = {
 			create_pop = {
 				culture = edo
 				religion = sunni
-				size = 431816
+				size = 433191
+			}
+			create_pop = {
+				culture = edo
+				religion = sunni
+				size = 316298
 			}
 		}
 	}
@@ -6206,7 +6200,7 @@
 				size = 3822
 			}
 		}
-		region_state:W26 = {
+		region_state:W25 = {
 			create_pop = {
 				culture = nilotic
 				religion = sunni
@@ -6390,7 +6384,22 @@
 		}
 	}
 	s:STATE_BOHEMIA = {
-		region_state:BAV = {
+		region_state:W60 = {
+			create_pop = {
+				culture = alemannic
+				religion = samaritan
+				size = 327056
+			}
+			create_pop = {
+				culture = czech
+				religion = samaritan
+				size = 400615
+			}
+			create_pop = {
+				culture = ashkenazi
+				religion = jewish
+				size = 15967
+			}
 			create_pop = {
 				culture = czech
 				religion = samaritan
@@ -6400,6 +6409,21 @@
 				culture = ashkenazi
 				religion = jewish
 				size = 10106
+			}
+			create_pop = {
+				culture = czech
+				religion = catholic
+				size = 122188
+			}
+			create_pop = {
+				culture = czech
+				religion = samaritan
+				size = 283097
+			}
+			create_pop = {
+				culture = ashkenazi
+				religion = jewish
+				size = 8893
 			}
 			create_pop = {
 				culture = czech
@@ -6430,38 +6454,6 @@
 				culture = ashkenazi
 				religion = jewish
 				size = 10510
-			}
-		}
-		region_state:W61 = {
-			create_pop = {
-				culture = alemannic
-				religion = samaritan
-				size = 327056
-			}
-			create_pop = {
-				culture = czech
-				religion = samaritan
-				size = 400615
-			}
-			create_pop = {
-				culture = ashkenazi
-				religion = jewish
-				size = 15967
-			}
-			create_pop = {
-				culture = czech
-				religion = catholic
-				size = 122188
-			}
-			create_pop = {
-				culture = czech
-				religion = samaritan
-				size = 283097
-			}
-			create_pop = {
-				culture = ashkenazi
-				religion = jewish
-				size = 8893
 			}
 			create_pop = {
 				culture = czech
@@ -7898,7 +7890,7 @@
 		}
 	}
 	s:STATE_BURGUNDY = {
-		region_state:W39 = {
+		region_state:W38 = {
 			create_pop = {
 				culture = french
 				religion = samaritan
@@ -9358,7 +9350,7 @@
 		}
 	}
 	s:STATE_CELEBES = {
-		region_state:W70 = {
+		region_state:W69 = {
 			create_pop = {
 				culture = moluccan
 				religion = animist
@@ -9808,7 +9800,7 @@
 		}
 	}
 	s:STATE_CENTRAL_HUNGARY = {
-		region_state:W61 = {
+		region_state:W60 = {
 			create_pop = {
 				culture = hungarian
 				religion = samaritan
@@ -10374,7 +10366,7 @@
 		}
 	}
 	s:STATE_CHAMPAGNE = {
-		region_state:W39 = {
+		region_state:W38 = {
 			create_pop = {
 				culture = north_german
 				religion = gnostic_christianity
@@ -10782,7 +10774,7 @@
 		}
 	}
 	s:STATE_CHIHUAHUA = {
-		region_state:X90 = {
+		region_state:X89 = {
 			create_pop = {
 				culture = apache
 				religion = animist
@@ -10941,7 +10933,7 @@
 		}
 	}
 	s:STATE_CHONGQING = {
-		region_state:X93 = {
+		region_state:X92 = {
 			create_pop = {
 				culture = han
 				religion = confucian
@@ -11315,7 +11307,7 @@
 				size = 16000
 			}
 		}
-		region_state:W67 = {
+		region_state:W66 = {
 			create_pop = {
 				culture = caddoan
 				religion = animist
@@ -11536,7 +11528,7 @@
 		}
 	}
 	s:STATE_CONNECTICUT = {
-		region_state:W67 = {
+		region_state:W66 = {
 			create_pop = {
 				culture = algonquian
 				religion = animist
@@ -11847,7 +11839,7 @@
 		}
 	}
 	s:STATE_CRETE = {
-		region_state:YEM = {
+		region_state:GRE = {
 			create_pop = {
 				culture = greek
 				religion = sunni
@@ -11919,7 +11911,7 @@
 		}
 	}
 	s:STATE_CROATIA = {
-		region_state:W61 = {
+		region_state:W60 = {
 			create_pop = {
 				culture = bosniak
 				religion = catholic
@@ -12299,7 +12291,7 @@
 		}
 	}
 	s:STATE_DALMATIA = {
-		region_state:W61 = {
+		region_state:W60 = {
 			create_pop = {
 				culture = croat
 				religion = orthodox
@@ -12441,7 +12433,7 @@
 		}
 	}
 	s:STATE_DELAWARE = {
-		region_state:W67 = {
+		region_state:W66 = {
 			create_pop = {
 				culture = algonquian
 				religion = animist
@@ -12521,7 +12513,7 @@
 		}
 	}
 	s:STATE_DELVIDEK = {
-		region_state:W61 = {
+		region_state:W60 = {
 			create_pop = {
 				culture = hungarian
 				religion = catholic
@@ -12555,7 +12547,7 @@
 		}
 	}
 	s:STATE_DISTRICT_OF_COLUMBIA = {
-		region_state:W67 = {
+		region_state:W66 = {
 			create_pop = {
 				culture = algonquian
 				religion = animist
@@ -13146,7 +13138,7 @@
 		}
 	}
 	s:STATE_DURANGO = {
-		region_state:X90 = {
+		region_state:X89 = {
 			create_pop = {
 				culture = chichimecan
 				religion = animist
@@ -13225,7 +13217,7 @@
 		}
 	}
 	s:STATE_DZUNGARIA = {
-		region_state:X93 = {
+		region_state:X92 = {
 			create_pop = {
 				culture = uighur
 				religion = nestorian
@@ -13388,7 +13380,7 @@
 		}
 	}
 	s:STATE_EASTERN_HUBEI = {
-		region_state:X93 = {
+		region_state:X92 = {
 			create_pop = {
 				culture = han
 				religion = confucian
@@ -13545,7 +13537,7 @@
 				size = 65899
 			}
 		}
-		region_state:W70 = {
+		region_state:W69 = {
 			create_pop = {
 				culture = melanesian
 				religion = animist
@@ -13781,6 +13773,28 @@
 		}
 	}
 	s:STATE_EAST_AEGEAN_ISLANDS = {
+		region_state:GRE = {
+			create_pop = {
+				culture = greek
+				religion = orthodox
+				size = 26301
+			}
+			create_pop = {
+				culture = greek
+				religion = sunni
+				size = 20062
+			}
+			create_pop = {
+				culture = dynamic-greek-al_suryah_arabic-culture-num1
+				religion = sunni
+				size = 57613
+			}
+			create_pop = {
+				culture = sephardic
+				religion = jewish
+				size = 385
+			}
+		}
 		region_state:X18 = {
 			create_pop = {
 				culture = greek
@@ -13803,7 +13817,7 @@
 				size = 604
 			}
 		}
-		region_state:X82 = {
+		region_state:X81 = {
 			create_pop = {
 				culture = greek
 				religion = orthodox
@@ -13823,28 +13837,6 @@
 				culture = sephardic
 				religion = jewish
 				size = 1007
-			}
-		}
-		region_state:YEM = {
-			create_pop = {
-				culture = greek
-				religion = orthodox
-				size = 26301
-			}
-			create_pop = {
-				culture = greek
-				religion = sunni
-				size = 20062
-			}
-			create_pop = {
-				culture = dynamic-greek-al_suryah_arabic-culture-num1
-				religion = sunni
-				size = 57613
-			}
-			create_pop = {
-				culture = sephardic
-				religion = jewish
-				size = 385
 			}
 		}
 	}
@@ -14066,7 +14058,7 @@
 				size = 3400
 			}
 		}
-		region_state:W03 = {
+		region_state:W00 = {
 			create_pop = {
 				culture = ovimbundu
 				religion = animist
@@ -14338,7 +14330,7 @@
 		}
 	}
 	s:STATE_EAST_JAVA = {
-		region_state:W70 = {
+		region_state:W69 = {
 			create_pop = {
 				culture = andalucian
 				religion = sunni
@@ -14479,14 +14471,14 @@
 				size = 11821
 			}
 		}
-		region_state:W24 = {
+		region_state:W23 = {
 			create_pop = {
 				culture = russian
 				religion = orthodox
 				size = 14793
 			}
 		}
-		region_state:X99 = {
+		region_state:X98 = {
 			create_pop = {
 				culture = finnish
 				religion = finnish_pagan_reformed
@@ -14530,7 +14522,7 @@
 		}
 	}
 	s:STATE_EAST_MICRONESIA = {
-		region_state:FRA = {
+		region_state:W71 = {
 			create_pop = {
 				culture = micronesian
 				religion = animist
@@ -14620,7 +14612,7 @@
 				size = 474
 			}
 		}
-		region_state:W34 = {
+		region_state:W33 = {
 			create_pop = {
 				culture = dynamic-lithuanian-russian_culture-culture-num1
 				religion = orthodox
@@ -14736,7 +14728,7 @@
 		}
 	}
 	s:STATE_EAST_SLOVAKIA = {
-		region_state:W61 = {
+		region_state:W60 = {
 			create_pop = {
 				culture = dynamic-hungarian-culture-num1
 				religion = catholic
@@ -14780,7 +14772,7 @@
 		}
 	}
 	s:STATE_EAST_SWITZERLAND = {
-		region_state:W61 = {
+		region_state:W60 = {
 			create_pop = {
 				culture = dynamic-occitain-swabian-culture-num1
 				religion = samaritan
@@ -15225,6 +15217,16 @@
 			create_pop = {
 				culture = armenian
 				religion = sunni
+				size = 173240
+			}
+			create_pop = {
+				culture = armenian
+				religion = catholic
+				size = 178952
+			}
+			create_pop = {
+				culture = armenian
+				religion = sunni
 				size = 172417
 			}
 			create_pop = {
@@ -15242,18 +15244,6 @@
 				religion = mutazila
 				size = 98992
 			}
-		}
-		region_state:GEO = {
-			create_pop = {
-				culture = armenian
-				religion = sunni
-				size = 173240
-			}
-			create_pop = {
-				culture = armenian
-				religion = catholic
-				size = 178952
-			}
 			create_pop = {
 				culture = georgian
 				religion = sunni
@@ -15267,7 +15257,7 @@
 		}
 	}
 	s:STATE_EMILIA = {
-		region_state:W61 = {
+		region_state:W60 = {
 			create_pop = {
 				culture = north_italian
 				religion = kharijite
@@ -15729,8 +15719,6 @@
 				religion = jewish
 				size = 25
 			}
-		}
-		region_state:GEO = {
 			create_pop = {
 				culture = georgian
 				religion = catholic
@@ -16091,7 +16079,7 @@
 				size = 560
 			}
 		}
-		region_state:W33 = {
+		region_state:W32 = {
 			create_pop = {
 				culture = tajik
 				religion = sunni
@@ -16149,7 +16137,17 @@
 		}
 	}
 	s:STATE_FIJI = {
-		region_state:FRA = {
+		region_state:W71 = {
+			create_pop = {
+				culture = melanesian
+				religion = animist
+				size = 153806
+			}
+			create_pop = {
+				culture = melanesian
+				religion = ibadi
+				size = 254843
+			}
 			create_pop = {
 				culture = melanesian
 				religion = animist
@@ -16166,16 +16164,6 @@
 				culture = melanesian
 				religion = ibadi
 				size = 244297
-			}
-			create_pop = {
-				culture = melanesian
-				religion = animist
-				size = 153806
-			}
-			create_pop = {
-				culture = melanesian
-				religion = ibadi
-				size = 254843
 			}
 		}
 	}
@@ -16244,7 +16232,7 @@
 		}
 	}
 	s:STATE_FLORIDA = {
-		region_state:W67 = {
+		region_state:W66 = {
 			create_pop = {
 				culture = caddoan
 				religion = animist
@@ -16509,7 +16497,7 @@
 		}
 	}
 	s:STATE_FRANCHE_COMTE = {
-		region_state:W39 = {
+		region_state:W38 = {
 			create_pop = {
 				culture = french
 				religion = samaritan
@@ -16578,7 +16566,7 @@
 		}
 	}
 	s:STATE_FRANCONIA = {
-		region_state:W54 = {
+		region_state:W53 = {
 			create_pop = {
 				culture = south_german
 				religion = samaritan
@@ -16644,7 +16632,7 @@
 		}
 	}
 	s:STATE_FRENCH_LOW_COUNTRIES = {
-		region_state:W39 = {
+		region_state:W38 = {
 			create_pop = {
 				culture = french
 				religion = gnostic_christianity
@@ -16732,7 +16720,7 @@
 		}
 	}
 	s:STATE_FUJIAN = {
-		region_state:X93 = {
+		region_state:X92 = {
 			create_pop = {
 				culture = min
 				religion = confucian
@@ -16945,7 +16933,7 @@
 				size = 43179
 			}
 		}
-		region_state:W29 = {
+		region_state:W28 = {
 			create_pop = {
 				culture = ugrian
 				religion = orthodox
@@ -16994,7 +16982,7 @@
 				size = 12314
 			}
 		}
-		region_state:X99 = {
+		region_state:X98 = {
 			create_pop = {
 				culture = ugrian
 				religion = orthodox
@@ -17057,14 +17045,12 @@
 		}
 	}
 	s:STATE_GAMBIA = {
-		region_state:JAP = {
+		region_state:JLF = {
 			create_pop = {
 				culture = wolof
 				religion = sunni
 				size = 335604
 			}
-		}
-		region_state:JLF = {
 			create_pop = {
 				culture = wolof
 				religion = sunni
@@ -17090,7 +17076,7 @@
 		}
 	}
 	s:STATE_GANSU = {
-		region_state:X93 = {
+		region_state:X92 = {
 			create_pop = {
 				culture = uighur
 				religion = nestorian
@@ -17193,7 +17179,7 @@
 		}
 	}
 	s:STATE_GEORGIA = {
-		region_state:W67 = {
+		region_state:W66 = {
 			create_pop = {
 				culture = muskogean
 				religion = animist
@@ -17341,42 +17327,52 @@
 			create_pop = {
 				culture = akan
 				religion = sunni
-				size = 134309
+				size = 130185
 			}
 			create_pop = {
 				culture = akan
 				religion = sunni
-				size = 727
+				size = 704
 			}
 			create_pop = {
 				culture = akan
 				religion = sunni
-				size = 68898
+				size = 66783
 			}
 			create_pop = {
 				culture = akan
 				religion = sunni
-				size = 374
+				size = 362
 			}
 			create_pop = {
 				culture = akan
 				religion = animist
-				size = 105703
+				size = 102457
 			}
 			create_pop = {
 				culture = akan
 				religion = animist
-				size = 572
+				size = 555
 			}
 			create_pop = {
 				culture = akan
 				religion = sunni
-				size = 248806
+				size = 241166
 			}
 			create_pop = {
 				culture = akan
 				religion = sunni
-				size = 1347
+				size = 1306
+			}
+			create_pop = {
+				culture = akan
+				religion = sunni
+				size = 224243
+			}
+			create_pop = {
+				culture = akan
+				religion = sunni
+				size = 1214
 			}
 		}
 		region_state:HAU = {
@@ -17389,18 +17385,6 @@
 				culture = mande
 				religion = sunni
 				size = 641
-			}
-		}
-		region_state:JAP = {
-			create_pop = {
-				culture = akan
-				religion = sunni
-				size = 209022
-			}
-			create_pop = {
-				culture = akan
-				religion = sunni
-				size = 1132
 			}
 		}
 		region_state:W99 = {
@@ -17959,7 +17943,7 @@
 		}
 	}
 	s:STATE_GREATER_CAUCASUS = {
-		region_state:GEO = {
+		region_state:ARM = {
 			create_pop = {
 				culture = georgian
 				religion = catholic
@@ -18115,7 +18099,7 @@
 				size = 52392
 			}
 		}
-		region_state:W61 = {
+		region_state:W60 = {
 			create_pop = {
 				culture = dynamic-polish-russian_culture-culture-num1
 				religion = orthodox
@@ -18232,7 +18216,7 @@
 				size = 2085480
 			}
 		}
-		region_state:X93 = {
+		region_state:X92 = {
 			create_pop = {
 				culture = yue
 				religion = confucian
@@ -18285,7 +18269,7 @@
 				size = 700361
 			}
 		}
-		region_state:X93 = {
+		region_state:X92 = {
 			create_pop = {
 				culture = zhuang
 				religion = confucian
@@ -18694,7 +18678,7 @@
 		}
 	}
 	s:STATE_GUERRERO = {
-		region_state:X90 = {
+		region_state:X89 = {
 			create_pop = {
 				culture = mixtec
 				religion = animist
@@ -18775,14 +18759,12 @@
 				size = 204295
 			}
 		}
-		region_state:JAP = {
+		region_state:JLF = {
 			create_pop = {
 				culture = wolof
 				religion = sunni
 				size = 35659
 			}
-		}
-		region_state:JLF = {
 			create_pop = {
 				culture = wolof
 				religion = sunni
@@ -18820,7 +18802,7 @@
 		}
 	}
 	s:STATE_GUIZHOU = {
-		region_state:X93 = {
+		region_state:X92 = {
 			create_pop = {
 				culture = yi
 				religion = theravada
@@ -19067,7 +19049,7 @@
 				size = 73998
 			}
 		}
-		region_state:W39 = {
+		region_state:W38 = {
 			create_pop = {
 				culture = dynamic-breton-normand-occitain-culture-num1
 				religion = samaritan
@@ -19298,7 +19280,7 @@
 				size = 11492
 			}
 		}
-		region_state:W71 = {
+		region_state:W70 = {
 			create_pop = {
 				culture = mashriqi
 				religion = sunni
@@ -19689,7 +19671,7 @@
 				size = 16
 			}
 		}
-		region_state:W71 = {
+		region_state:W70 = {
 			create_pop = {
 				culture = mashriqi
 				religion = sunni
@@ -19835,7 +19817,7 @@
 		}
 	}
 	s:STATE_HENAN = {
-		region_state:X93 = {
+		region_state:X92 = {
 			create_pop = {
 				culture = han
 				religion = confucian
@@ -20375,7 +20357,7 @@
 		}
 	}
 	s:STATE_HINGGAN = {
-		region_state:X93 = {
+		region_state:X92 = {
 			create_pop = {
 				culture = han
 				religion = confucian
@@ -20860,7 +20842,7 @@
 		}
 	}
 	s:STATE_HUDAVENDIGAR = {
-		region_state:W43 = {
+		region_state:W42 = {
 			create_pop = {
 				culture = greek
 				religion = sunni
@@ -20899,7 +20881,7 @@
 		}
 	}
 	s:STATE_HUNAN = {
-		region_state:X93 = {
+		region_state:X92 = {
 			create_pop = {
 				culture = han
 				religion = confucian
@@ -21324,7 +21306,7 @@
 		}
 	}
 	s:STATE_ILE_DE_FRANCE = {
-		region_state:W39 = {
+		region_state:W38 = {
 			create_pop = {
 				culture = french
 				religion = samaritan
@@ -21363,7 +21345,7 @@
 		}
 	}
 	s:STATE_ILLINOIS = {
-		region_state:W67 = {
+		region_state:W66 = {
 			create_pop = {
 				culture = algonquian
 				religion = animist
@@ -21477,7 +21459,7 @@
 		}
 	}
 	s:STATE_INDIANA = {
-		region_state:W67 = {
+		region_state:W66 = {
 			create_pop = {
 				culture = algonquian
 				religion = animist
@@ -21625,7 +21607,7 @@
 		}
 	}
 	s:STATE_INGRIA = {
-		region_state:W51 = {
+		region_state:W50 = {
 			create_pop = {
 				culture = estonian
 				religion = orthodox
@@ -21637,7 +21619,7 @@
 				size = 210783
 			}
 		}
-		region_state:X99 = {
+		region_state:X98 = {
 			create_pop = {
 				culture = estonian
 				religion = orthodox
@@ -21906,7 +21888,7 @@
 		}
 	}
 	s:STATE_IOWA = {
-		region_state:W67 = {
+		region_state:W66 = {
 			create_pop = {
 				culture = siouan
 				religion = animist
@@ -22566,7 +22548,7 @@
 		}
 	}
 	s:STATE_ISTRIA = {
-		region_state:W61 = {
+		region_state:W60 = {
 			create_pop = {
 				culture = north_italian
 				religion = catholic
@@ -22698,7 +22680,7 @@
 		}
 	}
 	s:STATE_JALISCO = {
-		region_state:X90 = {
+		region_state:X89 = {
 			create_pop = {
 				culture = mixtec
 				religion = animist
@@ -22955,7 +22937,7 @@
 				size = 64952
 			}
 		}
-		region_state:X93 = {
+		region_state:X92 = {
 			create_pop = {
 				culture = uighur
 				religion = sunni
@@ -23001,7 +22983,7 @@
 				size = 141787
 			}
 		}
-		region_state:X93 = {
+		region_state:X92 = {
 			create_pop = {
 				culture = han
 				religion = confucian
@@ -23082,7 +23064,7 @@
 				size = 559204
 			}
 		}
-		region_state:X93 = {
+		region_state:X92 = {
 			create_pop = {
 				culture = hakka
 				religion = confucian
@@ -23942,7 +23924,7 @@
 		}
 	}
 	s:STATE_KARS = {
-		region_state:GEO = {
+		region_state:ARM = {
 			create_pop = {
 				culture = georgian
 				religion = catholic
@@ -24058,7 +24040,7 @@
 		}
 	}
 	s:STATE_KASTAMONU = {
-		region_state:W43 = {
+		region_state:W42 = {
 			create_pop = {
 				culture = greek
 				religion = orthodox
@@ -24500,7 +24482,7 @@
 		}
 	}
 	s:STATE_KENTUCKY = {
-		region_state:W67 = {
+		region_state:W66 = {
 			create_pop = {
 				culture = algonquian
 				religion = animist
@@ -25066,7 +25048,7 @@
 		}
 	}
 	s:STATE_KHIVA = {
-		region_state:W33 = {
+		region_state:W32 = {
 			create_pop = {
 				culture = tatar
 				religion = sunni
@@ -25745,7 +25727,7 @@
 				size = 2307
 			}
 		}
-		region_state:W22 = {
+		region_state:W03 = {
 			create_pop = {
 				culture = yakut
 				religion = tengri_pagan_reformed
@@ -25866,7 +25848,7 @@
 		}
 	}
 	s:STATE_KONYA = {
-		region_state:W43 = {
+		region_state:W42 = {
 			create_pop = {
 				culture = greek
 				religion = sunni
@@ -26492,7 +26474,7 @@
 				size = 64530
 			}
 		}
-		region_state:X99 = {
+		region_state:X98 = {
 			create_pop = {
 				culture = mordvin
 				religion = mandaeism
@@ -26670,7 +26652,7 @@
 				size = 244
 			}
 		}
-		region_state:W39 = {
+		region_state:W38 = {
 			create_pop = {
 				culture = dynamic-breton-normand-occitain-culture-num1
 				religion = gnostic_christianity
@@ -27916,7 +27898,7 @@
 				size = 74
 			}
 		}
-		region_state:W61 = {
+		region_state:W60 = {
 			create_pop = {
 				culture = bedouin
 				religion = sunni
@@ -28092,7 +28074,7 @@
 				size = 2255
 			}
 		}
-		region_state:W61 = {
+		region_state:W60 = {
 			create_pop = {
 				culture = berber
 				religion = sunni
@@ -28560,7 +28542,7 @@
 		}
 	}
 	s:STATE_LOMBARDY = {
-		region_state:W61 = {
+		region_state:W60 = {
 			create_pop = {
 				culture = north_italian
 				religion = catholic
@@ -28649,7 +28631,7 @@
 		}
 	}
 	s:STATE_LORRAINE = {
-		region_state:W39 = {
+		region_state:W38 = {
 			create_pop = {
 				culture = french
 				religion = samaritan
@@ -28747,7 +28729,7 @@
 		}
 	}
 	s:STATE_LOUISIANA = {
-		region_state:W67 = {
+		region_state:W66 = {
 			create_pop = {
 				culture = muskogean
 				religion = animist
@@ -28860,7 +28842,7 @@
 		}
 	}
 	s:STATE_LOWER_EGYPT = {
-		region_state:W38 = {
+		region_state:W37 = {
 			create_pop = {
 				culture = dynamic-greek-al_suryah_arabic-culture-num1
 				religion = sunni
@@ -28877,7 +28859,7 @@
 				size = 5654
 			}
 		}
-		region_state:W61 = {
+		region_state:W60 = {
 			create_pop = {
 				culture = dynamic-greek-al_suryah_arabic-culture-num1
 				religion = sunni
@@ -29608,7 +29590,7 @@
 		}
 	}
 	s:STATE_MAINE = {
-		region_state:W67 = {
+		region_state:W66 = {
 			create_pop = {
 				culture = algonquian
 				religion = animist
@@ -30417,7 +30399,7 @@
 		}
 	}
 	s:STATE_MARYLAND = {
-		region_state:W67 = {
+		region_state:W66 = {
 			create_pop = {
 				culture = iroquoian
 				religion = animist
@@ -30466,7 +30448,7 @@
 		}
 	}
 	s:STATE_MASSACHUSETTS = {
-		region_state:W67 = {
+		region_state:W66 = {
 			create_pop = {
 				culture = algonquian
 				religion = animist
@@ -31512,7 +31494,7 @@
 		}
 	}
 	s:STATE_MERZ = {
-		region_state:W33 = {
+		region_state:W32 = {
 			create_pop = {
 				culture = turkmen
 				religion = sunni
@@ -31610,7 +31592,7 @@
 		}
 	}
 	s:STATE_MEXICO = {
-		region_state:X90 = {
+		region_state:X89 = {
 			create_pop = {
 				culture = nahua
 				religion = animist
@@ -31803,7 +31785,7 @@
 		}
 	}
 	s:STATE_MIDDLE_EGYPT = {
-		region_state:W38 = {
+		region_state:W37 = {
 			create_pop = {
 				culture = dynamic-greek-al_suryah_arabic-culture-num1
 				religion = sunni
@@ -32171,7 +32153,7 @@
 				size = 4447
 			}
 		}
-		region_state:X92 = {
+		region_state:X91 = {
 			create_pop = {
 				culture = filipino
 				religion = animist
@@ -32195,7 +32177,7 @@
 		}
 	}
 	s:STATE_MINNESOTA = {
-		region_state:W67 = {
+		region_state:W66 = {
 			create_pop = {
 				culture = siouan
 				religion = animist
@@ -32770,7 +32752,7 @@
 		}
 	}
 	s:STATE_MISSISSIPPI = {
-		region_state:W67 = {
+		region_state:W66 = {
 			create_pop = {
 				culture = muskogean
 				religion = animist
@@ -32911,7 +32893,7 @@
 				size = 41697
 			}
 		}
-		region_state:W67 = {
+		region_state:W66 = {
 			create_pop = {
 				culture = muskogean
 				religion = animist
@@ -33090,7 +33072,7 @@
 				size = 20762
 			}
 		}
-		region_state:W50 = {
+		region_state:W49 = {
 			create_pop = {
 				culture = byelorussian
 				religion = orthodox
@@ -33194,7 +33176,7 @@
 				size = 54555
 			}
 		}
-		region_state:W70 = {
+		region_state:W69 = {
 			create_pop = {
 				culture = moluccan
 				religion = animist
@@ -33632,7 +33614,7 @@
 				size = 100766
 			}
 		}
-		region_state:W37 = {
+		region_state:W36 = {
 			create_pop = {
 				culture = greek
 				religion = orthodox
@@ -33646,7 +33628,7 @@
 		}
 	}
 	s:STATE_MORAVIA = {
-		region_state:W61 = {
+		region_state:W60 = {
 			create_pop = {
 				culture = czech
 				religion = catholic
@@ -33715,7 +33697,7 @@
 		}
 	}
 	s:STATE_MOSCOW = {
-		region_state:X99 = {
+		region_state:X98 = {
 			create_pop = {
 				culture = dynamic-russian_culture-culture-num1
 				religion = orthodox
@@ -34341,7 +34323,7 @@
 		}
 	}
 	s:STATE_NANJING = {
-		region_state:X93 = {
+		region_state:X92 = {
 			create_pop = {
 				culture = han
 				religion = confucian
@@ -34448,7 +34430,7 @@
 		}
 	}
 	s:STATE_NEBRASKA = {
-		region_state:W67 = {
+		region_state:W66 = {
 			create_pop = {
 				culture = caddoan
 				religion = animist
@@ -35099,7 +35081,7 @@
 		}
 	}
 	s:STATE_NEW_HAMPSHIRE = {
-		region_state:W67 = {
+		region_state:W66 = {
 			create_pop = {
 				culture = algonquian
 				religion = animist
@@ -35148,7 +35130,7 @@
 		}
 	}
 	s:STATE_NEW_JERSEY = {
-		region_state:W67 = {
+		region_state:W66 = {
 			create_pop = {
 				culture = algonquian
 				religion = animist
@@ -35274,7 +35256,7 @@
 				size = 22906
 			}
 		}
-		region_state:X90 = {
+		region_state:X89 = {
 			create_pop = {
 				culture = apache
 				religion = animist
@@ -35612,7 +35594,7 @@
 		}
 	}
 	s:STATE_NEW_YORK = {
-		region_state:W67 = {
+		region_state:W66 = {
 			create_pop = {
 				culture = iroquoian
 				religion = animist
@@ -35853,7 +35835,7 @@
 				size = 186910
 			}
 		}
-		region_state:X93 = {
+		region_state:X92 = {
 			create_pop = {
 				culture = tatar
 				religion = gangan
@@ -36068,7 +36050,7 @@
 				size = 161
 			}
 		}
-		region_state:W61 = {
+		region_state:W60 = {
 			create_pop = {
 				culture = dynamic-berber-culture-num2
 				religion = sunni
@@ -36215,7 +36197,7 @@
 				size = 17520
 			}
 		}
-		region_state:X93 = {
+		region_state:X92 = {
 			create_pop = {
 				culture = dynamic-chihan-tangut-culture-num1
 				religion = nestorian
@@ -36336,14 +36318,14 @@
 				size = 212073
 			}
 		}
-		region_state:W29 = {
+		region_state:W28 = {
 			create_pop = {
 				culture = ugrian
 				religion = orthodox
 				size = 483467
 			}
 		}
-		region_state:X99 = {
+		region_state:X98 = {
 			create_pop = {
 				culture = chuvash
 				religion = mandaeism
@@ -36495,7 +36477,7 @@
 		}
 	}
 	s:STATE_NORTHERN_ANHUI = {
-		region_state:X93 = {
+		region_state:X92 = {
 			create_pop = {
 				culture = han
 				religion = confucian
@@ -36816,7 +36798,7 @@
 				size = 105664
 			}
 		}
-		region_state:W22 = {
+		region_state:W03 = {
 			create_pop = {
 				culture = buryat
 				religion = tengri_pagan_reformed
@@ -36833,7 +36815,7 @@
 				size = 81691
 			}
 		}
-		region_state:X93 = {
+		region_state:X92 = {
 			create_pop = {
 				culture = mongol
 				religion = tengri_pagan_reformed
@@ -36850,7 +36832,7 @@
 				size = 107683
 			}
 		}
-		region_state:X96 = {
+		region_state:X95 = {
 			create_pop = {
 				culture = mongol
 				religion = tengri_pagan_reformed
@@ -37291,7 +37273,7 @@
 		}
 	}
 	s:STATE_NORTHERN_TRANSYLVANIA = {
-		region_state:W61 = {
+		region_state:W60 = {
 			create_pop = {
 				culture = romanian
 				religion = catholic
@@ -37782,7 +37764,7 @@
 		}
 	}
 	s:STATE_NORTH_CAROLINA = {
-		region_state:W67 = {
+		region_state:W66 = {
 			create_pop = {
 				culture = muskogean
 				religion = animist
@@ -37967,7 +37949,7 @@
 		}
 	}
 	s:STATE_NORTH_DAKOTA = {
-		region_state:W67 = {
+		region_state:W66 = {
 			create_pop = {
 				culture = dakota
 				religion = animist
@@ -38284,7 +38266,7 @@
 		}
 	}
 	s:STATE_NORTH_RHINE = {
-		region_state:W39 = {
+		region_state:W38 = {
 			create_pop = {
 				culture = north_german
 				religion = samaritan
@@ -38688,14 +38670,14 @@
 		}
 	}
 	s:STATE_NOVGOROD = {
-		region_state:W24 = {
+		region_state:W23 = {
 			create_pop = {
 				culture = russian
 				religion = orthodox
 				size = 95335
 			}
 		}
-		region_state:X99 = {
+		region_state:X98 = {
 			create_pop = {
 				culture = russian
 				religion = orthodox
@@ -38813,7 +38795,7 @@
 		}
 	}
 	s:STATE_OAXACA = {
-		region_state:X90 = {
+		region_state:X89 = {
 			create_pop = {
 				culture = zapotec
 				religion = animist
@@ -38973,7 +38955,7 @@
 		}
 	}
 	s:STATE_OHIO = {
-		region_state:W67 = {
+		region_state:W66 = {
 			create_pop = {
 				culture = algonquian
 				religion = animist
@@ -39116,7 +39098,7 @@
 				size = 18852
 			}
 		}
-		region_state:W22 = {
+		region_state:W03 = {
 			create_pop = {
 				culture = yakut
 				religion = tengri_pagan_reformed
@@ -39199,7 +39181,7 @@
 		}
 	}
 	s:STATE_OKLAHOMA = {
-		region_state:W67 = {
+		region_state:W66 = {
 			create_pop = {
 				culture = caddoan
 				religion = animist
@@ -40217,7 +40199,7 @@
 		}
 	}
 	s:STATE_ORLEANS = {
-		region_state:W39 = {
+		region_state:W38 = {
 			create_pop = {
 				culture = french
 				religion = samaritan
@@ -40507,7 +40489,7 @@
 				size = 2382
 			}
 		}
-		region_state:W50 = {
+		region_state:W49 = {
 			create_pop = {
 				culture = russian
 				religion = orthodox
@@ -40519,7 +40501,7 @@
 				size = 1827
 			}
 		}
-		region_state:X99 = {
+		region_state:X98 = {
 			create_pop = {
 				culture = russian
 				religion = orthodox
@@ -40757,7 +40739,7 @@
 		}
 	}
 	s:STATE_OUTER_MANCHURIA = {
-		region_state:W22 = {
+		region_state:W03 = {
 			create_pop = {
 				culture = manchu
 				religion = tengri_pagan_reformed
@@ -40814,7 +40796,7 @@
 				size = 29469
 			}
 		}
-		region_state:W65 = {
+		region_state:W64 = {
 			create_pop = {
 				culture = manchu
 				religion = tengri_pagan_reformed
@@ -40855,7 +40837,7 @@
 				size = 1325
 			}
 		}
-		region_state:W71 = {
+		region_state:W70 = {
 			create_pop = {
 				culture = dynamic-greek-al_suryah_arabic-culture-num1
 				religion = sunni
@@ -41859,7 +41841,7 @@
 		}
 	}
 	s:STATE_PENNSYLVANIA = {
-		region_state:W67 = {
+		region_state:W66 = {
 			create_pop = {
 				culture = iroquoian
 				religion = animist
@@ -42329,7 +42311,7 @@
 		}
 	}
 	s:STATE_PICARDY = {
-		region_state:W39 = {
+		region_state:W38 = {
 			create_pop = {
 				culture = french
 				religion = gnostic_christianity
@@ -42373,7 +42355,7 @@
 		}
 	}
 	s:STATE_PIEDMONT = {
-		region_state:W61 = {
+		region_state:W60 = {
 			create_pop = {
 				culture = north_italian
 				religion = samaritan
@@ -42554,7 +42536,7 @@
 				size = 11
 			}
 		}
-		region_state:W39 = {
+		region_state:W38 = {
 			create_pop = {
 				culture = dynamic-breton-normand-occitain-culture-num1
 				religion = samaritan
@@ -42862,7 +42844,7 @@
 		}
 	}
 	s:STATE_PROVENCE = {
-		region_state:W61 = {
+		region_state:W60 = {
 			create_pop = {
 				culture = alemannic
 				religion = samaritan
@@ -42956,7 +42938,7 @@
 		}
 	}
 	s:STATE_PSKOV = {
-		region_state:W35 = {
+		region_state:W34 = {
 			create_pop = {
 				culture = russian
 				religion = orthodox
@@ -42968,7 +42950,7 @@
 				size = 440
 			}
 		}
-		region_state:W50 = {
+		region_state:W49 = {
 			create_pop = {
 				culture = russian
 				religion = orthodox
@@ -42980,7 +42962,7 @@
 				size = 310
 			}
 		}
-		region_state:X99 = {
+		region_state:X98 = {
 			create_pop = {
 				culture = russian
 				religion = orthodox
@@ -43352,7 +43334,7 @@
 				size = 20293
 			}
 		}
-		region_state:X93 = {
+		region_state:X92 = {
 			create_pop = {
 				culture = dynamic-chihan-tangut-culture-num1
 				religion = gangan
@@ -44167,7 +44149,7 @@
 		}
 	}
 	s:STATE_RHINELAND = {
-		region_state:W39 = {
+		region_state:W38 = {
 			create_pop = {
 				culture = south_german
 				religion = samaritan
@@ -44223,7 +44205,7 @@
 		}
 	}
 	s:STATE_RHODE_ISLAND = {
-		region_state:W67 = {
+		region_state:W66 = {
 			create_pop = {
 				culture = algonquian
 				religion = animist
@@ -44247,7 +44229,7 @@
 		}
 	}
 	s:STATE_RHONE = {
-		region_state:W39 = {
+		region_state:W38 = {
 			create_pop = {
 				culture = french
 				religion = gnostic_christianity
@@ -44299,7 +44281,7 @@
 				size = 120
 			}
 		}
-		region_state:W61 = {
+		region_state:W60 = {
 			create_pop = {
 				culture = french
 				religion = gnostic_christianity
@@ -44478,7 +44460,7 @@
 				size = 4499
 			}
 		}
-		region_state:W41 = {
+		region_state:W40 = {
 			create_pop = {
 				culture = latvian
 				religion = orthodox
@@ -44541,7 +44523,7 @@
 		}
 	}
 	s:STATE_RIO_GRANDE = {
-		region_state:X90 = {
+		region_state:X89 = {
 			create_pop = {
 				culture = mayan
 				religion = animist
@@ -44876,7 +44858,7 @@
 				size = 114998
 			}
 		}
-		region_state:W61 = {
+		region_state:W60 = {
 			create_pop = {
 				culture = north_italian
 				religion = catholic
@@ -44994,14 +44976,14 @@
 				size = 59437
 			}
 		}
-		region_state:W44 = {
+		region_state:W43 = {
 			create_pop = {
 				culture = mordvin
 				religion = orthodox
 				size = 217936
 			}
 		}
-		region_state:X99 = {
+		region_state:X98 = {
 			create_pop = {
 				culture = dynamic-russian_culture-culture-num1
 				religion = orthodox
@@ -45900,7 +45882,7 @@
 		}
 	}
 	s:STATE_SAVOY = {
-		region_state:W61 = {
+		region_state:W60 = {
 			create_pop = {
 				culture = alemannic
 				religion = samaritan
@@ -46591,7 +46573,7 @@
 		}
 	}
 	s:STATE_SHANDONG = {
-		region_state:X93 = {
+		region_state:X92 = {
 			create_pop = {
 				culture = han
 				religion = confucian
@@ -46675,7 +46657,7 @@
 		}
 	}
 	s:STATE_SHANXI = {
-		region_state:X93 = {
+		region_state:X92 = {
 			create_pop = {
 				culture = han
 				religion = confucian
@@ -46982,7 +46964,7 @@
 		}
 	}
 	s:STATE_SHENGJING = {
-		region_state:X93 = {
+		region_state:X92 = {
 			create_pop = {
 				culture = han
 				religion = confucian
@@ -47189,7 +47171,7 @@
 				size = 283236
 			}
 		}
-		region_state:X93 = {
+		region_state:X92 = {
 			create_pop = {
 				culture = han
 				religion = confucian
@@ -47376,7 +47358,7 @@
 		}
 	}
 	s:STATE_SILESIA = {
-		region_state:W61 = {
+		region_state:W60 = {
 			create_pop = {
 				culture = dynamic-polish-russian_culture-culture-num1
 				religion = orthodox
@@ -47507,7 +47489,7 @@
 		}
 	}
 	s:STATE_SINAI = {
-		region_state:ETH = {
+		region_state:ARM = {
 			create_pop = {
 				culture = dynamic-greek-al_suryah_arabic-culture-num1
 				religion = sunni
@@ -47529,7 +47511,7 @@
 				size = 263
 			}
 		}
-		region_state:W61 = {
+		region_state:W60 = {
 			create_pop = {
 				culture = dynamic-greek-al_suryah_arabic-culture-num1
 				religion = sunni
@@ -47563,7 +47545,7 @@
 		}
 	}
 	s:STATE_SINALOA = {
-		region_state:X90 = {
+		region_state:X89 = {
 			create_pop = {
 				culture = nahua
 				religion = animist
@@ -47816,8 +47798,6 @@
 				religion = jewish
 				size = 4970
 			}
-		}
-		region_state:GRE = {
 			create_pop = {
 				culture = macedonian
 				religion = orthodox
@@ -47846,7 +47826,7 @@
 		}
 	}
 	s:STATE_SLAVONIA = {
-		region_state:W61 = {
+		region_state:W60 = {
 			create_pop = {
 				culture = bosniak
 				religion = catholic
@@ -47895,7 +47875,7 @@
 		}
 	}
 	s:STATE_SLOVENIA = {
-		region_state:W61 = {
+		region_state:W60 = {
 			create_pop = {
 				culture = dynamic-slovene-franconian-culture-num1
 				religion = catholic
@@ -47929,7 +47909,7 @@
 		}
 	}
 	s:STATE_SMOLENSK = {
-		region_state:W50 = {
+		region_state:W49 = {
 			create_pop = {
 				culture = russian
 				religion = orthodox
@@ -47961,7 +47941,7 @@
 				size = 3084
 			}
 		}
-		region_state:X99 = {
+		region_state:X98 = {
 			create_pop = {
 				culture = russian
 				religion = orthodox
@@ -48686,7 +48666,7 @@
 		}
 	}
 	s:STATE_SOUTHERN_ANHUI = {
-		region_state:X93 = {
+		region_state:X92 = {
 			create_pop = {
 				culture = han
 				religion = confucian
@@ -48750,7 +48730,7 @@
 		}
 	}
 	s:STATE_SOUTHERN_MANCHURIA = {
-		region_state:W22 = {
+		region_state:W03 = {
 			create_pop = {
 				culture = manchu
 				religion = tengri_pagan_reformed
@@ -48762,7 +48742,7 @@
 				size = 1160190
 			}
 		}
-		region_state:X93 = {
+		region_state:X92 = {
 			create_pop = {
 				culture = manchu
 				religion = confucian
@@ -48784,7 +48764,7 @@
 				size = 18037
 			}
 		}
-		region_state:X96 = {
+		region_state:X95 = {
 			create_pop = {
 				culture = manchu
 				religion = confucian
@@ -48929,6 +48909,26 @@
 			create_pop = {
 				culture = greek
 				religion = orthodox
+				size = 109000
+			}
+			create_pop = {
+				culture = greek
+				religion = sunni
+				size = 33202
+			}
+			create_pop = {
+				culture = dynamic-greek-al_suryah_arabic-culture-num1
+				religion = sunni
+				size = 66718
+			}
+			create_pop = {
+				culture = dynamic-greek-al_suryah_arabic-culture-num1
+				religion = orthodox
+				size = 247684
+			}
+			create_pop = {
+				culture = greek
+				religion = orthodox
 				size = 43932
 			}
 			create_pop = {
@@ -48947,31 +48947,9 @@
 				size = 100117
 			}
 		}
-		region_state:GRE = {
-			create_pop = {
-				culture = greek
-				religion = orthodox
-				size = 109000
-			}
-			create_pop = {
-				culture = greek
-				religion = sunni
-				size = 33202
-			}
-			create_pop = {
-				culture = dynamic-greek-al_suryah_arabic-culture-num1
-				religion = sunni
-				size = 66718
-			}
-			create_pop = {
-				culture = dynamic-greek-al_suryah_arabic-culture-num1
-				religion = orthodox
-				size = 247684
-			}
-		}
 	}
 	s:STATE_SOUTHERN_TRANSYLVANIA = {
-		region_state:W61 = {
+		region_state:W60 = {
 			create_pop = {
 				culture = romanian
 				religion = catholic
@@ -49284,7 +49262,7 @@
 		}
 	}
 	s:STATE_SOUTH_CAROLINA = {
-		region_state:W67 = {
+		region_state:W66 = {
 			create_pop = {
 				culture = muskogean
 				religion = animist
@@ -49378,7 +49356,7 @@
 		}
 	}
 	s:STATE_SOUTH_DAKOTA = {
-		region_state:W67 = {
+		region_state:W66 = {
 			create_pop = {
 				culture = dakota
 				religion = animist
@@ -49833,7 +49811,7 @@
 				size = 8201
 			}
 		}
-		region_state:X93 = {
+		region_state:X92 = {
 			create_pop = {
 				culture = sumatran
 				religion = hindu
@@ -49867,7 +49845,7 @@
 		}
 	}
 	s:STATE_SOUTH_TYROL = {
-		region_state:W61 = {
+		region_state:W60 = {
 			create_pop = {
 				culture = north_italian
 				religion = catholic
@@ -49968,7 +49946,7 @@
 				size = 99996
 			}
 		}
-		region_state:W61 = {
+		region_state:W60 = {
 			create_pop = {
 				culture = dynamic-slovene-franconian-culture-num1
 				religion = samaritan
@@ -50261,7 +50239,7 @@
 		}
 	}
 	s:STATE_SUZHOU = {
-		region_state:X93 = {
+		region_state:X92 = {
 			create_pop = {
 				culture = han
 				religion = confucian
@@ -51032,7 +51010,7 @@
 				size = 1354
 			}
 		}
-		region_state:W33 = {
+		region_state:W32 = {
 			create_pop = {
 				culture = tajik
 				religion = sunni
@@ -51097,7 +51075,7 @@
 				size = 1405
 			}
 		}
-		region_state:X93 = {
+		region_state:X92 = {
 			create_pop = {
 				culture = turko_afghan
 				religion = tengri_pagan_reformed
@@ -51181,14 +51159,14 @@
 		}
 	}
 	s:STATE_TALINN = {
-		region_state:W24 = {
+		region_state:W23 = {
 			create_pop = {
 				culture = estonian
 				religion = orthodox
 				size = 61960
 			}
 		}
-		region_state:X83 = {
+		region_state:X82 = {
 			create_pop = {
 				culture = estonian
 				religion = orthodox
@@ -51234,14 +51212,14 @@
 				size = 823487
 			}
 		}
-		region_state:W44 = {
+		region_state:W43 = {
 			create_pop = {
 				culture = mordvin
 				religion = orthodox
 				size = 25053
 			}
 		}
-		region_state:X99 = {
+		region_state:X98 = {
 			create_pop = {
 				culture = mordvin
 				religion = mandaeism
@@ -51509,7 +51487,7 @@
 				size = 162918
 			}
 		}
-		region_state:X99 = {
+		region_state:X98 = {
 			create_pop = {
 				culture = mordvin
 				religion = mandaeism
@@ -51545,14 +51523,14 @@
 				size = 104119
 			}
 		}
-		region_state:W24 = {
+		region_state:W23 = {
 			create_pop = {
 				culture = estonian
 				religion = orthodox
 				size = 74370
 			}
 		}
-		region_state:X83 = {
+		region_state:X82 = {
 			create_pop = {
 				culture = dynamic-lithuanian-russian_culture-culture-num1
 				religion = orthodox
@@ -51872,7 +51850,7 @@
 		}
 	}
 	s:STATE_TENNESSEE = {
-		region_state:W67 = {
+		region_state:W66 = {
 			create_pop = {
 				culture = muskogean
 				religion = animist
@@ -51946,7 +51924,7 @@
 		}
 	}
 	s:STATE_TEXAS = {
-		region_state:W67 = {
+		region_state:W66 = {
 			create_pop = {
 				culture = caddoan
 				religion = animist
@@ -52190,7 +52168,7 @@
 				size = 502
 			}
 		}
-		region_state:X90 = {
+		region_state:X89 = {
 			create_pop = {
 				culture = apache
 				religion = animist
@@ -52580,7 +52558,7 @@
 				size = 6088
 			}
 		}
-		region_state:X93 = {
+		region_state:X92 = {
 			create_pop = {
 				culture = tatar
 				religion = gangan
@@ -53431,7 +53409,7 @@
 		}
 	}
 	s:STATE_TRABZON = {
-		region_state:W43 = {
+		region_state:W42 = {
 			create_pop = {
 				culture = greek
 				religion = orthodox
@@ -53470,7 +53448,7 @@
 		}
 	}
 	s:STATE_TRANSDANUBIA = {
-		region_state:W61 = {
+		region_state:W60 = {
 			create_pop = {
 				culture = hungarian
 				religion = catholic
@@ -53611,7 +53589,7 @@
 				size = 270
 			}
 		}
-		region_state:W71 = {
+		region_state:W70 = {
 			create_pop = {
 				culture = mashriqi
 				religion = sunni
@@ -53736,7 +53714,7 @@
 				size = 338
 			}
 		}
-		region_state:W22 = {
+		region_state:W03 = {
 			create_pop = {
 				culture = buryat
 				religion = tengri_pagan_reformed
@@ -53781,7 +53759,7 @@
 		}
 	}
 	s:STATE_TRIPOLI = {
-		region_state:W61 = {
+		region_state:W60 = {
 			create_pop = {
 				culture = berber
 				religion = sunni
@@ -54210,7 +54188,7 @@
 				size = 2111
 			}
 		}
-		region_state:W61 = {
+		region_state:W60 = {
 			create_pop = {
 				culture = berber
 				religion = sunni
@@ -54339,7 +54317,7 @@
 		}
 	}
 	s:STATE_TURKMENIA = {
-		region_state:W33 = {
+		region_state:W32 = {
 			create_pop = {
 				culture = turkmen
 				religion = sunni
@@ -54521,7 +54499,7 @@
 		}
 	}
 	s:STATE_TUSCANY = {
-		region_state:W61 = {
+		region_state:W60 = {
 			create_pop = {
 				culture = north_italian
 				religion = catholic
@@ -54589,21 +54567,21 @@
 		}
 	}
 	s:STATE_TVER = {
-		region_state:W42 = {
+		region_state:W41 = {
 			create_pop = {
 				culture = dynamic-russian_culture-culture-num1
 				religion = orthodox
 				size = 139168
 			}
 		}
-		region_state:W63 = {
+		region_state:W62 = {
 			create_pop = {
 				culture = karelian
 				religion = orthodox
 				size = 227486
 			}
 		}
-		region_state:X99 = {
+		region_state:X98 = {
 			create_pop = {
 				culture = dynamic-russian_culture-culture-num1
 				religion = sunni
@@ -54689,7 +54667,7 @@
 				size = 42821
 			}
 		}
-		region_state:W61 = {
+		region_state:W60 = {
 			create_pop = {
 				culture = south_german
 				religion = catholic
@@ -54864,7 +54842,7 @@
 				size = 28976
 			}
 		}
-		region_state:X93 = {
+		region_state:X92 = {
 			create_pop = {
 				culture = dynamic-chihan-culture-num1
 				religion = nestorian
@@ -55318,7 +55296,7 @@
 				size = 81
 			}
 		}
-		region_state:W38 = {
+		region_state:W37 = {
 			create_pop = {
 				culture = bedouin
 				religion = sunni
@@ -55663,7 +55641,7 @@
 				size = 174411
 			}
 		}
-		region_state:W33 = {
+		region_state:W32 = {
 			create_pop = {
 				culture = turkmen
 				religion = tengri_pagan_reformed
@@ -55714,7 +55692,7 @@
 		}
 	}
 	s:STATE_URGA = {
-		region_state:X93 = {
+		region_state:X92 = {
 			create_pop = {
 				culture = mongol
 				religion = tengri_pagan_reformed
@@ -56279,7 +56257,7 @@
 				size = 410
 			}
 		}
-		region_state:W33 = {
+		region_state:W32 = {
 			create_pop = {
 				culture = turkmen
 				religion = sunni
@@ -56491,7 +56469,7 @@
 		}
 	}
 	s:STATE_VENETIA = {
-		region_state:W61 = {
+		region_state:W60 = {
 			create_pop = {
 				culture = north_italian
 				religion = catholic
@@ -56597,7 +56575,7 @@
 				size = 63538
 			}
 		}
-		region_state:X90 = {
+		region_state:X89 = {
 			create_pop = {
 				culture = nahua
 				religion = animist
@@ -56646,7 +56624,7 @@
 		}
 	}
 	s:STATE_VERMONT = {
-		region_state:W67 = {
+		region_state:W66 = {
 			create_pop = {
 				culture = algonquian
 				religion = animist
@@ -56868,7 +56846,7 @@
 		}
 	}
 	s:STATE_VIRGINIA = {
-		region_state:W67 = {
+		region_state:W66 = {
 			create_pop = {
 				culture = muskogean
 				religion = animist
@@ -57160,7 +57138,7 @@
 				size = 2471
 			}
 		}
-		region_state:W35 = {
+		region_state:W34 = {
 			create_pop = {
 				culture = russian
 				religion = orthodox
@@ -57172,7 +57150,7 @@
 				size = 5528
 			}
 		}
-		region_state:W50 = {
+		region_state:W49 = {
 			create_pop = {
 				culture = byelorussian
 				religion = orthodox
@@ -57184,7 +57162,7 @@
 				size = 4986
 			}
 		}
-		region_state:X99 = {
+		region_state:X98 = {
 			create_pop = {
 				culture = russian
 				religion = orthodox
@@ -57492,7 +57470,7 @@
 		}
 	}
 	s:STATE_WALLONIA = {
-		region_state:W39 = {
+		region_state:W38 = {
 			create_pop = {
 				culture = north_german
 				religion = samaritan
@@ -57830,7 +57808,7 @@
 		}
 	}
 	s:STATE_WESTERN_HUBEI = {
-		region_state:X93 = {
+		region_state:X92 = {
 			create_pop = {
 				culture = han
 				religion = confucian
@@ -57942,7 +57920,7 @@
 				size = 8706
 			}
 		}
-		region_state:W70 = {
+		region_state:W69 = {
 			create_pop = {
 				culture = melanesian
 				religion = animist
@@ -58208,7 +58186,7 @@
 		}
 	}
 	s:STATE_WEST_AEGEAN_ISLANDS = {
-		region_state:YEM = {
+		region_state:GRE = {
 			create_pop = {
 				culture = greek
 				religion = orthodox
@@ -58516,7 +58494,7 @@
 				size = 9243
 			}
 		}
-		region_state:W61 = {
+		region_state:W60 = {
 			create_pop = {
 				culture = dynamic-polish-russian_culture-culture-num1
 				religion = orthodox
@@ -58575,7 +58553,7 @@
 		}
 	}
 	s:STATE_WEST_INDIES = {
-		region_state:W58 = {
+		region_state:W57 = {
 			create_pop = {
 				culture = taino
 				religion = animist
@@ -58669,6 +58647,21 @@
 			create_pop = {
 				culture = taino
 				religion = animist
+				size = 3271
+			}
+			create_pop = {
+				culture = caribeno
+				religion = sunni
+				size = 17930
+			}
+			create_pop = {
+				culture = caribeno
+				religion = sunni
+				size = 36252
+			}
+			create_pop = {
+				culture = taino
+				religion = animist
 				size = 8256
 			}
 			create_pop = {
@@ -58692,23 +58685,6 @@
 				culture = neo-caribbean_colony-algerian
 				religion = sunni
 				size = 57041
-			}
-		}
-		region_state:X33 = {
-			create_pop = {
-				culture = taino
-				religion = animist
-				size = 3271
-			}
-			create_pop = {
-				culture = caribeno
-				religion = sunni
-				size = 17930
-			}
-			create_pop = {
-				culture = caribeno
-				religion = sunni
-				size = 36252
 			}
 		}
 	}
@@ -58906,7 +58882,7 @@
 				size = 171
 			}
 		}
-		region_state:W57 = {
+		region_state:W56 = {
 			create_pop = {
 				culture = old_pommeranian
 				religion = gnostic_christianity
@@ -59005,7 +58981,7 @@
 		}
 	}
 	s:STATE_WEST_SLOVAKIA = {
-		region_state:W61 = {
+		region_state:W60 = {
 			create_pop = {
 				culture = slovak
 				religion = catholic
@@ -59054,7 +59030,7 @@
 		}
 	}
 	s:STATE_WEST_SWITZERLAND = {
-		region_state:W61 = {
+		region_state:W60 = {
 			create_pop = {
 				culture = dynamic-occitain-swabian-culture-num1
 				religion = gnostic_christianity
@@ -59113,7 +59089,7 @@
 		}
 	}
 	s:STATE_WEST_VIRGINIA = {
-		region_state:W67 = {
+		region_state:W66 = {
 			create_pop = {
 				culture = algonquian
 				religion = animist
@@ -59331,7 +59307,7 @@
 		}
 	}
 	s:STATE_WISCONSIN = {
-		region_state:W67 = {
+		region_state:W66 = {
 			create_pop = {
 				culture = algonquian
 				religion = animist
@@ -59472,7 +59448,7 @@
 		}
 	}
 	s:STATE_WURTTEMBERG = {
-		region_state:W54 = {
+		region_state:W53 = {
 			create_pop = {
 				culture = south_german
 				religion = gnostic_christianity
@@ -59532,7 +59508,7 @@
 				size = 6000
 			}
 		}
-		region_state:W67 = {
+		region_state:W66 = {
 			create_pop = {
 				culture = caddoan
 				religion = animist
@@ -59680,7 +59656,7 @@
 		}
 	}
 	s:STATE_XIAN = {
-		region_state:X93 = {
+		region_state:X92 = {
 			create_pop = {
 				culture = han
 				religion = confucian
@@ -59921,7 +59897,7 @@
 				size = 7341
 			}
 		}
-		region_state:W22 = {
+		region_state:W03 = {
 			create_pop = {
 				culture = yakut
 				religion = tengri_pagan_reformed
@@ -60034,7 +60010,7 @@
 		}
 	}
 	s:STATE_YAROSLAVL = {
-		region_state:W29 = {
+		region_state:W28 = {
 			create_pop = {
 				culture = ugrian
 				religion = orthodox
@@ -60071,14 +60047,14 @@
 				size = 376943
 			}
 		}
-		region_state:W42 = {
+		region_state:W41 = {
 			create_pop = {
 				culture = dynamic-russian_culture-culture-num1
 				religion = orthodox
 				size = 257264
 			}
 		}
-		region_state:X99 = {
+		region_state:X98 = {
 			create_pop = {
 				culture = dynamic-russian_culture-culture-num1
 				religion = orthodox
@@ -60978,7 +60954,7 @@
 				size = 99890
 			}
 		}
-		region_state:X93 = {
+		region_state:X92 = {
 			create_pop = {
 				culture = yi
 				religion = theravada
@@ -61032,7 +61008,7 @@
 		}
 	}
 	s:STATE_ZACATECAS = {
-		region_state:X90 = {
+		region_state:X89 = {
 			create_pop = {
 				culture = chichimecan
 				religion = animist
@@ -61611,7 +61587,7 @@
 		}
 	}
 	s:STATE_ZHEJIANG = {
-		region_state:X93 = {
+		region_state:X92 = {
 			create_pop = {
 				culture = han
 				religion = confucian
@@ -61690,7 +61666,7 @@
 		}
 	}
 	s:STATE_ZHILI = {
-		region_state:X93 = {
+		region_state:X92 = {
 			create_pop = {
 				culture = han
 				religion = confucian

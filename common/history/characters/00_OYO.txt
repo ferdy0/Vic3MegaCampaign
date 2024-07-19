@@ -4,7 +4,7 @@
 			first_name = "Abiodun"
 			last_name = "Alaafin"
 			heir = yes
-			culture = cu:ibo
+			culture = cu:edo
 			religion = rel:sunni
 			birth_date = 1803.12.8
 			traits = {
@@ -28,7 +28,7 @@
 			first_name = "Abiodun_I"
 			last_name = "Alaafin"
 			ruler = yes
-			culture = cu:ibo
+			culture = cu:edo
 			religion = rel:sunni
 			birth_date = 1770.8.23
 			traits = {

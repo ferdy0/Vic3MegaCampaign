@@ -1,23 +1,86 @@
 ﻿CHARACTERS = {
 	c:W42 = {
 		create_character = {
-			first_name = "Anastas_Chernyatinsky"
+			first_name = "Muzaffaraddin_Hadim"
 			is_general = yes
 			commander_rank = commander_rank_2
-			birth_date = 1798.2.3
+			birth_date = 1795.3.30
 			traits = {
 				shellshocked 
 			}
 		}
 
 		create_character = {
-			first_name = "Yevgeniy_Dyabrinsky"
-			ruler = yes
-			culture = cu:russian
-			religion = rel:orthodox
-			birth_date = 1793.1.4
+			first_name = "Noura"
+			last_name = "Ibrahimid"
+			female = yes
+			culture = cu:bedouin
+			religion = rel:sunni
+			birth_date = 1803.1.11
 			traits = {
-				expert_political_operator reckless 
+				basic_diplomat hedonist 
+			}
+		}
+
+		create_character = {
+			first_name = "Muaddam_Cuhadar"
+			is_admiral = yes
+			commander_rank = commander_rank_1
+			birth_date = 1806.12.13
+			traits = {
+				alcoholic 
+			}
+		}
+
+		create_character = {
+			first_name = "Theoktistos_IV"
+			last_name = "Abbasid"
+			ruler = yes
+			culture = cu:dynamic-greek-al_suryah_arabic-culture-num1
+			religion = rel:sunni
+			birth_date = 1807.4.16
+			traits = {
+				masterful_diplomat romantic 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+		create_character = {
+			first_name = "Kyrillos_Muezzinzade"
+			is_general = yes
+			commander_rank = commander_rank_2
+			birth_date = 1815.1.8
+			traits = {
+				ambitious 
+			}
+		}
+
+		create_character = {
+			first_name = "Evangelos_Koprulu"
+			is_general = yes
+			commander_rank = commander_rank_2
+			birth_date = 1799.4.21
+		}
+
+		create_character = {
+			first_name = "Iakobos_Kavalali"
+			is_admiral = yes
+			commander_rank = commander_rank_1
+			birth_date = 1777.11.16
+			traits = {
+				alcoholic 
+			}
+		}
+
+		create_character = {
+			first_name = "Murad_Kara"
+			is_general = yes
+			commander_rank = commander_rank_2
+			birth_date = 1792.4.21
+			traits = {
+				shellshocked 
 			}
 		}
 

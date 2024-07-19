@@ -1,53 +1,51 @@
 ﻿CHARACTERS = {
 	c:W33 = {
 		create_character = {
-			first_name = "Karacik"
-			last_name = "Ulagan_Temur"
+			first_name = "Sophie"
+			last_name = "Livo"
 			female = yes
-			culture = cu:tatar
+			culture = cu:prussian
 			religion = rel:orthodox
-			birth_date = 1798.8.10
+			birth_date = 1806.9.9
 			traits = {
-				innovative 
+				basic_colonial_administrator romantic 
 			}
 		}
 
 		create_character = {
-			first_name = "Togli"
-			last_name = "Ulagan_Temur"
+			first_name = "Adolf"
+			last_name = "Gosiewski"
 			heir = yes
-			culture = cu:tatar
+			culture = cu:prussian
 			religion = rel:orthodox
-			birth_date = 1829.11.13
+			birth_date = 1834.1.5
 			traits = {
 				experienced_political_operator trait_child 
 			}
 		}
 
 		create_character = {
-			first_name = "Atrak_IV"
-			last_name = "Ulagan_Temur"
-			ruler = yes
+			first_name = "Alfred_Schnittern"
 			is_general = yes
-			commander_rank = commander_rank_3
-			culture = cu:tatar
-			religion = rel:orthodox
-			birth_date = 1794.5.27
+			commander_rank = commander_rank_4
+			birth_date = 1792.1.10
 			traits = {
-				direct imperious 
-			}
-			on_created = {
-				set_variable = is_married
+				cruel experienced_defensive_strategist 
 			}
 		}
 
 		create_character = {
-			first_name = "Sokal_Batulun"
-			is_general = yes
-			commander_rank = commander_rank_3
-			birth_date = 1778.5.4
+			first_name = "Adolf_III"
+			last_name = "Gosiewski"
+			ruler = yes
+			culture = cu:prussian
+			religion = rel:orthodox
+			birth_date = 1797.9.18
 			traits = {
-				basic_defensive_strategist 
+				experienced_diplomat honorable 
+			}
+			on_created = {
+				set_variable = is_married
 			}
 		}
 
