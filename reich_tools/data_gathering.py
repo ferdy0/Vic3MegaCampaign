@@ -93,8 +93,6 @@ def parse_state_region_file(filename: str, states_container):
 
 
     for state_name, block in state_blocks:
-        if state_name == 'ABRUZZO':
-            print('AAAA')
         state_name = 'STATE_' + state_name
         # Find the corresponding state in the states container
         state = states_container.states[state_name]
@@ -121,8 +119,6 @@ def parse_state_region_file(filename: str, states_container):
         state.traits = extract_list(r'traits\s*=\s*\{([^}]*)\}', block)
 
 
-        if state_name == 'STATE_ABRUZZO':
-            print("ABRUZZO")
 
 
 
@@ -154,56 +150,74 @@ def extract_dict(pattern: str, block: str):
 
 
 def process_state_region_files(folder_path: str, states_container):
-    for filename in os.listdir(folder_path):
-        print(filename)
-        if filename.endswith('.txt'):
-            file_path = os.path.join(folder_path, filename)
-            parse_state_region_file(file_path, states_container)
 
+    for (roots, dirs, files) in os.walk(folder_path, topdown=True):
 
+        for file in files:
+            if file not in ['99_seas.txt', 'readme.info']:
+                file_path = os.path.join(folder_path, file)
 
+            # Check if it is a file and not a directory
+                print(f"Processing file: {file}")
+                parse_state_region_file(file_path, states_container)
 
-            # for state_name, data in state_data.items():
-            #     state = states_container.get_state(state_name)
-            #     if not state:
-            #         continue
-            #
-            #
-            #     # Update state with data
-            #     state.id = data.id
-            #     state.subsistence_building = data.subsistence_building
-            #     state.provinces = data.provinces
-            #     state.city = data.city
-            #     state.port = data.port
-            #     state.farm = data.farm
-            #     state.mine = data.mine
-            #     state.wood = data.wood
-            #     state.arable_land = data.arable_land
-            #     state.arable_resources = data.arable_resources
-            #     state.capped_resources = data.capped_resources
-            #     state.resource = data.resource
-            #     state.naval_exit_id = data.naval_exit_id
-            #     state.traits = data.traits
+def write_state_region_file(filename: str, states_container: States):
+    with open(filename, 'r') as file:
+        original_data = file.read()
 
+    state_blocks = re.findall(r'STATE_(\w+)\s*=\s*{([\s\S]*?)}\s*(?=STATE_|$)', original_data)
+
+    modified_data = original_data
+    for state_name, block in state_blocks:
+        state_name = 'STATE_' + state_name
+        state = states_container.states.get(state_name)
+        if state:
+            new_block = generate_state_block(state)
+            modified_data = modified_data.replace(block, new_block)
+
+    with open(filename, 'w') as file:
+        file.write(modified_data)
+
+def generate_state_block(state: State) -> str:
+    state_dict = state.to_dict()
+    block = f"{state.name} = {{\n"
+    for key, value in state_dict.items():
+        if isinstance(value, list):
+            block += f"\t{key} = {{ " + ' '.join(value) + " }\n"
+        elif isinstance(value, dict):
+            block += f"\t{key} = {{\n"
+            for k, v in value.items():
+                block += f"\t\t{k} = {v}\n"
+            block += "\t}\n"
+        elif value is not None:
+            block += f"\t{key} = {value}\n"
+    block += "}\n"
+    return block
+
+def process_state_region_files(folder_path: str, states_container: States):
+    for root, dirs, files in os.walk(folder_path):
+        for filename in files:
+            if filename not in ['99_seas.txt', 'readme.info']:
+                file_path = os.path.join(root, filename)
+                parse_state_region_file(file_path, states_container)
+                write_state_region_file(file_path, states_container)
 
 # Example usage
-states_filepath = mod_path + "/common/history/states/99_converter_states.txt"  # Replace with your file path
-population_filepath = mod_path + "/common/history/pops/99_converted_pops.txt"  # Replace with your file path
-state_regions_folder = mod_path + "/map_data/state_regions"  # Replace with your folder path
+states_filepath = mod_path + "/common/history/states/99_converter_states.txt"
+population_filepath = mod_path + "/common/history/pops/99_converted_pops.txt"
+state_regions_folder = mod_path + "/map_data/state_regions"
 
 # Parse states and population data
 states = parse_state_data(states_filepath)
 add_population_data(states, population_filepath)
 
+# Modify data in memory
+
+
 # Process state data files in the folder
 process_state_region_files(state_regions_folder, states)
 
-#
-# for state in states.states:
-#     print(state)
 
-# Print or use the `states` object as needed
-print(states.states['STATE_ABRUZZO'].to_dict())
 
 
 
