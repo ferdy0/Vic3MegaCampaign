@@ -257,7 +257,7 @@ def generate_state_data_block(state: State) -> str:
         block += f"\t\t\t\tadd_homeland = cu:{homeland}\n"
     for claim in state.claims:
         block += f"\t\t\t\tadd_claim = c:{claim}\n"
-    block += "\t\t}\n"
+    block += "\t\t}"
     return block
 
 
@@ -273,7 +273,7 @@ def generate_population_data_block(state: State) -> str:
                 block += f"\t\t\t\t\t\t\t\tsize = {pop.size}\n"
                 block += "\t\t\t\t\t\t}\n"
             block += "\t\t\t\t}\n"
-    block += "\t\t}\n"
+    block += "\t\t}"
     return block
 
 
@@ -329,7 +329,7 @@ def generate_state_regions_block(state: State) -> str:
     if state.naval_exit_id:
         block += f"\tnaval_exit_id = {state.naval_exit_id}\n"
 
-    block += "}\n"
+    block += "}"
     return block
 
 
