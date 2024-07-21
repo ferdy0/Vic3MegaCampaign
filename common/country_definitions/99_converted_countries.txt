@@ -8433,11 +8433,12 @@ UZH = {
 }
 
 V00 = {
-	color = { 182 66 66 }
-	country_type = decentralized
-	tier = principality
-	cultures = { cree }
-	capital = STATE_QUEBEC
+	color = { 186 164 78 }
+	country_type = recognized
+	tier = kingdom
+	cultures = { sena }
+	religion = animist
+	capital = STATE_ZAMBEZI
 }
 
 V01 = {
@@ -8551,12 +8552,20 @@ V14 = {
 	color = { 182 59 60 }
 	country_type = decentralized
 	tier = principality
-	cultures = { equatorial_bantu }
-	capital = STATE_NIGERIA
+	cultures = { cree }
+	capital = STATE_QUEBEC
 }
 
 V15 = {
 	color = { 182 59 71 }
+	country_type = decentralized
+	tier = principality
+	cultures = { equatorial_bantu }
+	capital = STATE_NIGERIA
+}
+
+V16 = {
+	color = { 182 59 82 }
 	country_type = decentralized
 	tier = principality
 	cultures = { oromo }
@@ -8606,12 +8615,12 @@ VU1 = {
 }
 
 W00 = {
-	color = { 99 60 139 }
-	country_type = recognized
-	tier = city_state
-	cultures = { ovimbundu }
-	religion = animist
-	capital = STATE_EAST_ANGOLA
+	color = { 50 123 70 }
+	country_type = unrecognized
+	tier = grand_principality
+	cultures = { south_italian }
+	religion = sunni
+	capital = STATE_CAMPANIA
 }
 
 W01 = {
@@ -8631,12 +8640,12 @@ W02 = {
 }
 
 W03 = {
-	color = { 135 225 194 }
+	color = { 99 60 139 }
 	country_type = recognized
-	tier = principality
-	cultures = { manchu }
-	religion = tengri_pagan_reformed
-	capital = STATE_OUTER_MANCHURIA
+	tier = city_state
+	cultures = { ovimbundu }
+	religion = animist
+	capital = STATE_EAST_ANGOLA
 }
 
 W04 = {
@@ -8785,6 +8794,15 @@ W21 = {
 }
 
 W22 = {
+	color = { 135 225 194 }
+	country_type = recognized
+	tier = principality
+	cultures = { manchu }
+	religion = tengri_pagan_reformed
+	capital = STATE_OUTER_MANCHURIA
+}
+
+W23 = {
 	color = { 0 120 145 }
 	country_type = decentralized
 	tier = city_state
@@ -8793,7 +8811,7 @@ W22 = {
 	capital = STATE_CHELYABINSK
 }
 
-W23 = {
+W24 = {
 	color = { 97 126 37 }
 	country_type = unrecognized
 	tier = principality
@@ -8802,7 +8820,7 @@ W23 = {
 	capital = STATE_TALINN
 }
 
-W24 = {
+W25 = {
 	color = { 156 43 172 }
 	country_type = decentralized
 	tier = city_state
@@ -8811,7 +8829,7 @@ W24 = {
 	capital = STATE_MISSISSIPPI
 }
 
-W25 = {
+W26 = {
 	color = { 84 80 152 }
 	country_type = unrecognized
 	tier = kingdom
@@ -8820,7 +8838,7 @@ W25 = {
 	capital = STATE_BLUE_NILE
 }
 
-W26 = {
+W27 = {
 	color = { 211 84 79 }
 	country_type = decentralized
 	tier = city_state
@@ -8829,7 +8847,7 @@ W26 = {
 	capital = STATE_SOUTH_CAMEROON
 }
 
-W27 = {
+W28 = {
 	color = { 105 226 233 }
 	country_type = decentralized
 	tier = city_state
@@ -8838,7 +8856,7 @@ W27 = {
 	capital = STATE_OUTER_MANCHURIA
 }
 
-W28 = {
+W29 = {
 	color = { 176 72 77 }
 	country_type = recognized
 	tier = principality
@@ -8847,7 +8865,7 @@ W28 = {
 	capital = STATE_NIZHNY_NOVGOROD
 }
 
-W29 = {
+W30 = {
 	color = { 123 71 65 }
 	country_type = decentralized
 	tier = city_state
@@ -8856,7 +8874,7 @@ W29 = {
 	capital = STATE_KYUSHU
 }
 
-W30 = {
+W31 = {
 	color = { 151 71 197 }
 	country_type = decentralized
 	tier = city_state
@@ -8865,7 +8883,7 @@ W30 = {
 	capital = STATE_ARKANSAS
 }
 
-W31 = {
+W32 = {
 	color = { 202 125 19 }
 	country_type = decentralized
 	tier = city_state
@@ -8874,7 +8892,7 @@ W31 = {
 	capital = STATE_VENETIA
 }
 
-W32 = {
+W33 = {
 	color = { 191 110 62 }
 	country_type = unrecognized
 	tier = principality
@@ -8883,7 +8901,7 @@ W32 = {
 	capital = STATE_URALSK
 }
 
-W33 = {
+W34 = {
 	color = { 200 100 100 }
 	country_type = recognized
 	tier = principality
@@ -8892,7 +8910,7 @@ W33 = {
 	capital = STATE_EAST_PRUSSIA
 }
 
-W34 = {
+W35 = {
 	color = { 82 123 95 }
 	country_type = recognized
 	tier = principality
@@ -8901,7 +8919,7 @@ W34 = {
 	capital = STATE_PSKOV
 }
 
-W35 = {
+W36 = {
 	color = { 132 108 72 }
 	country_type = decentralized
 	tier = city_state
@@ -8910,7 +8928,7 @@ W35 = {
 	capital = STATE_CHERSON
 }
 
-W36 = {
+W37 = {
 	color = { 160 82 128 }
 	country_type = recognized
 	tier = grand_principality
@@ -8919,7 +8937,7 @@ W36 = {
 	capital = STATE_MONTENEGRO
 }
 
-W37 = {
+W38 = {
 	color = { 102 105 104 }
 	country_type = unrecognized
 	tier = principality
@@ -8928,7 +8946,7 @@ W37 = {
 	capital = STATE_LOWER_EGYPT
 }
 
-W38 = {
+W39 = {
 	color = { 0 140 165 }
 	country_type = recognized
 	tier = kingdom
@@ -8937,7 +8955,7 @@ W38 = {
 	capital = STATE_ILE_DE_FRANCE
 }
 
-W39 = {
+W40 = {
 	color = { 50 123 70 }
 	country_type = unrecognized
 	tier = grand_principality
@@ -8946,7 +8964,7 @@ W39 = {
 	capital = STATE_AQUITAINE
 }
 
-W40 = {
+W41 = {
 	color = { 183 176 194 }
 	country_type = unrecognized
 	tier = city_state
@@ -8955,7 +8973,7 @@ W40 = {
 	capital = STATE_RIGA
 }
 
-W41 = {
+W42 = {
 	color = { 227 221 77 }
 	country_type = recognized
 	tier = principality
@@ -8964,7 +8982,7 @@ W41 = {
 	capital = STATE_YAROSLAVL
 }
 
-W42 = {
+W43 = {
 	color = { 30 160 203 }
 	country_type = recognized
 	tier = kingdom
@@ -8973,7 +8991,7 @@ W42 = {
 	capital = STATE_HUDAVENDIGAR
 }
 
-W43 = {
+W44 = {
 	color = { 146 134 77 }
 	country_type = recognized
 	tier = principality
@@ -8982,7 +9000,7 @@ W43 = {
 	capital = STATE_RYAZAN
 }
 
-W44 = {
+W45 = {
 	color = { 117 146 167 }
 	country_type = decentralized
 	tier = city_state
@@ -8991,7 +9009,7 @@ W44 = {
 	capital = STATE_SARDINIA
 }
 
-W45 = {
+W46 = {
 	color = { 212 105 118 }
 	country_type = decentralized
 	tier = city_state
@@ -9000,7 +9018,7 @@ W45 = {
 	capital = STATE_OHIO
 }
 
-W46 = {
+W47 = {
 	color = { 89 185 198 }
 	country_type = decentralized
 	tier = city_state
@@ -9009,7 +9027,7 @@ W46 = {
 	capital = STATE_KYUSHU
 }
 
-W47 = {
+W48 = {
 	color = { 50 123 70 }
 	country_type = unrecognized
 	tier = city_state
@@ -9018,7 +9036,7 @@ W47 = {
 	capital = STATE_SICILY
 }
 
-W48 = {
+W49 = {
 	color = { 43 121 188 }
 	country_type = decentralized
 	tier = city_state
@@ -9027,7 +9045,7 @@ W48 = {
 	capital = STATE_SOUTH_MADAGASCAR
 }
 
-W49 = {
+W50 = {
 	color = { 106 160 43 }
 	country_type = recognized
 	tier = principality
@@ -9036,7 +9054,7 @@ W49 = {
 	capital = STATE_SMOLENSK
 }
 
-W50 = {
+W51 = {
 	color = { 61 136 66 }
 	country_type = unrecognized
 	tier = city_state
@@ -9045,7 +9063,7 @@ W50 = {
 	capital = STATE_INGRIA
 }
 
-W51 = {
+W52 = {
 	color = { 98 206 253 }
 	country_type = unrecognized
 	tier = grand_principality
@@ -9054,7 +9072,7 @@ W51 = {
 	capital = STATE_AZERBAIJAN
 }
 
-W52 = {
+W53 = {
 	color = { 89 164 144 }
 	country_type = decentralized
 	tier = city_state
@@ -9063,7 +9081,7 @@ W52 = {
 	capital = STATE_MINDANAO
 }
 
-W53 = {
+W54 = {
 	color = { 225 98 87 }
 	country_type = recognized
 	tier = principality
@@ -9072,7 +9090,7 @@ W53 = {
 	capital = STATE_WURTTEMBERG
 }
 
-W54 = {
+W55 = {
 	color = { 158 18 20 }
 	country_type = decentralized
 	tier = city_state
@@ -9081,7 +9099,7 @@ W54 = {
 	capital = STATE_JALISCO
 }
 
-W55 = {
+W56 = {
 	color = { 176 232 64 }
 	country_type = decentralized
 	tier = city_state
@@ -9090,7 +9108,7 @@ W55 = {
 	capital = STATE_MOLUCCAS
 }
 
-W56 = {
+W57 = {
 	color = { 102 105 104 }
 	country_type = recognized
 	tier = principality
@@ -9099,7 +9117,7 @@ W56 = {
 	capital = STATE_WEST_PRUSSIA
 }
 
-W57 = {
+W58 = {
 	color = { 231 224 107 }
 	country_type = colonial
 	tier = principality
@@ -9108,7 +9126,7 @@ W57 = {
 	capital = STATE_WEST_INDIES
 }
 
-W58 = {
+W59 = {
 	color = { 40 110 140 }
 	country_type = unrecognized
 	tier = city_state
@@ -9117,7 +9135,7 @@ W58 = {
 	capital = STATE_TIMBUKTU
 }
 
-W59 = {
+W60 = {
 	color = { 48 49 121 }
 	country_type = decentralized
 	tier = city_state
@@ -9126,7 +9144,7 @@ W59 = {
 	capital = STATE_VERACRUZ
 }
 
-W60 = {
+W61 = {
 	color = { 54 167 156 }
 	country_type = recognized
 	tier = kingdom
@@ -9135,7 +9153,7 @@ W60 = {
 	capital = STATE_BOHEMIA
 }
 
-W61 = {
+W62 = {
 	color = { 61 152 180 }
 	country_type = unrecognized
 	tier = city_state
@@ -9144,7 +9162,7 @@ W61 = {
 	capital = STATE_ROMAGNA
 }
 
-W62 = {
+W63 = {
 	color = { 182 134 100 }
 	country_type = unrecognized
 	tier = city_state
@@ -9153,7 +9171,7 @@ W62 = {
 	capital = STATE_TVER
 }
 
-W63 = {
+W64 = {
 	color = { 240 160 100 }
 	country_type = decentralized
 	tier = city_state
@@ -9162,7 +9180,7 @@ W63 = {
 	capital = STATE_FIJI
 }
 
-W64 = {
+W65 = {
 	color = { 61 136 66 }
 	country_type = unrecognized
 	tier = grand_principality
@@ -9171,7 +9189,7 @@ W64 = {
 	capital = STATE_OUTER_MANCHURIA
 }
 
-W65 = {
+W66 = {
 	color = { 195 90 135 }
 	country_type = unrecognized
 	tier = city_state
@@ -9180,7 +9198,7 @@ W65 = {
 	capital = STATE_FIJI
 }
 
-W66 = {
+W67 = {
 	color = { 50 120 10 }
 	country_type = unrecognized
 	tier = kingdom
@@ -9189,7 +9207,7 @@ W66 = {
 	capital = STATE_VERMONT
 }
 
-W67 = {
+W68 = {
 	color = { 121 10 215 }
 	country_type = decentralized
 	tier = city_state
@@ -9198,7 +9216,7 @@ W67 = {
 	capital = STATE_OKLAHOMA
 }
 
-W68 = {
+W69 = {
 	color = { 0 200 180 }
 	country_type = decentralized
 	tier = city_state
@@ -9207,7 +9225,7 @@ W68 = {
 	capital = STATE_KACHIN
 }
 
-W69 = {
+W70 = {
 	color = { 225 250 180 }
 	country_type = recognized
 	tier = principality
@@ -9216,7 +9234,7 @@ W69 = {
 	capital = STATE_CELEBES
 }
 
-W70 = {
+W71 = {
 	color = { 35 107 191 }
 	country_type = recognized
 	tier = principality
@@ -9225,7 +9243,7 @@ W70 = {
 	capital = STATE_PALESTINE
 }
 
-W71 = {
+W72 = {
 	color = { 20 50 210 }
 	country_type = recognized
 	tier = principality
@@ -9234,7 +9252,7 @@ W71 = {
 	capital = STATE_EAST_MICRONESIA
 }
 
-W72 = {
+W73 = {
 	color = { 194 53 60 }
 	country_type = recognized
 	tier = principality
@@ -9243,7 +9261,7 @@ W72 = {
 	capital = STATE_GUANGDONG
 }
 
-W73 = {
+W74 = {
 	color = { 194 53 60 }
 	country_type = recognized
 	tier = principality
@@ -9252,7 +9270,7 @@ W73 = {
 	capital = STATE_ANNAM
 }
 
-W74 = {
+W75 = {
 	color = { 194 53 60 }
 	country_type = recognized
 	tier = principality
@@ -9261,7 +9279,7 @@ W74 = {
 	capital = STATE_TONGA
 }
 
-W75 = {
+W76 = {
 	color = { 57 53 184 }
 	country_type = recognized
 	tier = principality
@@ -9270,7 +9288,7 @@ W75 = {
 	capital = STATE_TENASSERIM
 }
 
-W76 = {
+W77 = {
 	color = { 248 96 15 }
 	country_type = recognized
 	tier = principality
@@ -9279,7 +9297,7 @@ W76 = {
 	capital = STATE_SUNDA_ISLANDS
 }
 
-W77 = {
+W78 = {
 	color = { 248 96 15 }
 	country_type = recognized
 	tier = principality
@@ -9288,7 +9306,7 @@ W77 = {
 	capital = STATE_EASTERN_NEW_GUINEA
 }
 
-W78 = {
+W79 = {
 	color = { 94 236 91 }
 	country_type = decentralized
 	tier = city_state
@@ -9297,7 +9315,7 @@ W78 = {
 	capital = STATE_YUCATAN
 }
 
-W79 = {
+W80 = {
 	color = { 64 106 191 }
 	country_type = decentralized
 	tier = city_state
@@ -9306,7 +9324,7 @@ W79 = {
 	capital = STATE_OAXACA
 }
 
-W80 = {
+W81 = {
 	color = { 57 53 184 }
 	country_type = recognized
 	tier = kingdom
@@ -9315,7 +9333,7 @@ W80 = {
 	capital = STATE_DELHI
 }
 
-W81 = {
+W82 = {
 	color = { 248 96 15 }
 	country_type = recognized
 	tier = kingdom
@@ -9324,7 +9342,7 @@ W81 = {
 	capital = STATE_BRUNSWICK
 }
 
-W82 = {
+W83 = {
 	color = { 200 150 50 }
 	country_type = unrecognized
 	tier = principality
@@ -9333,7 +9351,7 @@ W82 = {
 	capital = STATE_AKMOLINSK
 }
 
-W83 = {
+W84 = {
 	color = { 183 60 155 }
 	country_type = recognized
 	tier = principality
@@ -9342,7 +9360,7 @@ W83 = {
 	capital = STATE_EASTERN_THRACE
 }
 
-W84 = {
+W85 = {
 	color = { 97 102 135 }
 	country_type = recognized
 	tier = city_state
@@ -9351,7 +9369,7 @@ W84 = {
 	capital = STATE_BULGARIA
 }
 
-W85 = {
+W86 = {
 	color = { 179 45 29 }
 	country_type = recognized
 	tier = principality
@@ -9360,7 +9378,7 @@ W85 = {
 	capital = STATE_SAMARA
 }
 
-W86 = {
+W87 = {
 	color = { 230 159 55 }
 	country_type = recognized
 	tier = principality
@@ -9369,7 +9387,7 @@ W86 = {
 	capital = STATE_KIRGHIZIA
 }
 
-W87 = {
+W88 = {
 	color = { 100 72 15 }
 	country_type = decentralized
 	tier = city_state
@@ -9378,7 +9396,7 @@ W87 = {
 	capital = STATE_ROSTOV
 }
 
-W88 = {
+W89 = {
 	color = { 69 80 176 }
 	country_type = decentralized
 	tier = city_state
@@ -9387,7 +9405,7 @@ W88 = {
 	capital = STATE_TRIPOLI
 }
 
-W89 = {
+W90 = {
 	color = { 190 240 20 }
 	country_type = recognized
 	tier = city_state
@@ -9396,7 +9414,7 @@ W89 = {
 	capital = STATE_BESSARABIA
 }
 
-W90 = {
+W91 = {
 	color = { 115 30 0 }
 	country_type = decentralized
 	tier = city_state
@@ -9405,7 +9423,7 @@ W90 = {
 	capital = STATE_SEMIRECHE
 }
 
-W91 = {
+W92 = {
 	color = { 56 56 199 }
 	country_type = recognized
 	tier = principality
@@ -9414,7 +9432,7 @@ W91 = {
 	capital = STATE_SVEALAND
 }
 
-W92 = {
+W93 = {
 	color = { 225 220 35 }
 	country_type = recognized
 	tier = principality
@@ -9423,7 +9441,7 @@ W92 = {
 	capital = STATE_BESSARABIA
 }
 
-W93 = {
+W94 = {
 	color = { 220 160 50 }
 	country_type = unrecognized
 	tier = city_state
@@ -9432,7 +9450,7 @@ W93 = {
 	capital = STATE_WEST_KARELIA
 }
 
-W94 = {
+W95 = {
 	color = { 170 53 43 }
 	country_type = recognized
 	tier = principality
@@ -9441,7 +9459,7 @@ W94 = {
 	capital = STATE_SAMARA
 }
 
-W95 = {
+W96 = {
 	color = { 141 51 30 }
 	country_type = unrecognized
 	tier = principality
@@ -9450,7 +9468,7 @@ W95 = {
 	capital = STATE_NORTH_CAUCASUS
 }
 
-W96 = {
+W97 = {
 	color = { 81 141 85 }
 	country_type = unrecognized
 	tier = kingdom
@@ -9459,7 +9477,7 @@ W96 = {
 	capital = STATE_LINDI
 }
 
-W97 = {
+W98 = {
 	color = { 158 118 120 }
 	country_type = decentralized
 	tier = city_state
@@ -9468,22 +9486,13 @@ W97 = {
 	capital = STATE_CHIAPAS
 }
 
-W98 = {
+W99 = {
 	color = { 117 112 131 }
 	country_type = recognized
 	tier = principality
 	cultures = { ukrainian }
 	religion = orthodox
 	capital = STATE_CHERSON
-}
-
-W99 = {
-	color = { 186 164 78 }
-	country_type = recognized
-	tier = kingdom
-	cultures = { sena }
-	religion = animist
-	capital = STATE_ZAMBEZI
 }
 
 WAD = {
@@ -9941,7 +9950,7 @@ X36 = {
 X37 = {
 	color = { 35 107 191 }
 	country_type = colonial
-	tier = kingdom
+	tier = principality
 	cultures = { nilotic }
 	religion = ibadi
 	capital = STATE_SOUTH_AUSTRALIA
@@ -10245,6 +10254,15 @@ X70 = {
 }
 
 X71 = {
+	color = { 112 41 99 }
+	country_type = recognized
+	tier = principality
+	cultures = { panjabi }
+	religion = gangan
+	capital = STATE_PUNJAB
+}
+
+X72 = {
 	color = { 130 168 224 }
 	country_type = recognized
 	tier = principality
@@ -10253,7 +10271,7 @@ X71 = {
 	capital = STATE_TURKMENIA
 }
 
-X72 = {
+X73 = {
 	color = { 94 36 191 }
 	country_type = decentralized
 	tier = city_state
@@ -10262,7 +10280,7 @@ X72 = {
 	capital = STATE_GUATEMALA
 }
 
-X73 = {
+X74 = {
 	color = { 81 123 210 }
 	country_type = decentralized
 	tier = city_state
@@ -10271,7 +10289,7 @@ X73 = {
 	capital = STATE_KIEV
 }
 
-X74 = {
+X75 = {
 	color = { 99 60 39 }
 	country_type = recognized
 	tier = kingdom
@@ -10280,7 +10298,7 @@ X74 = {
 	capital = STATE_KATANGA
 }
 
-X75 = {
+X76 = {
 	color = { 255 225 57 }
 	country_type = recognized
 	tier = kingdom
@@ -10289,7 +10307,7 @@ X75 = {
 	capital = STATE_UGANDA
 }
 
-X76 = {
+X77 = {
 	color = { 99 60 239 }
 	country_type = decentralized
 	tier = city_state
@@ -10298,7 +10316,7 @@ X76 = {
 	capital = STATE_KASAI
 }
 
-X77 = {
+X78 = {
 	color = { 224 104 83 }
 	country_type = decentralized
 	tier = city_state
@@ -10307,7 +10325,7 @@ X77 = {
 	capital = STATE_NORTHERN_MANCHURIA
 }
 
-X78 = {
+X79 = {
 	color = { 163 66 74 }
 	country_type = decentralized
 	tier = city_state
@@ -10316,7 +10334,7 @@ X78 = {
 	capital = STATE_NORTH_BENGAL
 }
 
-X79 = {
+X80 = {
 	color = { 211 230 211 }
 	country_type = decentralized
 	tier = city_state
@@ -10325,7 +10343,7 @@ X79 = {
 	capital = STATE_PALESTINE
 }
 
-X80 = {
+X81 = {
 	color = { 221 93 170 }
 	country_type = decentralized
 	tier = city_state
@@ -10334,7 +10352,7 @@ X80 = {
 	capital = STATE_SOUTHERN_MANCHURIA
 }
 
-X81 = {
+X82 = {
 	color = { 244 38 38 }
 	country_type = recognized
 	tier = city_state
@@ -10343,7 +10361,7 @@ X81 = {
 	capital = STATE_EAST_AEGEAN_ISLANDS
 }
 
-X82 = {
+X83 = {
 	color = { 125 30 100 }
 	country_type = recognized
 	tier = principality
@@ -10352,7 +10370,7 @@ X82 = {
 	capital = STATE_TALINN
 }
 
-X83 = {
+X84 = {
 	color = { 99 14 87 }
 	country_type = decentralized
 	tier = city_state
@@ -10361,7 +10379,7 @@ X83 = {
 	capital = STATE_CASTILE
 }
 
-X84 = {
+X85 = {
 	color = { 233 88 88 }
 	country_type = decentralized
 	tier = city_state
@@ -10370,7 +10388,7 @@ X84 = {
 	capital = STATE_BIHAR
 }
 
-X85 = {
+X86 = {
 	color = { 188 166 93 }
 	country_type = unrecognized
 	tier = grand_principality
@@ -10379,7 +10397,7 @@ X85 = {
 	capital = STATE_LOWER_EGYPT
 }
 
-X86 = {
+X87 = {
 	color = { 67 124 181 }
 	country_type = decentralized
 	tier = city_state
@@ -10388,7 +10406,7 @@ X86 = {
 	capital = STATE_BOMBAY
 }
 
-X87 = {
+X88 = {
 	color = { 255 255 255 }
 	country_type = unrecognized
 	tier = city_state
@@ -10397,7 +10415,7 @@ X87 = {
 	capital = STATE_MEXICO
 }
 
-X88 = {
+X89 = {
 	color = { 23 114 60 }
 	country_type = decentralized
 	tier = city_state
@@ -10406,7 +10424,7 @@ X88 = {
 	capital = STATE_ERITREA
 }
 
-X89 = {
+X90 = {
 	color = { 231 181 12 }
 	country_type = unrecognized
 	tier = principality
@@ -10415,7 +10433,7 @@ X89 = {
 	capital = STATE_JALISCO
 }
 
-X90 = {
+X91 = {
 	color = { 187 96 193 }
 	country_type = decentralized
 	tier = city_state
@@ -10424,7 +10442,7 @@ X90 = {
 	capital = STATE_SOUTH_MADAGASCAR
 }
 
-X91 = {
+X92 = {
 	color = { 119 32 29 }
 	country_type = recognized
 	tier = principality
@@ -10433,7 +10451,7 @@ X91 = {
 	capital = STATE_MINDANAO
 }
 
-X92 = {
+X93 = {
 	color = { 130 180 240 }
 	country_type = recognized
 	tier = kingdom
@@ -10442,7 +10460,7 @@ X92 = {
 	capital = STATE_BEIJING
 }
 
-X93 = {
+X94 = {
 	color = { 206 235 209 }
 	country_type = decentralized
 	tier = city_state
@@ -10451,7 +10469,7 @@ X93 = {
 	capital = STATE_FUJIAN
 }
 
-X94 = {
+X95 = {
 	color = { 158 18 120 }
 	country_type = decentralized
 	tier = city_state
@@ -10460,7 +10478,7 @@ X94 = {
 	capital = STATE_OAXACA
 }
 
-X95 = {
+X96 = {
 	color = { 65 32 57 }
 	country_type = unrecognized
 	tier = principality
@@ -10469,7 +10487,7 @@ X95 = {
 	capital = STATE_SOUTHERN_MANCHURIA
 }
 
-X96 = {
+X97 = {
 	color = { 100 96 197 }
 	country_type = decentralized
 	tier = city_state
@@ -10478,7 +10496,7 @@ X96 = {
 	capital = STATE_NORTH_SUMATRA
 }
 
-X97 = {
+X98 = {
 	color = { 192 5 24 }
 	country_type = decentralized
 	tier = city_state
@@ -10487,22 +10505,13 @@ X97 = {
 	capital = STATE_CENTRAL_INDIA
 }
 
-X98 = {
+X99 = {
 	color = { 206 181 97 }
 	country_type = recognized
 	tier = principality
 	cultures = { russian }
 	religion = orthodox
 	capital = STATE_MOSCOW
-}
-
-X99 = {
-	color = { 50 123 70 }
-	country_type = unrecognized
-	tier = grand_principality
-	cultures = { south_italian }
-	religion = sunni
-	capital = STATE_CAMPANIA
 }
 
 XHO = {
