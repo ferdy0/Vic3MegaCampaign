@@ -193,7 +193,7 @@ def write_states_file(filename: str, states_container: States):
     for state_name, block in state_blocks:
         state = states_container.states.get(state_name.strip())
         if state:
-            new_block = generate_state_regions_block(state)
+            new_block = generate_state_data_block(state)
             modified_states_block_data = modified_states_block_data.replace(
                 f"s:{state_name} = {block}", new_block
             )
