@@ -220,7 +220,7 @@ def write_population_file(filename: str, states_container: States):
             modified_data = modified_data.replace(
                 f"s:{state_name} = {block}", new_block
             )
-
+    modified_data = modified_data.rstrip() + "\n}"
     with open(filename, "w") as file:
         file.write(modified_data)
 
@@ -246,18 +246,18 @@ def write_state_region_file(filename: str, states_container: States):
 
 
 def generate_state_data_block(state: State) -> str:
-    block = f"s:{state.name} = {{\n"
+    block = f"\ts:{state.name} = {{\n"
     for region in state.regions:
-        block += "\t\tcreate_state = {\n"
-        block += f"\t\tcountry = c:{region.country}\n"
-        block += f"\t\towned_provinces = {{ {' '.join(region.provinces)} }}\n"
-        block += f"\t\tstate_type = {region.type}\n"
-        block += "\t}\n"
+        block += "\t\t\tcreate_state = {\n"
+        block += f"\t\t\tcountry = c:{region.country}\n"
+        block += f"\t\t\towned_provinces = {{ {' '.join(region.provinces)} }}\n"
+        block += f"\t\t\tstate_type = {region.type}\n"
+        block += "\t\t}\n"
     for homeland in state.homelands:
-        block += f"\tadd_homeland = cu:{homeland}\n"
+        block += f"\t\tadd_homeland = cu:{homeland}\n"
     for claim in state.claims:
-        block += f"\tadd_claim = c:{claim}\n"
-    block += "}\n"
+        block += f"\t\tadd_claim = c:{claim}\n"
+    block += "\t\t}\n"
     return block
 
 
