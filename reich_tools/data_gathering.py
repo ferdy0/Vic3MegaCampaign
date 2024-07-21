@@ -248,15 +248,15 @@ def write_state_region_file(filename: str, states_container: States):
 def generate_state_data_block(state: State) -> str:
     block = f"\ts:{state.name} = {{\n"
     for region in state.regions:
-        block += "\t\t\tcreate_state = {\n"
-        block += f"\t\t\tcountry = c:{region.country}\n"
-        block += f"\t\t\towned_provinces = {{ {' '.join(region.provinces)} }}\n"
-        block += f"\t\t\tstate_type = {region.type}\n"
-        block += "\t\t}\n"
+        block += "\t\t\t\tcreate_state = {\n"
+        block += f"\t\t\t\t\t\tcountry = c:{region.country}\n"
+        block += f"\t\t\t\t\t\towned_provinces = {{ {' '.join(region.provinces)} }}\n"
+        block += f"\t\t\t\t\t\tstate_type = {region.type}\n"
+        block += "\t\t\t\t}\n"
     for homeland in state.homelands:
-        block += f"\t\tadd_homeland = cu:{homeland}\n"
+        block += f"\t\t\t\tadd_homeland = cu:{homeland}\n"
     for claim in state.claims:
-        block += f"\t\tadd_claim = c:{claim}\n"
+        block += f"\t\t\t\tadd_claim = c:{claim}\n"
     block += "\t\t}\n"
     return block
 
