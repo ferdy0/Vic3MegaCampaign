@@ -1,0 +1,19 @@
+﻿DIPLOMATIC_PLAYS = {
+	c:FRA = {
+		create_diplomatic_play = {
+			name = french_civil_cerfufle
+		
+			target_state = s:STATE_ORLEANS.region_state:W37
+			
+			war = yes
+			
+			type = dp_annex_war
+
+			add_war_goal = {
+				holder = c:W37
+				type = annex_country
+				target_state = s:STATE_AQUITAINE.region_state:FRA
+			}
+		}			
+	}
+}
