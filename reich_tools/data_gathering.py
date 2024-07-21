@@ -332,6 +332,7 @@ def generate_state_regions_block(state: State) -> str:
         for resource, amount in state.capped_resources.items():
             amount = try_conversion_to_int(amount)
             block += f"\t\t{resource} = {amount}\n"
+        block += "\t}\n"
 
     if state.resources:
         if isinstance(state.resources, list):
@@ -353,6 +354,7 @@ def generate_state_regions_block(state: State) -> str:
                 except ValueError:
                     pass
                 block += f'\t\t{key} = "{value}"\n'
+        block += "\t}\n"
 
     if state.naval_exit_id:
         block += f"\tnaval_exit_id = {state.naval_exit_id}\n"
