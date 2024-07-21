@@ -1,5 +1,5 @@
 ﻿COUNTRIES = {
-	c:W83 = {
+	c:FRA = {
 		add_technology_researched = academia
 		add_technology_researched = admiralty
 		add_technology_researched = army_reserves
@@ -36,25 +36,25 @@
 		add_technology_researched = urbanization
 		activate_law = law_type:law_appointed_bureaucrats
 		activate_law = law_type:law_autocracy
-		activate_law = law_type:law_cultural_exclusion
+		activate_law = law_type:law_colonial_exploitation
 		activate_law = law_type:law_debt_slavery
-		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_interventionism
 		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_local_police
+		activate_law = law_type:law_migration_controls
 		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_no_colonial_affairs
+		activate_law = law_type:law_national_guard
+		activate_law = law_type:law_national_militia
+		activate_law = law_type:law_national_supremacy
 		activate_law = law_type:law_no_health_system
-		activate_law = law_type:law_no_home_affairs
-		activate_law = law_type:law_no_migration_controls
-		activate_law = law_type:law_no_police
-		activate_law = law_type:law_no_schools
 		activate_law = law_type:law_no_social_security
 		activate_law = law_type:law_no_womens_rights
 		activate_law = law_type:law_no_workers_rights
-		activate_law = law_type:law_peasant_levies
+		activate_law = law_type:law_protectionism
+		activate_law = law_type:law_public_schools
 		activate_law = law_type:law_right_of_assembly
-		activate_law = law_type:law_serfdom
 		activate_law = law_type:law_state_religion
-		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_tenant_farmers
 		set_ruling_interest_groups = {
 			ig_industrialists 
 		}
@@ -67,5 +67,21 @@
 		ig:ig_trade_unions = {
 			set_ig_bolstering = yes
  		}
+		set_institution_investment_level = {
+			institution = institution_colonial_affairs
+			level = 1
+		}
+		set_institution_investment_level = {
+			institution = institution_home_affairs
+			level = 1
+		}
+		set_institution_investment_level = {
+			institution = institution_police
+			level = 1
+		}
+		set_institution_investment_level = {
+			institution = institution_schools
+			level = 3
+		}
 	}
 }
