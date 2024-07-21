@@ -1,42 +1,23 @@
 ﻿CHARACTERS = {
 	c:W96 = {
 		create_character = {
-			first_name = "Jamugha_Edigi00id"
-			is_general = yes
-			commander_rank = commander_rank_2
-			birth_date = 1802.8.3
-			traits = {
-				psychological_affliction 
-			}
-		}
-
-		create_character = {
-			first_name = "Zebulun_Gan"
-			is_general = yes
-			commander_rank = commander_rank_2
-			birth_date = 1807.3.13
-		}
-
-		create_character = {
-			first_name = "Alp_Tarkhan_Borjigin"
+			first_name = "Slavac_Teleki"
 			ruler = yes
-			culture = cu:tatar
-			religion = rel:sunni
-			birth_date = 1765.6.26
+			culture = cu:bulgarian
+			religion = rel:orthodox
+			birth_date = 1762.4.26
 			traits = {
-				basic_colonial_administrator senile 
+				arrogant experienced_colonial_administrator 
 			}
 		}
 
 		create_character = {
-			first_name = "Manasseh"
-			last_name = "Janid"
-			heir = yes
-			culture = cu:tatar
-			religion = rel:sunni
-			birth_date = 1819.1.24
+			first_name = "Narses_Cometopuli"
+			is_general = yes
+			commander_rank = commander_rank_1
+			birth_date = 1806.11.18
 			traits = {
-				tactful 
+				cocaine_addiction 
 			}
 		}
 

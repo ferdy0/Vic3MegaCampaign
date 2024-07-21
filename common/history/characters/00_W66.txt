@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	c:W65 = {
+	c:W66 = {
 		create_character = {
 			first_name = "Trifon_Beketov"
 			ruler = yes

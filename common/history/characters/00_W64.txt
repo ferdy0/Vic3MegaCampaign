@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	c:W63 = {
+	c:W64 = {
 		create_character = {
 			first_name = "Lysko_I"
 			last_name = "Koroviev"

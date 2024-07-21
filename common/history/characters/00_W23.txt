@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	c:W22 = {
+	c:W23 = {
 		create_character = {
 			first_name = "Maise_Weikutu"
 			is_general = yes

@@ -55,13 +55,13 @@
 	}
 	c:FRA = {
 		create_diplomatic_pact = {
-			country = c:W58
+			country = c:W59
 			type = dominion
 		}
 	}
 	c:FRA = {
 		create_diplomatic_pact = {
-			country = c:W38
+			country = c:W39
 			type = puppet
 		}
 	}
@@ -145,13 +145,13 @@
 	}
 	c:RUS = {
 		create_diplomatic_pact = {
-			country = c:W99
+			country = c:V00
 			type = puppet
 		}
 	}
 	c:RUS = {
 		create_diplomatic_pact = {
-			country = c:W50
+			country = c:W51
 			type = puppet
 		}
 	}
@@ -169,7 +169,7 @@
 	}
 	c:RUS = {
 		create_diplomatic_pact = {
-			country = c:W33
+			country = c:W34
 			type = puppet
 		}
 	}
@@ -193,7 +193,7 @@
 	}
 	c:RUS = {
 		create_diplomatic_pact = {
-			country = c:W34
+			country = c:W35
 			type = puppet
 		}
 	}
@@ -211,7 +211,7 @@
 	}
 	c:RUS = {
 		create_diplomatic_pact = {
-			country = c:W96
+			country = c:W97
 			type = puppet
 		}
 	}
@@ -229,19 +229,19 @@
 	}
 	c:RUS = {
 		create_diplomatic_pact = {
-			country = c:W83
+			country = c:W84
 			type = puppet
 		}
 	}
 	c:RUS = {
 		create_diplomatic_pact = {
-			country = c:W24
+			country = c:W25
 			type = puppet
 		}
 	}
 	c:RUS = {
 		create_diplomatic_pact = {
-			country = c:W63
+			country = c:W64
 			type = puppet
 		}
 	}
@@ -253,7 +253,7 @@
 	}
 	c:RUS = {
 		create_diplomatic_pact = {
-			country = c:W35
+			country = c:W36
 			type = puppet
 		}
 	}
@@ -265,7 +265,7 @@
 	}
 	c:RUS = {
 		create_diplomatic_pact = {
-			country = c:W87
+			country = c:W88
 			type = puppet
 		}
 	}
@@ -343,13 +343,13 @@
 	}
 	c:RUS = {
 		create_diplomatic_pact = {
-			country = c:W22
+			country = c:W23
 			type = puppet
 		}
 	}
 	c:RUS = {
 		create_diplomatic_pact = {
-			country = c:W29
+			country = c:W30
 			type = puppet
 		}
 	}
@@ -367,13 +367,7 @@
 	}
 	c:RUS = {
 		create_diplomatic_pact = {
-			country = c:W37
-			type = puppet
-		}
-	}
-	c:RUS = {
-		create_diplomatic_pact = {
-			country = c:W41
+			country = c:W38
 			type = puppet
 		}
 	}
@@ -385,7 +379,13 @@
 	}
 	c:RUS = {
 		create_diplomatic_pact = {
-			country = c:W44
+			country = c:W43
+			type = puppet
+		}
+	}
+	c:RUS = {
+		create_diplomatic_pact = {
+			country = c:W45
 			type = puppet
 		}
 	}
@@ -409,19 +409,19 @@
 	}
 	c:RUS = {
 		create_diplomatic_pact = {
-			country = c:W51
+			country = c:W52
 			type = puppet
 		}
 	}
 	c:RUS = {
 		create_diplomatic_pact = {
-			country = c:W57
+			country = c:W58
 			type = puppet
 		}
 	}
 	c:RUS = {
 		create_diplomatic_pact = {
-			country = c:W65
+			country = c:W66
 			type = puppet
 		}
 	}
@@ -433,19 +433,13 @@
 	}
 	c:RUS = {
 		create_diplomatic_pact = {
-			country = c:W86
+			country = c:W87
 			type = puppet
 		}
 	}
 	c:RUS = {
 		create_diplomatic_pact = {
-			country = c:W90
-			type = puppet
-		}
-	}
-	c:RUS = {
-		create_diplomatic_pact = {
-			country = c:W93
+			country = c:W91
 			type = puppet
 		}
 	}
@@ -463,6 +457,12 @@
 	}
 	c:RUS = {
 		create_diplomatic_pact = {
+			country = c:W96
+			type = puppet
+		}
+	}
+	c:RUS = {
+		create_diplomatic_pact = {
 			country = c:YAK
 			type = puppet
 		}
@@ -473,7 +473,7 @@
 			type = puppet
 		}
 	}
-	c:W67 = {
+	c:W68 = {
 		create_diplomatic_pact = {
 			country = c:PWN
 			type = vassal
@@ -491,127 +491,127 @@
 			type = puppet
 		}
 	}
-	c:W81 = {
+	c:W82 = {
 		create_diplomatic_pact = {
 			country = c:NEP
 			type = puppet
 		}
 	}
-	c:W81 = {
+	c:W82 = {
 		create_diplomatic_pact = {
 			country = c:AFG
 			type = puppet
 		}
 	}
-	c:W81 = {
+	c:W82 = {
 		create_diplomatic_pact = {
 			country = c:X66
 			type = puppet
 		}
 	}
-	c:W81 = {
+	c:W82 = {
 		create_diplomatic_pact = {
 			country = c:X67
 			type = puppet
 		}
 	}
-	c:W81 = {
+	c:W82 = {
 		create_diplomatic_pact = {
 			country = c:X68
 			type = puppet
 		}
 	}
-	c:W81 = {
+	c:W82 = {
 		create_diplomatic_pact = {
 			country = c:X69
 			type = puppet
 		}
 	}
-	c:W81 = {
+	c:W82 = {
 		create_diplomatic_pact = {
 			country = c:X70
 			type = puppet
 		}
 	}
-	c:W81 = {
+	c:W82 = {
 		create_diplomatic_pact = {
 			country = c:X71
 			type = puppet
 		}
 	}
-	c:W81 = {
+	c:W82 = {
 		create_diplomatic_pact = {
 			country = c:BUR
 			type = puppet
 		}
 	}
-	c:W81 = {
+	c:W82 = {
 		create_diplomatic_pact = {
 			country = c:X37
 			type = puppet
 		}
 	}
-	c:W82 = {
+	c:W83 = {
 		create_diplomatic_pact = {
 			country = c:X42
 			type = dominion
 		}
 	}
-	c:W82 = {
+	c:W83 = {
 		create_diplomatic_pact = {
 			country = c:CUB
 			type = dominion
 		}
 	}
-	c:W82 = {
+	c:W83 = {
 		create_diplomatic_pact = {
 			country = c:X24
 			type = puppet
 		}
 	}
-	c:W82 = {
+	c:W83 = {
 		create_diplomatic_pact = {
-			country = c:W54
+			country = c:W55
 			type = puppet
 		}
 	}
-	c:W82 = {
+	c:W83 = {
 		create_diplomatic_pact = {
-			country = c:W92
+			country = c:W93
 			type = puppet
 		}
 	}
-	c:W82 = {
+	c:W83 = {
 		create_diplomatic_pact = {
 			country = c:X54
 			type = puppet
 		}
 	}
-	c:V00 = {
+	c:V15 = {
 		create_diplomatic_pact = {
 			country = c:X76
 			type = puppet
 		}
 	}
-	c:V00 = {
+	c:V15 = {
 		create_diplomatic_pact = {
 			country = c:X09
 			type = puppet
 		}
 	}
-	c:V00 = {
+	c:V15 = {
 		create_diplomatic_pact = {
 			country = c:KSN
 			type = puppet
 		}
 	}
-	c:V00 = {
+	c:V15 = {
 		create_diplomatic_pact = {
 			country = c:LND
 			type = puppet
 		}
 	}
-	c:V00 = {
+	c:V15 = {
 		create_diplomatic_pact = {
 			country = c:CHK
 			type = puppet
@@ -619,23 +619,17 @@
 	}
 	c:ANL = {
 		create_diplomatic_pact = {
-			country = c:W70
+			country = c:W71
 			type = dominion
 		}
 	}
 	c:X37 = {
 		create_diplomatic_pact = {
-			country = c:W71
-			type = dominion
-		}
-	}
-	c:FRA = {
-		create_diplomatic_pact = {
 			country = c:W72
 			type = dominion
 		}
 	}
-	c:JAP = {
+	c:FRA = {
 		create_diplomatic_pact = {
 			country = c:W73
 			type = dominion
@@ -653,7 +647,7 @@
 			type = dominion
 		}
 	}
-	c:W81 = {
+	c:JAP = {
 		create_diplomatic_pact = {
 			country = c:W76
 			type = dominion
@@ -665,9 +659,15 @@
 			type = dominion
 		}
 	}
-	c:W82 = {
+	c:W83 = {
 		create_diplomatic_pact = {
 			country = c:W78
+			type = dominion
+		}
+	}
+	c:W83 = {
+		create_diplomatic_pact = {
+			country = c:W79
 			type = dominion
 		}
 	}

@@ -1,7 +1,7 @@
 ﻿DIPLOMACY = {
 	c:X07 = {
 		create_diplomatic_pact = {
-			country = c:W39
+			country = c:W40
 			type = defensive_pact
 		}
 	}
@@ -181,17 +181,17 @@
 	}
 	c:X61 = {
 		create_diplomatic_pact = {
-			country = c:W26
+			country = c:W27
 			type = defensive_pact
 		}
 	}
 	c:X72 = {
 		create_diplomatic_pact = {
-			country = c:W43
+			country = c:W44
 			type = defensive_pact
 		}
 	}
-	c:W43 = {
+	c:W44 = {
 		create_diplomatic_pact = {
 			country = c:X72
 			type = defensive_pact
@@ -281,13 +281,13 @@
 			type = defensive_pact
 		}
 	}
-	c:W22 = {
+	c:W23 = {
 		create_diplomatic_pact = {
 			country = c:X96
 			type = defensive_pact
 		}
 	}
-	c:W26 = {
+	c:W27 = {
 		create_diplomatic_pact = {
 			country = c:KFA
 			type = defensive_pact
@@ -305,7 +305,7 @@
 			type = defensive_pact
 		}
 	}
-	c:W39 = {
+	c:W40 = {
 		create_diplomatic_pact = {
 			country = c:GRE
 			type = defensive_pact
@@ -313,11 +313,11 @@
 	}
 	c:GRE = {
 		create_diplomatic_pact = {
-			country = c:W39
+			country = c:W40
 			type = defensive_pact
 		}
 	}
-	c:W43 = {
+	c:W44 = {
 		create_diplomatic_pact = {
 			country = c:NEJ
 			type = defensive_pact
@@ -325,11 +325,11 @@
 	}
 	c:NEJ = {
 		create_diplomatic_pact = {
-			country = c:W43
+			country = c:W44
 			type = defensive_pact
 		}
 	}
-	c:W43 = {
+	c:W44 = {
 		create_diplomatic_pact = {
 			country = c:ETH
 			type = defensive_pact
@@ -337,7 +337,7 @@
 	}
 	c:ETH = {
 		create_diplomatic_pact = {
-			country = c:W43
+			country = c:W44
 			type = defensive_pact
 		}
 	}
@@ -371,7 +371,7 @@
 			type = defensive_pact
 		}
 	}
-	c:W67 = {
+	c:W68 = {
 		create_diplomatic_pact = {
 			country = c:X07
 			type = defensive_pact
@@ -379,11 +379,11 @@
 	}
 	c:X07 = {
 		create_diplomatic_pact = {
-			country = c:W67
+			country = c:W68
 			type = defensive_pact
 		}
 	}
-	c:W81 = {
+	c:W82 = {
 		create_diplomatic_pact = {
 			country = c:X07
 			type = defensive_pact
@@ -391,29 +391,29 @@
 	}
 	c:X07 = {
 		create_diplomatic_pact = {
-			country = c:W81
+			country = c:W82
 			type = defensive_pact
 		}
 	}
-	c:W81 = {
+	c:W82 = {
 		create_diplomatic_pact = {
-			country = c:V00
+			country = c:V15
 			type = defensive_pact
 		}
 	}
-	c:V00 = {
+	c:V15 = {
 		create_diplomatic_pact = {
-			country = c:W81
+			country = c:W82
 			type = defensive_pact
 		}
 	}
-	c:W81 = {
+	c:W82 = {
 		create_diplomatic_pact = {
-			country = c:W39
+			country = c:W40
 			type = defensive_pact
 		}
 	}
-	c:W81 = {
+	c:W82 = {
 		create_diplomatic_pact = {
 			country = c:SIA
 			type = defensive_pact
@@ -421,29 +421,29 @@
 	}
 	c:SIA = {
 		create_diplomatic_pact = {
-			country = c:W81
+			country = c:W82
 			type = defensive_pact
 		}
 	}
-	c:W81 = {
+	c:W82 = {
 		create_diplomatic_pact = {
 			country = c:SIA
 			type = defensive_pact
 		}
 	}
-	c:W81 = {
+	c:W82 = {
 		create_diplomatic_pact = {
-			country = c:W97
-			type = defensive_pact
-		}
-	}
-	c:W81 = {
-		create_diplomatic_pact = {
-			country = c:W97
+			country = c:W98
 			type = defensive_pact
 		}
 	}
 	c:W82 = {
+		create_diplomatic_pact = {
+			country = c:W98
+			type = defensive_pact
+		}
+	}
+	c:W83 = {
 		create_diplomatic_pact = {
 			country = c:X07
 			type = defensive_pact
@@ -451,17 +451,17 @@
 	}
 	c:X07 = {
 		create_diplomatic_pact = {
-			country = c:W82
+			country = c:W83
 			type = defensive_pact
 		}
 	}
-	c:W82 = {
+	c:W83 = {
 		create_diplomatic_pact = {
 			country = c:GRE
 			type = defensive_pact
 		}
 	}
-	c:W82 = {
+	c:W83 = {
 		create_diplomatic_pact = {
 			country = c:GRE
 			type = defensive_pact
@@ -469,23 +469,23 @@
 	}
 	c:GRE = {
 		create_diplomatic_pact = {
-			country = c:W82
+			country = c:W83
 			type = defensive_pact
 		}
 	}
-	c:W92 = {
+	c:W93 = {
 		create_diplomatic_pact = {
-			country = c:W54
+			country = c:W55
 			type = defensive_pact
 		}
 	}
-	c:W54 = {
+	c:W55 = {
 		create_diplomatic_pact = {
-			country = c:W92
+			country = c:W93
 			type = defensive_pact
 		}
 	}
-	c:W92 = {
+	c:W93 = {
 		create_diplomatic_pact = {
 			country = c:X54
 			type = defensive_pact
@@ -493,11 +493,11 @@
 	}
 	c:X54 = {
 		create_diplomatic_pact = {
-			country = c:W92
+			country = c:W93
 			type = defensive_pact
 		}
 	}
-	c:V00 = {
+	c:V15 = {
 		create_diplomatic_pact = {
 			country = c:K09
 			type = defensive_pact
