@@ -354,7 +354,7 @@ def generate_state_regions_block(state: State) -> str:
                 except ValueError:
                     pass
                 block += f'\t\t{key} = "{value}"\n'
-        block += "\t}\n"
+            block += "\t}\n"
 
     if state.naval_exit_id:
         block += f"\tnaval_exit_id = {state.naval_exit_id}\n"
