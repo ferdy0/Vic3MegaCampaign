@@ -247,7 +247,7 @@ def write_state_region_file(filename: str, states_container: States):
 
 def generate_state_block(state: State) -> str:
     state_dict = state.to_dict()
-    block = f"STATE_{state.name} = {{\n"
+    block = f"{state.name} = {{\n"
     for key, value in state_dict.items():
         if isinstance(value, list):
             if all(isinstance(item, dict) for item in value):
@@ -274,7 +274,7 @@ def generate_state_block(state: State) -> str:
 
 
 def generate_population_data_block(state: State) -> str:
-    block = "{\n"
+    block = f"s:{state.name} = {{\n"
     for region in state.regions:
         if region.populations:
             block += f"\tregion_state:{region.country} = {{\n"
@@ -290,7 +290,7 @@ def generate_population_data_block(state: State) -> str:
 
 
 def generate_state_data_block(state: State) -> str:
-    block = "{\n"
+    block = f"s:{state.name} = {{\n"
     for region in state.regions:
         block += "\tcreate_state = {\n"
         block += f"\t\tcountry = c:{region.country}\n"
@@ -333,11 +333,11 @@ add_population_data(states, population_filepath)
 # Modify data in memory
 # modify_data(states)
 #
-# # Write back to states file
-# write_states_file(states_filepath, states)
-#
-# # Write back to population file
-# write_population_file(population_filepath, states)
+# Write back to states file
+write_states_file(states_filepath, states)
+
+# Write back to population file
+write_population_file(population_filepath, states)
 
 # Process state region files in the folder and write back
 process_state_region_files(state_regions_folder, states)
