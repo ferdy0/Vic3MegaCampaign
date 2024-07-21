@@ -536,13 +536,13 @@
 	c:W82 = {
 		create_diplomatic_pact = {
 			country = c:BUR
-			type = puppet
+			type = protectorate
 		}
 	}
 	c:W82 = {
 		create_diplomatic_pact = {
 			country = c:X37
-			type = puppet
+			type = protectorate
 		}
 	}
 	c:W83 = {
