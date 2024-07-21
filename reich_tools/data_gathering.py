@@ -330,11 +330,25 @@ def generate_state_regions_block(state: State) -> str:
         block += "\t}\n"
 
     if state.resources:
-        for resource in state.resources:
+        if isinstance(state.resources, list):
+            for resource in state.resources:
+                block += "\tresource = {\n"
+                for key, value in resource.items():
+                    try:
+                        value = int(value)
+                    except ValueError:
+                        pass
+                    block += f'\t\t{key} = "{value}"\n'
+
+                block += "\t}\n"
+        else:
             block += "\tresource = {\n"
-            block += f'\t\ttype = "{resource["type"]}"\n'
-            block += f'\t\tundiscovered_amount = {resource["undiscovered_amount"]}\n'
-            block += "\t}\n"
+            for key, value in state.resources.items():
+                try:
+                    value = int(value)
+                except ValueError:
+                    pass
+                block += f'\t\t{key} = "{value}"\n'
 
     if state.naval_exit_id:
         block += f"\tnaval_exit_id = {state.naval_exit_id}\n"
