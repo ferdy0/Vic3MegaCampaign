@@ -89,7 +89,7 @@ def parse_state_region_file(filename: str, states_container):
         state.capped_resources = extract_dict(
             r"capped_resources\s*=\s*\{([^}]*)\}", block
         )
-        state.resource = extract_dict(r"resource\s*=\s*\{([^}]*)\}", block)
+        state.resources = extract_dict(r"resource\s*=\s*\{([^}]*)\}", block)
         state.naval_exit_id = extract_field(r"naval_exit_id\s*=\s*(\d+)", block)
         state.traits = extract_list(r"traits\s*=\s*\{([^}]*)\}", block)
 
@@ -321,9 +321,8 @@ def generate_state_regions_block(state: State) -> str:
             block += f"\t\t{resource} = {amount}\n"
         block += "\t}\n"
 
-    if state.resource:
-        for resource in state.resource:
-            print(state.resource)
+    if state.resources:
+        for resource in state.resources:
             block += "\tresource = {\n"
             block += f'\t\ttype = "{resource["type"]}"\n'
             block += f'\t\tundiscovered_amount = {resource["undiscovered_amount"]}\n'

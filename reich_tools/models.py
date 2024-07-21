@@ -1,5 +1,6 @@
 from typing import Dict, List
 
+
 class Population:
     def __init__(self, culture: str, religion: str, size: int):
         self.culture = culture
@@ -21,7 +22,6 @@ class Region:
         self.type = type
         self.populations = []
 
-
     def add_population(self, population: Population):
         self.populations.append(population)
 
@@ -33,9 +33,9 @@ class Region:
             "populations": [population.to_dict() for population in self.populations],
         }
 
-
     def sum_populations(self):
         return sum(population.size for population in self.populations)
+
 
 class State:
     def __init__(self, name: str):
@@ -54,7 +54,7 @@ class State:
         self.arable_land = None
         self.arable_resources = []
         self.capped_resources = {}
-        self.resource = {}
+        self.resources = {}
         self.naval_exit_id = None
         self.traits = []
 
@@ -84,10 +84,11 @@ class State:
             "arable_land": self.arable_land,
             "arable_resources": self.arable_resources,
             "capped_resources": self.capped_resources,
-            "resource": self.resource,
+            "resource": self.resources,
             "naval_exit_id": self.naval_exit_id,
             "traits": self.traits,
         }
+
 
 class States:
     def __init__(self):
@@ -96,6 +97,7 @@ class States:
     def add_state(self, state: State):
         self.states[state.name] = state
 
-
     def to_dict(self):
-        return {state_name: state.to_dict() for state_name, state in self.states.items()}
+        return {
+            state_name: state.to_dict() for state_name, state in self.states.items()
+        }
