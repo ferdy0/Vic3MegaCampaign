@@ -246,29 +246,57 @@ def write_state_region_file(filename: str, states_container: States):
 
 
 def generate_state_block(state: State) -> str:
-    state_dict = state.to_dict()
     block = f"{state.name} = {{\n"
-    for key, value in state_dict.items():
-        if isinstance(value, list):
-            if all(isinstance(item, dict) for item in value):
-                # Handle list of dictionaries
-                block += f"\t{key} = {{\n"
-                for item in value:
-                    block += "\t\t{\n"
-                    for k, v in item.items():
-                        block += f"\t\t\t{k} = {v}\n"
-                    block += "\t\t}\n"
-                block += "\t}\n"
-            else:
-                # Handle list of strings
-                block += f"\t{key} = {{ " + " ".join(value) + " }\n"
-        elif isinstance(value, dict):
-            block += f"\t{key} = {{\n"
-            for k, v in value.items():
-                block += f"\t\t{k} = {v}\n"
+    block += f"\tid = {state.id}\n"
+    block += f'\tsubsistence_building = "{state.subsistence_building}"\n'
+
+    # Format provinces list correctly
+    provinces_formatted = " ".join(f'"{prov}"' for prov in state.provinces)
+    block += f"\tprovinces = {{ {provinces_formatted} }}\n"
+
+    if state.traits:
+        traits_formatted = " ".join(f'"{trait}"' for trait in state.traits)
+        block += f"\ttraits = {{ {traits_formatted} }}\n"
+
+    if state.city:
+        block += f'\tcity = "{state.city}"\n'
+
+    if state.port:
+        block += f'\tport = "{state.port}"\n'
+
+    if state.farm:
+        block += f'\tfarm = "{state.farm}"\n'
+
+    if state.mine:
+        block += f'\tmine = "{state.mine}"\n'
+
+    if state.wood:
+        block += f'\twood = "{state.wood}"\n'
+
+    block += f"\tarable_land = {state.arable_land}\n"
+
+    if state.arable_resources:
+        arable_resources_formatted = " ".join(
+            f'"{res}"' for res in state.arable_resources
+        )
+        block += f"\tarable_resources = {{ {arable_resources_formatted} }}\n"
+
+    if state.capped_resources:
+        block += "\tcapped_resources = {\n"
+        for resource, amount in state.capped_resources.items():
+            block += f"\t\t{resource} = {amount}\n"
+        block += "\t}\n"
+
+    if state.resource:
+        for res in state.resource:
+            block += "\tresource = {\n"
+            block += f'\t\ttype = "{res["type"]}"\n'
+            block += f'\t\tundiscovered_amount = {res["undiscovered_amount"]}\n'
             block += "\t}\n"
-        elif value is not None:
-            block += f"\t{key} = {value}\n"
+
+    if state.naval_exit_id:
+        block += f"\tnaval_exit_id = {state.naval_exit_id}\n"
+
     block += "}\n"
     return block
 
