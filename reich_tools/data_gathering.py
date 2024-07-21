@@ -112,6 +112,9 @@ def extract_list(pattern: str, block: str):
 
 def extract_dict(pattern: str, block: str):
     matches = re.findall(pattern, block, re.DOTALL)
+    if not matches:
+        return {}  # Return an empty dict if no matches
+
     result = []
     for match in matches:
         entry = {}
@@ -121,6 +124,11 @@ def extract_dict(pattern: str, block: str):
                 key, value = line.split("=", 1)
                 entry[key.strip()] = value.strip()
         result.append(entry)
+
+    # Return a single dictionary if there's only one match
+    if len(result) == 1:
+        return result[0]
+
     return result
 
 
