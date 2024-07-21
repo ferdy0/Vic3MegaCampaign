@@ -38311,7 +38311,7 @@
 		}
 	}
 	s:STATE_NORTH_MADAGASCAR = {
-		region_state:W82 = {
+		region_state:W77 = {
 			create_pop = {
 				culture = malagasy
 				religion = animist
@@ -49674,7 +49674,7 @@
 		}
 	}
 	s:STATE_SOUTH_MADAGASCAR = {
-		region_state:W82 = {
+		region_state:W77 = {
 			create_pop = {
 				culture = malagasy
 				religion = animist
@@ -61585,7 +61585,7 @@
 				size = 33979
 			}
 		}
-		region_state:W82 = {
+		region_state:W77 = {
 			create_pop = {
 				culture = swahili
 				religion = ibadi
