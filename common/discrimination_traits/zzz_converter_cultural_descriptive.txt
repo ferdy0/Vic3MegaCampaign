@@ -1,5 +1,0 @@
-﻿latinophone = {}
-phoeniciophone = {}
-
-oviparity = {}
-vivaparity = {}
