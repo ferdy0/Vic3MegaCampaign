@@ -1,0 +1,63 @@
+﻿CHARACTERS = {
+	c:ALB = {
+		create_character = {
+			first_name = "Blerta"
+			last_name = "Konica"
+			female = yes
+			culture = cu:albanian
+			religion = rel:orthodox
+			birth_date = 1800.4.16
+			traits = {
+				basic_diplomat direct 
+			}
+		}
+
+		create_character = {
+			first_name = "Adnan"
+			last_name = "Kota"
+			heir = yes
+			culture = cu:albanian
+			religion = rel:orthodox
+			birth_date = 1828.1.19
+			traits = {
+				trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Nikolla_I"
+			last_name = "Kota"
+			ruler = yes
+			culture = cu:albanian
+			religion = rel:orthodox
+			birth_date = 1813.1.19
+			traits = {
+				direct experienced_diplomat 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+		create_character = {
+			first_name = "Milaim_Gjika"
+			is_general = yes
+			commander_rank = commander_rank_2
+			birth_date = 1789.7.11
+			traits = {
+				alcoholic 
+			}
+		}
+
+		create_character = {
+			first_name = "Zenel_Chani"
+			is_general = yes
+			commander_rank = commander_rank_2
+			birth_date = 1793.4.21
+			traits = {
+				cautious 
+			}
+		}
+
+	}
+}

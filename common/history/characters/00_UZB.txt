@@ -1,0 +1,55 @@
+﻿CHARACTERS = {
+	c:UZB = {
+		create_character = {
+			first_name = "Narbuta_Chagan_Erdene"
+			is_general = yes
+			commander_rank = commander_rank_1
+			birth_date = 1804.11.7
+			traits = {
+				cocaine_addiction 
+			}
+		}
+
+		create_character = {
+			first_name = "Malaika"
+			last_name = "Kirghiz"
+			female = yes
+			culture = cu:ukrainian
+			religion = rel:orthodox
+			birth_date = 1802.3.23
+			traits = {
+				ambitious basic_diplomat 
+			}
+		}
+
+		create_character = {
+			first_name = "Muhammad_Amin"
+			last_name = "Gan"
+			heir = yes
+			culture = cu:ukrainian
+			religion = rel:orthodox
+			birth_date = 1828.12.12
+			traits = {
+				basic_political_operator trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Habash_I"
+			last_name = "Gan"
+			ruler = yes
+			is_general = yes
+			commander_rank = commander_rank_2
+			culture = cu:ukrainian
+			religion = rel:orthodox
+			birth_date = 1800.3.30
+			traits = {
+				basic_colonial_administrator reckless 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+	}
+}

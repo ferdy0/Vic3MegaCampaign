@@ -1,0 +1,55 @@
+﻿CHARACTERS = {
+	c:BUL = {
+		create_character = {
+			first_name = "Dimitar_Dobrovski"
+			is_general = yes
+			commander_rank = commander_rank_1
+			birth_date = 1796.5.16
+			traits = {
+				opium_addiction 
+			}
+		}
+
+		create_character = {
+			first_name = "Krasimira"
+			last_name = "Teleki"
+			female = yes
+			culture = cu:bulgarian
+			religion = rel:orthodox
+			birth_date = 1799.3.13
+			traits = {
+				basic_colonial_administrator charismatic 
+			}
+		}
+
+		create_character = {
+			first_name = "Aleksandar"
+			last_name = "Shishman"
+			heir = yes
+			culture = cu:bulgarian
+			religion = rel:orthodox
+			birth_date = 1827.10.4
+			traits = {
+				basic_colonial_administrator trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Iwan_Asen_IV"
+			last_name = "Shishman"
+			ruler = yes
+			is_general = yes
+			commander_rank = commander_rank_2
+			culture = cu:bulgarian
+			religion = rel:orthodox
+			birth_date = 1807.7.20
+			traits = {
+				ambitious basic_diplomat 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+	}
+}

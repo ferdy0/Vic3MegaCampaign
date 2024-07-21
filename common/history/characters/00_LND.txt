@@ -1,0 +1,25 @@
+﻿CHARACTERS = {
+	c:LND = {
+		create_character = {
+			first_name = "Mutand_Mukaz_Ndembu"
+			ruler = yes
+			culture = cu:lunda
+			religion = rel:animist
+			birth_date = 1782.7.1
+			traits = {
+				experienced_colonial_administrator meticulous 
+			}
+		}
+
+		create_character = {
+			first_name = "Yaav_Kazembe"
+			is_general = yes
+			commander_rank = commander_rank_1
+			birth_date = 1786.8.12
+			traits = {
+				alcoholic 
+			}
+		}
+
+	}
+}

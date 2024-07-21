@@ -1,0 +1,34 @@
+﻿CHARACTERS = {
+	c:CUB = {
+		create_character = {
+			first_name = "Johanna_Schneider"
+			is_admiral = yes
+			commander_rank = commander_rank_3
+			female = yes
+			birth_date = 1818.12.19
+			traits = {
+				psychological_affliction 
+			}
+		}
+
+		create_character = {
+			first_name = "Giselher_Koeppe"
+			ruler = yes
+			culture = cu:neo-caribbean_colony-dynamic-saxon-culture-num1
+			religion = rel:samaritan
+			birth_date = 1792.1.25
+			traits = {
+				meticulous 
+			}
+		}
+
+		create_character = {
+			first_name = "Evelyn_Scharfbillig"
+			is_admiral = yes
+			commander_rank = commander_rank_2
+			female = yes
+			birth_date = 1800.1.14
+		}
+
+	}
+}

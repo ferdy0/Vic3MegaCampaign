@@ -1,0 +1,87 @@
+﻿CHARACTERS = {
+	c:AFG = {
+		create_character = {
+			first_name = "Ayub_Karmal"
+			is_general = yes
+			commander_rank = commander_rank_5
+			birth_date = 1809.2.28
+			traits = {
+				surveyor 
+			}
+		}
+
+		create_character = {
+			first_name = "Muhammad_Qadir"
+			ruler = yes
+			is_general = yes
+			commander_rank = commander_rank_3
+			culture = cu:pashtun
+			religion = rel:gangan
+			birth_date = 1774.9.2
+			traits = {
+				basic_offensive_planner tactful 
+			}
+		}
+
+		create_character = {
+			first_name = "Fath_Jang_Ahmad"
+			is_general = yes
+			commander_rank = commander_rank_3
+			birth_date = 1792.9.26
+			traits = {
+				basic_offensive_planner 
+			}
+		}
+
+		create_character = {
+			first_name = "Ayub_Qadir"
+			is_admiral = yes
+			commander_rank = commander_rank_3
+			birth_date = 1798.11.7
+			traits = {
+				shellshocked 
+			}
+		}
+
+		create_character = {
+			first_name = "Ahmad_Ghazi"
+			is_general = yes
+			commander_rank = commander_rank_4
+			birth_date = 1781.6.10
+			traits = {
+				experienced_offensive_planner 
+			}
+		}
+
+		create_character = {
+			first_name = "Mir_Ways_Ahmad"
+			is_general = yes
+			commander_rank = commander_rank_3
+			birth_date = 1793.5.3
+			traits = {
+				shellshocked 
+			}
+		}
+
+		create_character = {
+			first_name = "Humayun_Ahmad"
+			is_general = yes
+			commander_rank = commander_rank_4
+			birth_date = 1791.4.10
+			traits = {
+				basic_defensive_strategist cautious 
+			}
+		}
+
+		create_character = {
+			first_name = "Zaman_Najibullah"
+			is_admiral = yes
+			commander_rank = commander_rank_1
+			birth_date = 1796.1.30
+			traits = {
+				cocaine_addiction 
+			}
+		}
+
+	}
+}

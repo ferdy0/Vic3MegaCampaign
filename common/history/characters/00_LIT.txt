@@ -1,0 +1,41 @@
+﻿CHARACTERS = {
+	c:LIT = {
+		create_character = {
+			first_name = "Agn0"
+			last_name = "Gonzaga"
+			heir = yes
+			female = yes
+			culture = cu:french
+			religion = rel:orthodox
+			birth_date = 1803.6.24
+			traits = {
+				arrogant experienced_diplomat 
+			}
+		}
+
+		create_character = {
+			first_name = "Marijus_Sosnovskis"
+			is_general = yes
+			commander_rank = commander_rank_3
+			birth_date = 1795.9.19
+			traits = {
+				shellshocked 
+			}
+		}
+
+		create_character = {
+			first_name = "Jogaila_II"
+			last_name = "Gonzaga"
+			ruler = yes
+			is_general = yes
+			commander_rank = commander_rank_2
+			culture = cu:french
+			religion = rel:orthodox
+			birth_date = 1806.4.2
+			traits = {
+				basic_diplomat cautious 
+			}
+		}
+
+	}
+}

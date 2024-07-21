@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:DFR = {
+		create_character = {
+			first_name = "Abdul"
+			last_name = "Yugid"
+			heir = yes
+			culture = cu:dynamic-daju-zaghawa-culture-num1
+			religion = rel:sunni
+			birth_date = 1828.9.19
+			traits = {
+				trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Ett_II"
+			last_name = "Yugid"
+			ruler = yes
+			culture = cu:dynamic-daju-zaghawa-culture-num1
+			religion = rel:sunni
+			birth_date = 1788.8.29
+			traits = {
+				persistent 
+			}
+		}
+
+	}
+}

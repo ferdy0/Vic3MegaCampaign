@@ -1,0 +1,30 @@
+﻿CHARACTERS = {
+	c:X63 = {
+		create_character = {
+			first_name = "Aoi_Yamato"
+			ruler = yes
+			is_admiral = yes
+			commander_rank = commander_rank_2
+			interest_group = ig_industrialists
+			culture = cu:japanese
+			religion = rel:shinto
+			birth_date = 1778.1.16
+			traits = {
+				shellshocked 
+			}
+		}
+
+		create_character = {
+			first_name = "Yoshizumi"
+			last_name = "Rajasanagara"
+			heir = yes
+			culture = cu:japanese
+			religion = rel:shinto
+			birth_date = 1815.4.23
+			traits = {
+				charismatic 
+			}
+		}
+
+	}
+}

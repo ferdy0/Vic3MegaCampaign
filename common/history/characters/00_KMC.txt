@@ -1,0 +1,17 @@
+﻿CHARACTERS = {
+	c:KMC = {
+		create_character = {
+			first_name = "Kharyskhan_Vankho"
+			ruler = yes
+			is_general = yes
+			commander_rank = commander_rank_3
+			culture = cu:siberian
+			religion = rel:sunni
+			birth_date = 1801.8.4
+			traits = {
+				ambitious basic_political_operator 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,26 @@
+﻿CHARACTERS = {
+	c:BRU = {
+		create_character = {
+			first_name = "Tevai_Chairul"
+			is_admiral = yes
+			commander_rank = commander_rank_1
+			female = yes
+			birth_date = 1790.11.28
+			traits = {
+				opium_addiction 
+			}
+		}
+
+		create_character = {
+			first_name = "_Abd_al-Jal0l_Chairul"
+			ruler = yes
+			culture = cu:bornean
+			religion = rel:sunni
+			birth_date = 1793.3.2
+			traits = {
+				cautious experienced_political_operator 
+			}
+		}
+
+	}
+}

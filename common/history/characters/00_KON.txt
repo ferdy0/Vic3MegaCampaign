@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:KON = {
+		create_character = {
+			first_name = "Mutand_Youla"
+			ruler = yes
+			is_general = yes
+			commander_rank = commander_rank_2
+			interest_group = ig_industrialists
+			culture = cu:bakongo
+			religion = rel:catholic
+			birth_date = 1795.7.13
+			traits = {
+				basic_colonial_administrator meticulous 
+			}
+		}
+
+		create_character = {
+			first_name = "MONARCH_NAME_ANTONIO_Tayot"
+			is_general = yes
+			commander_rank = commander_rank_3
+			birth_date = 1800.12.8
+			traits = {
+				shellshocked 
+			}
+		}
+
+	}
+}

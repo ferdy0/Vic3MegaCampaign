@@ -1,0 +1,54 @@
+﻿CHARACTERS = {
+	c:SER = {
+		create_character = {
+			first_name = "Aaqila"
+			last_name = "Sankovic"
+			heir = yes
+			female = yes
+			culture = cu:bosniak
+			religion = rel:samaritan
+			birth_date = 1825.3.28
+			traits = {
+				basic_diplomat trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Fatmire"
+			last_name = "Visevic"
+			female = yes
+			culture = cu:bosniak
+			religion = rel:samaritan
+			birth_date = 1799.12.18
+			traits = {
+				ambitious 
+			}
+		}
+
+		create_character = {
+			first_name = "Theodosios_V"
+			last_name = "Sankovic"
+			ruler = yes
+			culture = cu:bosniak
+			religion = rel:samaritan
+			birth_date = 1805.3.27
+			traits = {
+				hedonist 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+		create_character = {
+			first_name = "Traianos_Postek"
+			is_general = yes
+			commander_rank = commander_rank_3
+			birth_date = 1796.10.20
+			traits = {
+				basic_offensive_planner wrathful 
+			}
+		}
+
+	}
+}

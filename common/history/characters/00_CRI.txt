@@ -1,0 +1,26 @@
+﻿CHARACTERS = {
+	c:CRI = {
+		create_character = {
+			first_name = "Mubarek_Ortayli"
+			is_general = yes
+			commander_rank = commander_rank_2
+			birth_date = 1808.6.29
+			traits = {
+				shellshocked 
+			}
+		}
+
+		create_character = {
+			first_name = "Ghazi_I"
+			last_name = "Hablemitoglu"
+			ruler = yes
+			culture = cu:tatar
+			religion = rel:orthodox
+			birth_date = 1794.3.28
+			traits = {
+				ambitious basic_political_operator 
+			}
+		}
+
+	}
+}
