@@ -111,14 +111,16 @@ def extract_list(pattern: str, block: str):
 
 
 def extract_dict(pattern: str, block: str):
-    match = re.search(pattern, block)
-    result = {}
-    if match:
-        entries = match.group(1).split("\n")
-        for entry in entries:
-            if "=" in entry:
-                key, value = entry.split("=")
-                result[key.strip()] = value.strip()
+    matches = re.findall(pattern, block, re.DOTALL)
+    result = []
+    for match in matches:
+        entry = {}
+        lines = match.split("\n")
+        for line in lines:
+            if "=" in line:
+                key, value = line.split("=", 1)
+                entry[key.strip()] = value.strip()
+        result.append(entry)
     return result
 
 
@@ -320,10 +322,11 @@ def generate_state_regions_block(state: State) -> str:
         block += "\t}\n"
 
     if state.resource:
-        for res in state.resource:
+        for resource in state.resource:
+            print(state.resource)
             block += "\tresource = {\n"
-            block += f'\t\ttype = "{res["type"]}"\n'
-            block += f'\t\tundiscovered_amount = {res["undiscovered_amount"]}\n'
+            block += f'\t\ttype = "{resource["type"]}"\n'
+            block += f'\t\tundiscovered_amount = {resource["undiscovered_amount"]}\n'
             block += "\t}\n"
 
     if state.naval_exit_id:
