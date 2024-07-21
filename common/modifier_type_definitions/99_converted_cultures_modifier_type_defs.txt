@@ -2063,6 +2063,14 @@ state_khazar_standard_of_living_add = {
 	}
 }
 
+state_khitan_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
 state_khmer_standard_of_living_add = {
 	decimals=1
 	color=good
@@ -3455,6 +3463,14 @@ state_sabellian_standard_of_living_add = {
 	}
 }
 
+state_saka_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
 state_salinatorian_standard_of_living_add = {
 	decimals=1
 	color=good
@@ -3671,6 +3687,14 @@ state_slovene_standard_of_living_add = {
 	}
 }
 
+state_sogdian_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
 state_somali_standard_of_living_add = {
 	decimals=1
 	color=good
@@ -3783,6 +3807,14 @@ state_sumatran_standard_of_living_add = {
 	}
 }
 
+state_sumpa_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
 state_swahili_standard_of_living_add = {
 	decimals=1
 	color=good
@@ -3848,6 +3880,14 @@ state_taliaite_standard_of_living_add = {
 }
 
 state_tamil_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_tangut_standard_of_living_add = {
 	decimals=1
 	color=good
 	game_data={
@@ -4376,6 +4416,14 @@ state_zapotec_standard_of_living_add = {
 }
 
 state_zarphatic_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_zhangzhung_standard_of_living_add = {
 	decimals=1
 	color=good
 	game_data={

@@ -23,21 +23,15 @@
 			type = trade_agreement
 		}
 	}
-	c:BUR = {
+	c:SIA = {
 		create_diplomatic_pact = {
-			country = c:W80
+			country = c:W82
 			type = trade_agreement
 		}
 	}
 	c:SIA = {
 		create_diplomatic_pact = {
-			country = c:W80
-			type = trade_agreement
-		}
-	}
-	c:SIA = {
-		create_diplomatic_pact = {
-			country = c:W80
+			country = c:W82
 			type = trade_agreement
 		}
 	}
@@ -95,12 +89,6 @@
 			type = trade_agreement
 		}
 	}
-	c:X37 = {
-		create_diplomatic_pact = {
-			country = c:W80
-			type = trade_agreement
-		}
-	}
 	c:X40 = {
 		create_diplomatic_pact = {
 			country = c:ANL
@@ -109,7 +97,7 @@
 	}
 	c:X42 = {
 		create_diplomatic_pact = {
-			country = c:W81
+			country = c:W83
 			type = trade_agreement
 		}
 	}
@@ -145,7 +133,7 @@
 	}
 	c:X54 = {
 		create_diplomatic_pact = {
-			country = c:W81
+			country = c:W83
 			type = trade_agreement
 		}
 	}
@@ -209,13 +197,13 @@
 			type = trade_agreement
 		}
 	}
-	c:W22 = {
+	c:W23 = {
 		create_diplomatic_pact = {
 			country = c:RUS
 			type = trade_agreement
 		}
 	}
-	c:W24 = {
+	c:W25 = {
 		create_diplomatic_pact = {
 			country = c:RUS
 			type = trade_agreement
@@ -223,11 +211,11 @@
 	}
 	c:NEP = {
 		create_diplomatic_pact = {
-			country = c:W80
+			country = c:W82
 			type = trade_agreement
 		}
 	}
-	c:W29 = {
+	c:W30 = {
 		create_diplomatic_pact = {
 			country = c:RUS
 			type = trade_agreement
@@ -257,19 +245,13 @@
 			type = trade_agreement
 		}
 	}
-	c:W35 = {
+	c:W36 = {
 		create_diplomatic_pact = {
 			country = c:RUS
 			type = trade_agreement
 		}
 	}
-	c:W37 = {
-		create_diplomatic_pact = {
-			country = c:RUS
-			type = trade_agreement
-		}
-	}
-	c:W41 = {
+	c:W38 = {
 		create_diplomatic_pact = {
 			country = c:RUS
 			type = trade_agreement
@@ -281,7 +263,13 @@
 			type = trade_agreement
 		}
 	}
-	c:W44 = {
+	c:W43 = {
+		create_diplomatic_pact = {
+			country = c:RUS
+			type = trade_agreement
+		}
+	}
+	c:W45 = {
 		create_diplomatic_pact = {
 			country = c:RUS
 			type = trade_agreement
@@ -305,7 +293,7 @@
 			type = trade_agreement
 		}
 	}
-	c:W50 = {
+	c:W51 = {
 		create_diplomatic_pact = {
 			country = c:RUS
 			type = trade_agreement
@@ -317,25 +305,25 @@
 			type = trade_agreement
 		}
 	}
-	c:W51 = {
+	c:W52 = {
 		create_diplomatic_pact = {
 			country = c:RUS
 			type = trade_agreement
 		}
 	}
-	c:W54 = {
+	c:W55 = {
 		create_diplomatic_pact = {
-			country = c:W81
-			type = trade_agreement
-		}
-	}
-	c:W57 = {
-		create_diplomatic_pact = {
-			country = c:RUS
+			country = c:W83
 			type = trade_agreement
 		}
 	}
 	c:W58 = {
+		create_diplomatic_pact = {
+			country = c:RUS
+			type = trade_agreement
+		}
+	}
+	c:W59 = {
 		create_diplomatic_pact = {
 			country = c:FRA
 			type = trade_agreement
@@ -347,13 +335,13 @@
 			type = trade_agreement
 		}
 	}
-	c:W63 = {
+	c:W64 = {
 		create_diplomatic_pact = {
 			country = c:RUS
 			type = trade_agreement
 		}
 	}
-	c:W65 = {
+	c:W66 = {
 		create_diplomatic_pact = {
 			country = c:RUS
 			type = trade_agreement
@@ -371,25 +359,19 @@
 			type = trade_agreement
 		}
 	}
-	c:W82 = {
+	c:W84 = {
 		create_diplomatic_pact = {
 			country = c:RUS
 			type = trade_agreement
 		}
 	}
-	c:W85 = {
+	c:W87 = {
 		create_diplomatic_pact = {
 			country = c:RUS
 			type = trade_agreement
 		}
 	}
-	c:W86 = {
-		create_diplomatic_pact = {
-			country = c:RUS
-			type = trade_agreement
-		}
-	}
-	c:W89 = {
+	c:W88 = {
 		create_diplomatic_pact = {
 			country = c:RUS
 			type = trade_agreement
@@ -397,19 +379,13 @@
 	}
 	c:W91 = {
 		create_diplomatic_pact = {
-			country = c:W81
-			type = trade_agreement
-		}
-	}
-	c:W92 = {
-		create_diplomatic_pact = {
 			country = c:RUS
 			type = trade_agreement
 		}
 	}
 	c:W93 = {
 		create_diplomatic_pact = {
-			country = c:RUS
+			country = c:W83
 			type = trade_agreement
 		}
 	}
@@ -427,11 +403,23 @@
 	}
 	c:W96 = {
 		create_diplomatic_pact = {
-			country = c:W80
+			country = c:RUS
+			type = trade_agreement
+		}
+	}
+	c:W97 = {
+		create_diplomatic_pact = {
+			country = c:RUS
 			type = trade_agreement
 		}
 	}
 	c:W98 = {
+		create_diplomatic_pact = {
+			country = c:W82
+			type = trade_agreement
+		}
+	}
+	c:V00 = {
 		create_diplomatic_pact = {
 			country = c:RUS
 			type = trade_agreement
@@ -445,7 +433,7 @@
 	}
 	c:K09 = {
 		create_diplomatic_pact = {
-			country = c:W99
+			country = c:V15
 			type = trade_agreement
 		}
 	}
@@ -455,7 +443,7 @@
 			type = trade_agreement
 		}
 	}
-	c:W34 = {
+	c:W35 = {
 		create_diplomatic_pact = {
 			country = c:RUS
 			type = trade_agreement
@@ -463,13 +451,13 @@
 	}
 	c:CUB = {
 		create_diplomatic_pact = {
-			country = c:W81
+			country = c:W83
 			type = trade_agreement
 		}
 	}
 	c:X24 = {
 		create_diplomatic_pact = {
-			country = c:W81
+			country = c:W83
 			type = trade_agreement
 		}
 	}

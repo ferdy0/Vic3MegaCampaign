@@ -3,5 +3,5 @@
 ************ -= The Paradox Game Converters Group =- *****************
 * Converter version 0.5E "Erzurum"
 * Compatible with EU4 [v1.37] and Vic3 [v1.7]
-* Built on Tue Jul  9 13:14:59 2024
+* Built on Sat Jul 20 17:20:55 2024
 ************************** + EU4 To Vic3 + ***************************

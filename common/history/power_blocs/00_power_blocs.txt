@@ -11,7 +11,7 @@
 			member = c:CAT
 			member = c:PRA
 			member = c:TUN
-			member = c:W70
+			member = c:W71
 			member = c:X33
 			member = c:X34
 			member = c:X35
@@ -29,10 +29,13 @@
 			
 			member = c:ASH
 			member = c:CAL
+			member = c:JLF
+			member = c:KON
+			member = c:OYO
 			member = c:SIA
-			member = c:W72
-			member = c:W73
 			member = c:W74
+			member = c:W75
+			member = c:W76
 			member = c:X30
 			member = c:X63
 			member = c:X90
@@ -40,38 +43,40 @@
 		}
 	}
 
-	c:W80 = {
+	c:W82 = {
 		create_power_bloc = {
-			name = W80_BLOC
+			name = W82_BLOC
 			map_color = { 57 53 184 }
 			founding_date = 1.1.1
-			identity = identity_ideological_union
-			principle = principle_aggressive_coordination_2
+			identity = identity_trade_league
+			principle = principle_internal_trade_2
 			
-			member = c:AFG
+			member = c:BUR
 			member = c:NEP
-			member = c:W75
+			member = c:W77
+			member = c:X37
 			member = c:X66
 			member = c:X67
 			member = c:X68
 			member = c:X69
 			member = c:X70
+			member = c:X71
 		}
 	}
 
-	c:W81 = {
+	c:W83 = {
 		create_power_bloc = {
-			name = W81_BLOC
+			name = W83_BLOC
 			map_color = { 248 96 15 }
 			founding_date = 1.1.1
 			identity = identity_trade_league
 			principle = principle_internal_trade_1
 			
 			member = c:CUB
-			member = c:W54
-			member = c:W76
-			member = c:W77
-			member = c:W91
+			member = c:W55
+			member = c:W78
+			member = c:W79
+			member = c:W93
 			member = c:X24
 			member = c:X42
 			member = c:X54
@@ -110,30 +115,30 @@
 			member = c:SMI
 			member = c:TNS
 			member = c:UZB
-			member = c:W22
-			member = c:W24
-			member = c:W29
-			member = c:W34
+			member = c:V00
+			member = c:W23
+			member = c:W25
+			member = c:W30
 			member = c:W35
-			member = c:W37
-			member = c:W41
+			member = c:W36
+			member = c:W38
 			member = c:W42
-			member = c:W44
-			member = c:W50
+			member = c:W43
+			member = c:W45
 			member = c:W51
-			member = c:W57
-			member = c:W63
-			member = c:W65
-			member = c:W82
+			member = c:W52
+			member = c:W58
+			member = c:W64
+			member = c:W66
 			member = c:W84
-			member = c:W85
 			member = c:W86
-			member = c:W89
-			member = c:W92
-			member = c:W93
+			member = c:W87
+			member = c:W88
+			member = c:W91
 			member = c:W94
 			member = c:W95
-			member = c:W98
+			member = c:W96
+			member = c:W97
 			member = c:WAL
 			member = c:X10
 			member = c:X15

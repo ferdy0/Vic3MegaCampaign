@@ -95,6 +95,10 @@
 		effect_starting_pop_literacy_high = yes
 		effect_starting_pop_wealth_very_high = yes
 	}
+	c:BRN = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
 	c:BRU = {
 		effect_starting_pop_literacy_middling = yes
 		effect_starting_pop_wealth_very_high = yes
@@ -238,10 +242,6 @@
 	c:GAL = {
 		effect_starting_pop_literacy_very_high = yes
 		effect_starting_pop_wealth_medium = yes
-	}
-	c:GEO = {
-		effect_starting_pop_literacy_high = yes
-		effect_starting_pop_wealth_very_high = yes
 	}
 	c:GRE = {
 		effect_starting_pop_literacy_high = yes
@@ -651,6 +651,10 @@
 		effect_starting_pop_literacy_high = yes
 		effect_starting_pop_wealth_high = yes
 	}
+	c:SOK = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
 	c:T01 = {
 		effect_starting_pop_literacy_baseline = yes
 		effect_starting_pop_wealth_low = yes
@@ -728,16 +732,12 @@
 		effect_starting_pop_wealth_low = yes
 	}
 	c:V00 = {
-		effect_starting_pop_literacy_baseline = yes
-		effect_starting_pop_wealth_low = yes
-	}
-	c:V14 = {
-		effect_starting_pop_literacy_baseline = yes
-		effect_starting_pop_wealth_low = yes
+		effect_starting_pop_literacy_high = yes
+		effect_starting_pop_wealth_high = yes
 	}
 	c:V15 = {
-		effect_starting_pop_literacy_baseline = yes
-		effect_starting_pop_wealth_low = yes
+		effect_starting_pop_literacy_high = yes
+		effect_starting_pop_wealth_high = yes
 	}
 	c:W03 = {
 		effect_starting_pop_literacy_high = yes
@@ -759,193 +759,189 @@
 		effect_starting_pop_literacy_baseline = yes
 		effect_starting_pop_wealth_low = yes
 	}
-	c:W22 = {
+	c:W23 = {
 		effect_starting_pop_literacy_high = yes
 		effect_starting_pop_wealth_low = yes
 	}
-	c:W24 = {
+	c:W25 = {
 		effect_starting_pop_literacy_high = yes
 		effect_starting_pop_wealth_low = yes
 	}
-	c:W26 = {
+	c:W27 = {
 		effect_starting_pop_literacy_high = yes
 		effect_starting_pop_wealth_medium = yes
 	}
-	c:W29 = {
+	c:W30 = {
 		effect_starting_pop_literacy_very_high = yes
 		effect_starting_pop_wealth_very_high = yes
 	}
-	c:W33 = {
+	c:W34 = {
 		effect_starting_pop_literacy_high = yes
 		effect_starting_pop_wealth_low = yes
-	}
-	c:W34 = {
-		effect_starting_pop_literacy_very_high = yes
-		effect_starting_pop_wealth_high = yes
 	}
 	c:W35 = {
 		effect_starting_pop_literacy_very_high = yes
-		effect_starting_pop_wealth_low = yes
+		effect_starting_pop_wealth_high = yes
 	}
-	c:W37 = {
-		effect_starting_pop_literacy_high = yes
-		effect_starting_pop_wealth_very_high = yes
+	c:W36 = {
+		effect_starting_pop_literacy_very_high = yes
+		effect_starting_pop_wealth_low = yes
 	}
 	c:W38 = {
 		effect_starting_pop_literacy_high = yes
-		effect_starting_pop_wealth_high = yes
+		effect_starting_pop_wealth_very_high = yes
 	}
 	c:W39 = {
 		effect_starting_pop_literacy_high = yes
 		effect_starting_pop_wealth_high = yes
 	}
-	c:W41 = {
+	c:W40 = {
 		effect_starting_pop_literacy_high = yes
 		effect_starting_pop_wealth_high = yes
 	}
 	c:W42 = {
-		effect_starting_pop_literacy_very_high = yes
-		effect_starting_pop_wealth_very_high = yes
-	}
-	c:W43 = {
 		effect_starting_pop_literacy_high = yes
 		effect_starting_pop_wealth_high = yes
+	}
+	c:W43 = {
+		effect_starting_pop_literacy_very_high = yes
+		effect_starting_pop_wealth_very_high = yes
 	}
 	c:W44 = {
 		effect_starting_pop_literacy_high = yes
+		effect_starting_pop_wealth_high = yes
+	}
+	c:W45 = {
+		effect_starting_pop_literacy_high = yes
 		effect_starting_pop_wealth_low = yes
 	}
-	c:W50 = {
+	c:W51 = {
 		effect_starting_pop_literacy_very_high = yes
 		effect_starting_pop_wealth_high = yes
 	}
-	c:W51 = {
+	c:W52 = {
 		effect_starting_pop_literacy_high = yes
 		effect_starting_pop_wealth_high = yes
 	}
-	c:W54 = {
+	c:W55 = {
 		effect_starting_pop_literacy_high = yes
 		effect_starting_pop_wealth_very_high = yes
 	}
-	c:W57 = {
+	c:W58 = {
 		effect_starting_pop_literacy_very_high = yes
 		effect_starting_pop_wealth_high = yes
 	}
-	c:W58 = {
+	c:W59 = {
 		effect_starting_pop_literacy_middling = yes
 		effect_starting_pop_wealth_very_high = yes
 	}
-	c:W61 = {
+	c:W62 = {
 		effect_starting_pop_literacy_high = yes
 		effect_starting_pop_wealth_very_high = yes
 	}
-	c:W63 = {
+	c:W64 = {
 		effect_starting_pop_literacy_high = yes
 		effect_starting_pop_wealth_high = yes
 	}
-	c:W65 = {
+	c:W66 = {
 		effect_starting_pop_literacy_high = yes
 		effect_starting_pop_wealth_very_high = yes
 	}
-	c:W67 = {
+	c:W68 = {
 		effect_starting_pop_literacy_very_high = yes
-		effect_starting_pop_wealth_low = yes
-	}
-	c:W70 = {
-		effect_starting_pop_literacy_high = yes
 		effect_starting_pop_wealth_low = yes
 	}
 	c:W71 = {
 		effect_starting_pop_literacy_high = yes
-		effect_starting_pop_wealth_medium = yes
+		effect_starting_pop_wealth_low = yes
 	}
 	c:W72 = {
-		effect_starting_pop_literacy_very_high = yes
-		effect_starting_pop_wealth_high = yes
+		effect_starting_pop_literacy_high = yes
+		effect_starting_pop_wealth_medium = yes
 	}
 	c:W73 = {
-		effect_starting_pop_literacy_very_high = yes
-		effect_starting_pop_wealth_medium = yes
+		effect_starting_pop_literacy_high = yes
+		effect_starting_pop_wealth_high = yes
 	}
 	c:W74 = {
 		effect_starting_pop_literacy_very_high = yes
-		effect_starting_pop_wealth_medium = yes
+		effect_starting_pop_wealth_high = yes
 	}
 	c:W75 = {
 		effect_starting_pop_literacy_very_high = yes
-		effect_starting_pop_wealth_high = yes
+		effect_starting_pop_wealth_medium = yes
 	}
 	c:W76 = {
-		effect_starting_pop_literacy_high = yes
-		effect_starting_pop_wealth_low = yes
+		effect_starting_pop_literacy_very_high = yes
+		effect_starting_pop_wealth_medium = yes
 	}
 	c:W77 = {
-		effect_starting_pop_literacy_high = yes
-		effect_starting_pop_wealth_low = yes
-	}
-	c:W80 = {
 		effect_starting_pop_literacy_very_high = yes
 		effect_starting_pop_wealth_high = yes
 	}
-	c:W81 = {
+	c:W78 = {
 		effect_starting_pop_literacy_high = yes
-		effect_starting_pop_wealth_high = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W79 = {
+		effect_starting_pop_literacy_high = yes
+		effect_starting_pop_wealth_low = yes
 	}
 	c:W82 = {
-		effect_starting_pop_literacy_high = yes
-		effect_starting_pop_wealth_low = yes
+		effect_starting_pop_literacy_very_high = yes
+		effect_starting_pop_wealth_high = yes
 	}
 	c:W83 = {
-		effect_starting_pop_literacy_very_high = yes
-		effect_starting_pop_wealth_very_high = yes
+		effect_starting_pop_literacy_high = yes
+		effect_starting_pop_wealth_high = yes
 	}
 	c:W84 = {
-		effect_starting_pop_literacy_very_high = yes
-		effect_starting_pop_wealth_very_high = yes
+		effect_starting_pop_literacy_high = yes
+		effect_starting_pop_wealth_low = yes
 	}
 	c:W85 = {
 		effect_starting_pop_literacy_very_high = yes
 		effect_starting_pop_wealth_very_high = yes
 	}
 	c:W86 = {
+		effect_starting_pop_literacy_very_high = yes
+		effect_starting_pop_wealth_very_high = yes
+	}
+	c:W87 = {
+		effect_starting_pop_literacy_very_high = yes
+		effect_starting_pop_wealth_very_high = yes
+	}
+	c:W88 = {
 		effect_starting_pop_literacy_high = yes
 		effect_starting_pop_wealth_high = yes
 	}
-	c:W89 = {
+	c:W91 = {
 		effect_starting_pop_literacy_middling = yes
 		effect_starting_pop_wealth_medium = yes
 	}
-	c:W91 = {
-		effect_starting_pop_literacy_very_high = yes
-		effect_starting_pop_wealth_high = yes
-	}
-	c:W92 = {
-		effect_starting_pop_literacy_high = yes
-		effect_starting_pop_wealth_very_high = yes
-	}
 	c:W93 = {
-		effect_starting_pop_literacy_high = yes
+		effect_starting_pop_literacy_very_high = yes
 		effect_starting_pop_wealth_high = yes
 	}
 	c:W94 = {
-		effect_starting_pop_literacy_very_high = yes
+		effect_starting_pop_literacy_high = yes
 		effect_starting_pop_wealth_very_high = yes
 	}
 	c:W95 = {
 		effect_starting_pop_literacy_high = yes
-		effect_starting_pop_wealth_very_high = yes
+		effect_starting_pop_wealth_high = yes
 	}
 	c:W96 = {
-		effect_starting_pop_literacy_middling = yes
-		effect_starting_pop_wealth_medium = yes
+		effect_starting_pop_literacy_very_high = yes
+		effect_starting_pop_wealth_very_high = yes
+	}
+	c:W97 = {
+		effect_starting_pop_literacy_high = yes
+		effect_starting_pop_wealth_very_high = yes
 	}
 	c:W98 = {
-		effect_starting_pop_literacy_high = yes
-		effect_starting_pop_wealth_high = yes
-	}
-	c:W99 = {
-		effect_starting_pop_literacy_high = yes
-		effect_starting_pop_wealth_high = yes
+		effect_starting_pop_literacy_middling = yes
+		effect_starting_pop_wealth_medium = yes
 	}
 	c:WAL = {
 		effect_starting_pop_literacy_high = yes
@@ -1072,14 +1068,18 @@
 		effect_starting_pop_wealth_very_high = yes
 	}
 	c:X71 = {
+		effect_starting_pop_literacy_very_high = yes
+		effect_starting_pop_wealth_high = yes
+	}
+	c:X72 = {
 		effect_starting_pop_literacy_high = yes
 		effect_starting_pop_wealth_medium = yes
 	}
-	c:X74 = {
+	c:X75 = {
 		effect_starting_pop_literacy_high = yes
 		effect_starting_pop_wealth_very_high = yes
 	}
-	c:X75 = {
+	c:X76 = {
 		effect_starting_pop_literacy_middling = yes
 		effect_starting_pop_wealth_low = yes
 	}
@@ -1129,7 +1129,7 @@
 	}
 	c:YEM = {
 		effect_starting_pop_literacy_high = yes
-		effect_starting_pop_wealth_high = yes
+		effect_starting_pop_wealth_very_high = yes
 	}
 	c:ZND = {
 		effect_starting_pop_literacy_baseline = yes

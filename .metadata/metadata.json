@@ -1,10 +1,10 @@
 {
-	"name" : "Converted - 50DevInstCon",
+	"name" : "Converted - 50DevInstConLot",
 	"id" : "",
 	"version" : "",
 	"picture" : "thumbnail.png",
 	"supported_game_version" : "",
-	"short_description" : "Conversion from EU4: 50DevInstCon",
+	"short_description" : "Conversion from EU4: 50DevInstConLot",
 	"tags" : ["Alternative History", "Conversion"],
 	"relationships" : [],
 	"game_custom_data" : {
