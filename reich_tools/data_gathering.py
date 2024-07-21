@@ -288,7 +288,7 @@ def generate_population_data_block(state: State) -> str:
 
 
 def generate_state_regions_block(state: State) -> str:
-    block = f"{state.name} = {{\n"
+    block = "\n"
     block += f"\tid = {state.id}\n"
     block += f'\tsubsistence_building = "{state.subsistence_building}"\n'
 
@@ -327,7 +327,6 @@ def generate_state_regions_block(state: State) -> str:
         block += "\tcapped_resources = {\n"
         for resource, amount in state.capped_resources.items():
             block += f"\t\t{resource} = {amount}\n"
-        block += "\t}\n"
 
     if state.resources:
         if isinstance(state.resources, list):
