@@ -1,4 +1,5 @@
 """Here is the code gathering data from vicky"""
+import math
 import os
 import re
 
@@ -288,6 +289,7 @@ def generate_population_data_block(state: State) -> str:
 
 
 def generate_state_regions_block(state: State) -> str:
+    raise_arable_land_to_min(state)
     block = "\n"
     block += f"\tid = {state.id}\n"
     block += f'\tsubsistence_building = "{state.subsistence_building}"\n'
@@ -353,6 +355,19 @@ def generate_state_regions_block(state: State) -> str:
         block += f"\tnaval_exit_id = {state.naval_exit_id}\n"
 
     return block
+
+
+def raise_arable_land_to_min(state: State):
+    pop_sum = 0
+    for region in state.regions:
+        pop_sum += region.sum_populations()
+    original_arable_land = int(state.arable_land)
+    min_arable_land = int(math.ceil(pop_sum / 50000))
+    if original_arable_land < min_arable_land:
+        print(
+            f"{state.name}: Population = {pop_sum}, changing arable land from {original_arable_land} to {min_arable_land}"
+        )
+        state.arable_land = min_arable_land
 
 
 # Example usage
