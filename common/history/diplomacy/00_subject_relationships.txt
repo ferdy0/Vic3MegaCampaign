@@ -499,12 +499,6 @@
 	}
 	c:W82 = {
 		create_diplomatic_pact = {
-			country = c:AFG
-			type = puppet
-		}
-	}
-	c:W82 = {
-		create_diplomatic_pact = {
 			country = c:X66
 			type = puppet
 		}

@@ -51,7 +51,6 @@
 			identity = identity_ideological_union
 			principle = principle_aggressive_coordination_2
 			
-			member = c:AFG
 			member = c:BUR
 			member = c:NEP
 			member = c:W77
