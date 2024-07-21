@@ -1,0 +1,158 @@
+﻿POWER_BLOCS = {
+	c:ANL = {
+		create_power_bloc = {
+			name = ANL_BLOC
+			map_color = { 225 250 180 }
+			founding_date = 1.1.1
+			identity = identity_sovereign_empire
+			principle = principle_vassalization_1
+			
+			member = c:ALD
+			member = c:CAT
+			member = c:PRA
+			member = c:TUN
+			member = c:W70
+			member = c:X33
+			member = c:X34
+			member = c:X35
+			member = c:X40
+		}
+	}
+
+	c:JAP = {
+		create_power_bloc = {
+			name = JAP_BLOC
+			map_color = { 194 53 60 }
+			founding_date = 1.1.1
+			identity = identity_sovereign_empire
+			principle = principle_vassalization_1
+			
+			member = c:ASH
+			member = c:CAL
+			member = c:JLF
+			member = c:KON
+			member = c:OYO
+			member = c:SIA
+			member = c:W73
+			member = c:W74
+			member = c:W75
+			member = c:X30
+			member = c:X63
+			member = c:X90
+			member = c:X92
+		}
+	}
+
+	c:W81 = {
+		create_power_bloc = {
+			name = W81_BLOC
+			map_color = { 57 53 184 }
+			founding_date = 1.1.1
+			identity = identity_ideological_union
+			principle = principle_aggressive_coordination_2
+			
+			member = c:AFG
+			member = c:BUR
+			member = c:NEP
+			member = c:W76
+			member = c:X37
+			member = c:X66
+			member = c:X67
+			member = c:X68
+			member = c:X69
+			member = c:X70
+			member = c:X71
+		}
+	}
+
+	c:W82 = {
+		create_power_bloc = {
+			name = W82_BLOC
+			map_color = { 248 96 15 }
+			founding_date = 1.1.1
+			identity = identity_trade_league
+			principle = principle_internal_trade_1
+			
+			member = c:CUB
+			member = c:W54
+			member = c:W77
+			member = c:W78
+			member = c:W92
+			member = c:X24
+			member = c:X42
+			member = c:X54
+		}
+	}
+
+	c:RUS = {
+		create_power_bloc = {
+			name = HOLY_ROMAN_EMPIRE_BLOC
+			map_color = { 150 177 161 }
+			founding_date = 962.2.2
+			identity = identity_sovereign_empire
+			principle = principle_vassalization_2
+			
+			member = c:ALB
+			member = c:ALI
+			member = c:BOS
+			member = c:BUL
+			member = c:BYE
+			member = c:C17
+			member = c:C22
+			member = c:CKC
+			member = c:CRI
+			member = c:CYP
+			member = c:DAG
+			member = c:FIN
+			member = c:GAL
+			member = c:KMC
+			member = c:KRL
+			member = c:LIT
+			member = c:MOL
+			member = c:POL
+			member = c:PRM
+			member = c:S19
+			member = c:SER
+			member = c:SMI
+			member = c:TNS
+			member = c:UZB
+			member = c:W22
+			member = c:W24
+			member = c:W29
+			member = c:W34
+			member = c:W35
+			member = c:W37
+			member = c:W41
+			member = c:W42
+			member = c:W44
+			member = c:W50
+			member = c:W51
+			member = c:W57
+			member = c:W63
+			member = c:W65
+			member = c:W83
+			member = c:W85
+			member = c:W86
+			member = c:W87
+			member = c:W90
+			member = c:W93
+			member = c:W94
+			member = c:W95
+			member = c:W96
+			member = c:W99
+			member = c:WAL
+			member = c:X10
+			member = c:X15
+			member = c:X31
+			member = c:X43
+			member = c:X48
+			member = c:X53
+			member = c:X82
+			member = c:X83
+			member = c:X96
+			member = c:X99
+			member = c:YAK
+		}
+	}
+
+}

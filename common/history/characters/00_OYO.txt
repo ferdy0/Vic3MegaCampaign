@@ -1,0 +1,43 @@
+﻿CHARACTERS = {
+	c:OYO = {
+		create_character = {
+			first_name = "Abiodun"
+			last_name = "Alaafin"
+			heir = yes
+			culture = cu:edo
+			religion = rel:sunni
+			birth_date = 1803.12.8
+			traits = {
+				basic_political_operator direct 
+			}
+		}
+
+		create_character = {
+			first_name = "Lorane"
+			last_name = "Durbawa"
+			female = yes
+			culture = cu:hausa
+			religion = rel:sunni
+			birth_date = 1768.12.19
+			traits = {
+				basic_diplomat tactful 
+			}
+		}
+
+		create_character = {
+			first_name = "Abiodun_I"
+			last_name = "Alaafin"
+			ruler = yes
+			culture = cu:edo
+			religion = rel:sunni
+			birth_date = 1770.8.23
+			traits = {
+				charismatic 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+	}
+}

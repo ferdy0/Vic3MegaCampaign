@@ -1,0 +1,470 @@
+﻿DIPLOMACY = {
+	c:X10 = {
+		create_diplomatic_pact = {
+			country = c:RUS
+			type = trade_agreement
+		}
+	}
+	c:ALD = {
+		create_diplomatic_pact = {
+			country = c:ANL
+			type = trade_agreement
+		}
+	}
+	c:ASH = {
+		create_diplomatic_pact = {
+			country = c:HAU
+			type = trade_agreement
+		}
+	}
+	c:X15 = {
+		create_diplomatic_pact = {
+			country = c:RUS
+			type = trade_agreement
+		}
+	}
+	c:SIA = {
+		create_diplomatic_pact = {
+			country = c:W81
+			type = trade_agreement
+		}
+	}
+	c:SIA = {
+		create_diplomatic_pact = {
+			country = c:W81
+			type = trade_agreement
+		}
+	}
+	c:CAT = {
+		create_diplomatic_pact = {
+			country = c:ANL
+			type = trade_agreement
+		}
+	}
+	c:CKC = {
+		create_diplomatic_pact = {
+			country = c:RUS
+			type = trade_agreement
+		}
+	}
+	c:C17 = {
+		create_diplomatic_pact = {
+			country = c:RUS
+			type = trade_agreement
+		}
+	}
+	c:X30 = {
+		create_diplomatic_pact = {
+			country = c:JAP
+			type = trade_agreement
+		}
+	}
+	c:X33 = {
+		create_diplomatic_pact = {
+			country = c:ANL
+			type = trade_agreement
+		}
+	}
+	c:X34 = {
+		create_diplomatic_pact = {
+			country = c:ANL
+			type = trade_agreement
+		}
+	}
+	c:CRI = {
+		create_diplomatic_pact = {
+			country = c:RUS
+			type = trade_agreement
+		}
+	}
+	c:X35 = {
+		create_diplomatic_pact = {
+			country = c:ANL
+			type = trade_agreement
+		}
+	}
+	c:CYP = {
+		create_diplomatic_pact = {
+			country = c:RUS
+			type = trade_agreement
+		}
+	}
+	c:X40 = {
+		create_diplomatic_pact = {
+			country = c:ANL
+			type = trade_agreement
+		}
+	}
+	c:X42 = {
+		create_diplomatic_pact = {
+			country = c:W82
+			type = trade_agreement
+		}
+	}
+	c:X43 = {
+		create_diplomatic_pact = {
+			country = c:RUS
+			type = trade_agreement
+		}
+	}
+	c:FIN = {
+		create_diplomatic_pact = {
+			country = c:RUS
+			type = trade_agreement
+		}
+	}
+	c:DAG = {
+		create_diplomatic_pact = {
+			country = c:RUS
+			type = trade_agreement
+		}
+	}
+	c:X48 = {
+		create_diplomatic_pact = {
+			country = c:RUS
+			type = trade_agreement
+		}
+	}
+	c:X53 = {
+		create_diplomatic_pact = {
+			country = c:RUS
+			type = trade_agreement
+		}
+	}
+	c:X54 = {
+		create_diplomatic_pact = {
+			country = c:W82
+			type = trade_agreement
+		}
+	}
+	c:KMC = {
+		create_diplomatic_pact = {
+			country = c:RUS
+			type = trade_agreement
+		}
+	}
+	c:KRL = {
+		create_diplomatic_pact = {
+			country = c:RUS
+			type = trade_agreement
+		}
+	}
+	c:C22 = {
+		create_diplomatic_pact = {
+			country = c:RUS
+			type = trade_agreement
+		}
+	}
+	c:X82 = {
+		create_diplomatic_pact = {
+			country = c:RUS
+			type = trade_agreement
+		}
+	}
+	c:LIT = {
+		create_diplomatic_pact = {
+			country = c:RUS
+			type = trade_agreement
+		}
+	}
+	c:X83 = {
+		create_diplomatic_pact = {
+			country = c:RUS
+			type = trade_agreement
+		}
+	}
+	c:X90 = {
+		create_diplomatic_pact = {
+			country = c:JAP
+			type = trade_agreement
+		}
+	}
+	c:X96 = {
+		create_diplomatic_pact = {
+			country = c:RUS
+			type = trade_agreement
+		}
+	}
+	c:MOL = {
+		create_diplomatic_pact = {
+			country = c:RUS
+			type = trade_agreement
+		}
+	}
+	c:X99 = {
+		create_diplomatic_pact = {
+			country = c:RUS
+			type = trade_agreement
+		}
+	}
+	c:W22 = {
+		create_diplomatic_pact = {
+			country = c:RUS
+			type = trade_agreement
+		}
+	}
+	c:W24 = {
+		create_diplomatic_pact = {
+			country = c:RUS
+			type = trade_agreement
+		}
+	}
+	c:NEP = {
+		create_diplomatic_pact = {
+			country = c:W81
+			type = trade_agreement
+		}
+	}
+	c:W29 = {
+		create_diplomatic_pact = {
+			country = c:RUS
+			type = trade_agreement
+		}
+	}
+	c:ALI = {
+		create_diplomatic_pact = {
+			country = c:RUS
+			type = trade_agreement
+		}
+	}
+	c:BYE = {
+		create_diplomatic_pact = {
+			country = c:RUS
+			type = trade_agreement
+		}
+	}
+	c:POL = {
+		create_diplomatic_pact = {
+			country = c:RUS
+			type = trade_agreement
+		}
+	}
+	c:PRM = {
+		create_diplomatic_pact = {
+			country = c:RUS
+			type = trade_agreement
+		}
+	}
+	c:W35 = {
+		create_diplomatic_pact = {
+			country = c:RUS
+			type = trade_agreement
+		}
+	}
+	c:W37 = {
+		create_diplomatic_pact = {
+			country = c:RUS
+			type = trade_agreement
+		}
+	}
+	c:W41 = {
+		create_diplomatic_pact = {
+			country = c:RUS
+			type = trade_agreement
+		}
+	}
+	c:W42 = {
+		create_diplomatic_pact = {
+			country = c:RUS
+			type = trade_agreement
+		}
+	}
+	c:W44 = {
+		create_diplomatic_pact = {
+			country = c:RUS
+			type = trade_agreement
+		}
+	}
+	c:UZB = {
+		create_diplomatic_pact = {
+			country = c:RUS
+			type = trade_agreement
+		}
+	}
+	c:S19 = {
+		create_diplomatic_pact = {
+			country = c:RUS
+			type = trade_agreement
+		}
+	}
+	c:SMI = {
+		create_diplomatic_pact = {
+			country = c:RUS
+			type = trade_agreement
+		}
+	}
+	c:W50 = {
+		create_diplomatic_pact = {
+			country = c:RUS
+			type = trade_agreement
+		}
+	}
+	c:TNS = {
+		create_diplomatic_pact = {
+			country = c:RUS
+			type = trade_agreement
+		}
+	}
+	c:W51 = {
+		create_diplomatic_pact = {
+			country = c:RUS
+			type = trade_agreement
+		}
+	}
+	c:W54 = {
+		create_diplomatic_pact = {
+			country = c:W82
+			type = trade_agreement
+		}
+	}
+	c:W57 = {
+		create_diplomatic_pact = {
+			country = c:RUS
+			type = trade_agreement
+		}
+	}
+	c:W58 = {
+		create_diplomatic_pact = {
+			country = c:FRA
+			type = trade_agreement
+		}
+	}
+	c:TUN = {
+		create_diplomatic_pact = {
+			country = c:ANL
+			type = trade_agreement
+		}
+	}
+	c:W63 = {
+		create_diplomatic_pact = {
+			country = c:RUS
+			type = trade_agreement
+		}
+	}
+	c:W65 = {
+		create_diplomatic_pact = {
+			country = c:RUS
+			type = trade_agreement
+		}
+	}
+	c:GAL = {
+		create_diplomatic_pact = {
+			country = c:RUS
+			type = trade_agreement
+		}
+	}
+	c:WAL = {
+		create_diplomatic_pact = {
+			country = c:RUS
+			type = trade_agreement
+		}
+	}
+	c:W83 = {
+		create_diplomatic_pact = {
+			country = c:RUS
+			type = trade_agreement
+		}
+	}
+	c:W86 = {
+		create_diplomatic_pact = {
+			country = c:RUS
+			type = trade_agreement
+		}
+	}
+	c:W87 = {
+		create_diplomatic_pact = {
+			country = c:RUS
+			type = trade_agreement
+		}
+	}
+	c:W90 = {
+		create_diplomatic_pact = {
+			country = c:RUS
+			type = trade_agreement
+		}
+	}
+	c:W92 = {
+		create_diplomatic_pact = {
+			country = c:W82
+			type = trade_agreement
+		}
+	}
+	c:W93 = {
+		create_diplomatic_pact = {
+			country = c:RUS
+			type = trade_agreement
+		}
+	}
+	c:W94 = {
+		create_diplomatic_pact = {
+			country = c:RUS
+			type = trade_agreement
+		}
+	}
+	c:W95 = {
+		create_diplomatic_pact = {
+			country = c:RUS
+			type = trade_agreement
+		}
+	}
+	c:W96 = {
+		create_diplomatic_pact = {
+			country = c:RUS
+			type = trade_agreement
+		}
+	}
+	c:W97 = {
+		create_diplomatic_pact = {
+			country = c:W81
+			type = trade_agreement
+		}
+	}
+	c:W99 = {
+		create_diplomatic_pact = {
+			country = c:RUS
+			type = trade_agreement
+		}
+	}
+	c:YAK = {
+		create_diplomatic_pact = {
+			country = c:RUS
+			type = trade_agreement
+		}
+	}
+	c:K09 = {
+		create_diplomatic_pact = {
+			country = c:V00
+			type = trade_agreement
+		}
+	}
+	c:X31 = {
+		create_diplomatic_pact = {
+			country = c:RUS
+			type = trade_agreement
+		}
+	}
+	c:W34 = {
+		create_diplomatic_pact = {
+			country = c:RUS
+			type = trade_agreement
+		}
+	}
+	c:CUB = {
+		create_diplomatic_pact = {
+			country = c:W82
+			type = trade_agreement
+		}
+	}
+	c:X24 = {
+		create_diplomatic_pact = {
+			country = c:W82
+			type = trade_agreement
+		}
+	}
+	c:PRA = {
+		create_diplomatic_pact = {
+			country = c:ANL
+			type = trade_agreement
+		}
+	}
+}
