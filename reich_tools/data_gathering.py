@@ -352,7 +352,6 @@ def generate_state_regions_block(state: State) -> str:
     if state.naval_exit_id:
         block += f"\tnaval_exit_id = {state.naval_exit_id}\n"
 
-    block += "}"
     return block
 
 
