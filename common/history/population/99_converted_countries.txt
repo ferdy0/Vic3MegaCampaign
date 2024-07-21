@@ -796,7 +796,7 @@
 		effect_starting_pop_wealth_high = yes
 	}
 	c:W40 = {
-		effect_starting_pop_literacy_high = yes
+		effect_starting_pop_literacy_very_high = yes
 		effect_starting_pop_wealth_high = yes
 	}
 	c:W42 = {
@@ -892,7 +892,7 @@
 		effect_starting_pop_wealth_high = yes
 	}
 	c:W83 = {
-		effect_starting_pop_literacy_high = yes
+		effect_starting_pop_literacy_very_high = yes
 		effect_starting_pop_wealth_high = yes
 	}
 	c:W84 = {
