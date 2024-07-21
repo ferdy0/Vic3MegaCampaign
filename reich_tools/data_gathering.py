@@ -262,18 +262,18 @@ def generate_state_data_block(state: State) -> str:
 
 
 def generate_population_data_block(state: State) -> str:
-    block = f"s:{state.name} = {{\n"
+    block = f"\ts:{state.name} = {{\n"
     for region in state.regions:
         if region.populations:
-            block += f"\tregion_state:{region.country} = {{\n"
+            block += f"\t\t\t\tregion_state:{region.country} = {{\n"
             for pop in region.populations:
-                block += "\t\tcreate_pop = {\n"
-                block += f"\t\t\tculture = {pop.culture}\n"
-                block += f"\t\t\treligion = {pop.religion}\n"
-                block += f"\t\t\tsize = {pop.size}\n"
-                block += "\t\t}\n"
-            block += "\t}\n"
-    block += "}\n"
+                block += "\t\t\t\t\t\tcreate_pop = {\n"
+                block += f"\t\t\t\t\t\t\t\tculture = {pop.culture}\n"
+                block += f"\t\t\t\t\t\t\t\treligion = {pop.religion}\n"
+                block += f"\t\t\t\t\t\t\t\tsize = {pop.size}\n"
+                block += "\t\t\t\t\t\t}\n"
+            block += "\t\t\t\t}\n"
+    block += "\t\t}\n"
     return block
 
 
