@@ -238,7 +238,7 @@ def write_state_region_file(filename: str, states_container: States):
         state_name = "STATE_" + state_name
         state = states_container.states.get(state_name)
         if state:
-            new_block = generate_state_data_block(state)
+            new_block = generate_state_regions_block(state)
             modified_data = modified_data.replace(block, new_block)
 
     with open(filename, "w") as file:
