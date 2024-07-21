@@ -343,7 +343,7 @@ def generate_state_regions_block(state: State) -> str:
                         value = int(value)
                     except ValueError:
                         pass
-                    block += f'\t\t{key} = "{value}"\n'
+                    block += f'\t\t{key} = {value}\n'
 
                 block += "\t}\n"
         else:
@@ -353,7 +353,7 @@ def generate_state_regions_block(state: State) -> str:
                     value = int(value)
                 except ValueError:
                     pass
-                block += f'\t\t{key} = "{value}"\n'
+                block += f'\t\t{key} = {value}\n'
             block += "\t}\n"
 
     if state.naval_exit_id:
