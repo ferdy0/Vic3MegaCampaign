@@ -48,8 +48,8 @@
 			name = W82_BLOC
 			map_color = { 57 53 184 }
 			founding_date = 1.1.1
-			identity = identity_ideological_union
-			principle = principle_aggressive_coordination_2
+			identity = identity_trade_league
+			principle = principle_internal_trade_2
 			
 			member = c:BUR
 			member = c:NEP
