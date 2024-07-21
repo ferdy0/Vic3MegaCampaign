@@ -134,8 +134,6 @@ def parse_state_region_file(filename: str, states_container):
         state.naval_exit_id = extract_field(r"naval_exit_id\s*=\s*(\d+)", block)
         state.traits = extract_list(r"traits\s*=\s*\{([^}]*)\}", block)
 
-        if state.name == "STATE_ABRUZZO":
-            print(state.name, state.arable_land)
     return states_container
 
 
@@ -169,7 +167,7 @@ def process_state_region_files(folder_path: str, states_container):
     for root, dirs, files in os.walk(folder_path):
         for filename in files:
             if filename not in ["99_seas.txt", "readme.info"]:
-                print(filename)
+                print(f"Processing: {filename}")
                 file_path = os.path.join(root, filename)
                 parse_state_region_file(file_path, states_container)
                 write_state_region_file(file_path, states_container)
