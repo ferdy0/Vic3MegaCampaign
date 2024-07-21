@@ -12,9 +12,17 @@
 	arable_resources = { "bg_livestock_ranches" }
 	capped_resources = {
 		bg_fishing = 4
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_oil_extraction""
 		undiscovered_amount = "60"
+=======
+	}
+	resource = {
+		type = "bg_oil_extraction"
+		undiscovered_amount = 60
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3046
 }
 
@@ -31,9 +39,17 @@ STATE_OMAN = {
 	arable_resources = { "bg_livestock_ranches" "bg_coffee_plantations" "bg_tobacco_plantations" }
 	capped_resources = {
 		bg_fishing = 10
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_oil_extraction""
 		undiscovered_amount = "20"
+=======
+	}
+	resource = {
+		type = "bg_oil_extraction"
+		undiscovered_amount = 20
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3048
 }
 
@@ -50,9 +66,17 @@ STATE_ABU_DHABI = {
 	arable_resources = { "bg_livestock_ranches" "bg_tobacco_plantations" }
 	capped_resources = {
 		bg_fishing = 4
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_oil_extraction""
 		undiscovered_amount = "80"
+=======
+	}
+	resource = {
+		type = "bg_oil_extraction"
+		undiscovered_amount = 80
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3046
 }
 
@@ -70,9 +94,17 @@ STATE_YEMEN = {
 	capped_resources = {
 		bg_lead_mining = 12
 		bg_fishing = 9
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_oil_extraction""
 		undiscovered_amount = "20"
+=======
+	}
+	resource = {
+		type = "bg_oil_extraction"
+		undiscovered_amount = 20
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3047
 }
 
@@ -91,6 +123,10 @@ STATE_HEDJAZ = {
 	capped_resources = {
 		bg_sulfur_mining = 28
 		bg_fishing = 5
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3047
 }
 
@@ -108,6 +144,10 @@ STATE_HAIL = {
 	arable_resources = { "bg_livestock_ranches" }
 	capped_resources = {
 		bg_fishing = 2
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3046
 }
 
@@ -123,6 +163,10 @@ STATE_CYPRUS = {
 	capped_resources = {
 		bg_logging = 2
 		bg_fishing = 5
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3034
 }
 
@@ -139,6 +183,10 @@ STATE_TRANSJORDAN = {
 	arable_resources = { "bg_livestock_ranches" }
 	capped_resources = {
 		bg_logging = 2
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3047
 }
 
@@ -157,6 +205,10 @@ STATE_PALESTINE = {
 		bg_iron_mining = 24
 		bg_logging = 5
 		bg_fishing = 4
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3034
 }
 
@@ -176,6 +228,10 @@ STATE_LEBANON = {
 		bg_coal_mining = 44
 		bg_logging = 4
 		bg_fishing = 5
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3034
 }
 
@@ -192,6 +248,10 @@ STATE_SYRIA = {
 	arable_resources = { "bg_millet_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_silk_plantations" "bg_tobacco_plantations" }
 	capped_resources = {
 		bg_logging = 2
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_ALEPPO = {
@@ -209,6 +269,10 @@ STATE_ALEPPO = {
 	capped_resources = {
 		bg_logging = 6
 		bg_fishing = 5
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3034
 }
 
@@ -224,8 +288,14 @@ STATE_BAGHDAD = {
 	arable_land = 40
 	arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_silk_plantations" "bg_tobacco_plantations" }
 	resource = {
+<<<<<<< HEAD
 		type = ""bg_oil_extraction""
 		undiscovered_amount = "40"
+=======
+		type = "bg_oil_extraction"
+		undiscovered_amount = 40
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_MOSUL = {
@@ -241,9 +311,17 @@ STATE_MOSUL = {
 	arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" }
 	capped_resources = {
 		bg_sulfur_mining = 36
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_oil_extraction""
 		undiscovered_amount = "40"
+=======
+	}
+	resource = {
+		type = "bg_oil_extraction"
+		undiscovered_amount = 40
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_DEIR_EZ_ZOR = {
@@ -274,9 +352,17 @@ STATE_BASRA = {
 	capped_resources = {
 		bg_sulfur_mining = 32
 		bg_fishing = 6
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_oil_extraction""
 		undiscovered_amount = "60"
+=======
+	}
+	resource = {
+		type = "bg_oil_extraction"
+		undiscovered_amount = 60
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3046
 }
 
@@ -297,9 +383,17 @@ STATE_FARS = {
 		bg_iron_mining = 5
 		bg_fishing = 7
 		bg_logging = 6
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_oil_extraction""
 		undiscovered_amount = "60"
+=======
+	}
+	resource = {
+		type = "bg_oil_extraction"
+		undiscovered_amount = 60
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3046
 }
 
@@ -319,9 +413,17 @@ STATE_LARISTAN = {
 		bg_iron_mining = 11
 		bg_fishing = 10
 		bg_logging = 1
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_oil_extraction""
 		undiscovered_amount = "40"
+=======
+	}
+	resource = {
+		type = "bg_oil_extraction"
+		undiscovered_amount = 40
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3046
 }
 
@@ -341,6 +443,10 @@ STATE_KERMAN = {
 		bg_iron_mining = 40
 		bg_sulfur_mining = 22
 		bg_logging = 2
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_SISTAN = {
@@ -359,6 +465,10 @@ STATE_SISTAN = {
 		bg_iron_mining = 14
 		bg_coal_mining = 12
 		bg_logging = 3
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3046
 }
 
@@ -376,9 +486,17 @@ STATE_KHORASAN = {
 		bg_logging = 4
 		bg_iron_mining = 22
 		bg_coal_mining = 12
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_oil_extraction""
 		undiscovered_amount = "20"
+=======
+	}
+	resource = {
+		type = "bg_oil_extraction"
+		undiscovered_amount = 20
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_KHUZESTAN = {
@@ -396,9 +514,17 @@ STATE_KHUZESTAN = {
 		bg_sulfur_mining = 22
 		bg_fishing = 5
 		bg_logging = 4
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_oil_extraction""
 		undiscovered_amount = "60"
+=======
+	}
+	resource = {
+		type = "bg_oil_extraction"
+		undiscovered_amount = 60
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3046
 }
 
@@ -418,6 +544,10 @@ STATE_ISFAHAN = {
 		bg_iron_mining = 51
 		bg_lead_mining = 28
 		bg_logging = 4
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_MAZANDARAN = {
@@ -435,9 +565,17 @@ STATE_MAZANDARAN = {
 		bg_coal_mining = 22
 		bg_iron_mining = 11
 		bg_logging = 20
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_oil_extraction""
 		undiscovered_amount = "20"
+=======
+	}
+	resource = {
+		type = "bg_oil_extraction"
+		undiscovered_amount = 20
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_IRAKAJEMI = {
@@ -455,6 +593,10 @@ STATE_IRAKAJEMI = {
 		bg_coal_mining = 28
 		bg_iron_mining = 7
 		bg_lead_mining = 10
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_SEMNAN = {
@@ -471,6 +613,10 @@ STATE_SEMNAN = {
 		bg_iron_mining = 4
 		bg_lead_mining = 8
 		bg_logging = 4
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_TABRIZ = {
@@ -488,6 +634,10 @@ STATE_TABRIZ = {
 		bg_iron_mining = 20
 		bg_lead_mining = 25
 		bg_logging = 5
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_URMIA = {
@@ -504,6 +654,10 @@ STATE_URMIA = {
 	capped_resources = {
 		bg_iron_mining = 10
 		bg_logging = 2
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_LURISTAN = {
@@ -520,9 +674,17 @@ STATE_LURISTAN = {
 	capped_resources = {
 		bg_logging = 3
 		bg_iron_mining = 2
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_oil_extraction""
 		undiscovered_amount = "20"
+=======
+	}
+	resource = {
+		type = "bg_oil_extraction"
+		undiscovered_amount = 20
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_PERSIAN_KURDISTAN = {
@@ -539,9 +701,17 @@ STATE_PERSIAN_KURDISTAN = {
 	capped_resources = {
 		bg_logging = 4
 		bg_iron_mining = 3
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_oil_extraction""
 		undiscovered_amount = "20"
+=======
+	}
+	resource = {
+		type = "bg_oil_extraction"
+		undiscovered_amount = 20
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_HUDAVENDIGAR = {
@@ -558,6 +728,10 @@ STATE_HUDAVENDIGAR = {
 	capped_resources = {
 		bg_logging = 9
 		bg_fishing = 8
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3035
 }
 
@@ -576,6 +750,10 @@ STATE_AYDIN = {
 		bg_coal_mining = 48
 		bg_logging = 5
 		bg_fishing = 15
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3035
 }
 
@@ -593,6 +771,10 @@ STATE_KONYA = {
 	capped_resources = {
 		bg_logging = 4
 		bg_fishing = 6
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3034
 }
 
@@ -611,6 +793,10 @@ STATE_KASTAMONU = {
 		bg_coal_mining = 72
 		bg_logging = 11
 		bg_fishing = 10
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3036
 }
 
@@ -627,6 +813,10 @@ STATE_DIYARBAKIR = {
 	arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_tea_plantations" "bg_tobacco_plantations" }
 	capped_resources = {
 		bg_coal_mining = 32
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_ADANA = {
@@ -645,6 +835,10 @@ STATE_ADANA = {
 		bg_coal_mining = 44
 		bg_logging = 4
 		bg_fishing = 12
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3034
 }
 
@@ -663,6 +857,10 @@ STATE_TRABZON = {
 		bg_iron_mining = 21
 		bg_logging = 8
 		bg_fishing = 9
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3036
 }
 
@@ -681,6 +879,10 @@ STATE_ERZURUM = {
 		bg_iron_mining = 30
 		bg_lead_mining = 36
 		bg_logging = 9
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_ANKARA = {
@@ -695,6 +897,10 @@ STATE_ANKARA = {
 	arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_tea_plantations" "bg_tobacco_plantations" "bg_vineyard_plantations" }
 	capped_resources = {
 		bg_logging = 9
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_KARS = {
@@ -711,6 +917,10 @@ STATE_KARS = {
 	capped_resources = {
 		bg_logging = 9
 		bg_fishing = 5
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3036
 }
 

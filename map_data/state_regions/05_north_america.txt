@@ -10,6 +10,10 @@
 	capped_resources = {
 		bg_fishing = 1
 		bg_monuments = 1
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3067
 }
 
@@ -30,9 +34,17 @@ STATE_LOUISIANA = {
 		bg_sulfur_mining = 32
 		bg_logging = 13
 		bg_fishing = 12
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_oil_extraction""
 		undiscovered_amount = "10"
+=======
+	}
+	resource = {
+		type = "bg_oil_extraction"
+		undiscovered_amount = 10
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3060
 }
 
@@ -54,6 +66,10 @@ STATE_NEW_YORK = {
 		bg_whaling = 5
 		bg_fishing = 6
 		bg_monuments = 1
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3067
 }
 
@@ -74,6 +90,10 @@ STATE_VIRGINIA = {
 		bg_iron_mining = 30
 		bg_logging = 17
 		bg_fishing = 8
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3067
 }
 
@@ -94,10 +114,19 @@ STATE_ALASKA = {
 		bg_logging = 11
 		bg_whaling = 8
 		bg_fishing = 10
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_gold_fields""
 		depleted_type = ""bg_gold_mining""
 		undiscovered_amount = "12"
+=======
+	}
+	resource = {
+		type = "bg_gold_fields"
+		depleted_type = "bg_gold_mining"
+		undiscovered_amount = 12
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3119
 }
 
@@ -117,6 +146,10 @@ STATE_WASHINGTON = {
 		bg_coal_mining = 32
 		bg_logging = 17
 		bg_fishing = 6
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3154
 }
 
@@ -135,6 +168,10 @@ STATE_OREGON = {
 	capped_resources = {
 		bg_logging = 20
 		bg_fishing = 5
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3154
 }
 
@@ -151,6 +188,10 @@ STATE_IDAHO = {
 	arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
 	capped_resources = {
 		bg_logging = 16
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_COLORADO = {
@@ -167,6 +208,7 @@ STATE_COLORADO = {
 	capped_resources = {
 		bg_coal_mining = 40
 		bg_logging = 9
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_gold_fields""
 		depleted_type = ""bg_gold_mining""
@@ -175,6 +217,17 @@ STATE_COLORADO = {
 	resource = {
 		type = ""bg_oil_extraction""
 		undiscovered_amount = "5"
+=======
+	}
+	resource = {
+		type = "bg_gold_fields"
+		depleted_type = "bg_gold_mining"
+		undiscovered_amount = 8
+	}
+	resource = {
+		type = "bg_oil_extraction"
+		undiscovered_amount = 5
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	}
 }
 
@@ -192,9 +245,17 @@ STATE_WYOMING = {
 	capped_resources = {
 		bg_coal_mining = 48
 		bg_logging = 13
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_oil_extraction""
 		undiscovered_amount = "5"
+=======
+	}
+	resource = {
+		type = "bg_oil_extraction"
+		undiscovered_amount = 5
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_MONTANA = {
@@ -212,9 +273,17 @@ STATE_MONTANA = {
 		bg_coal_mining = 80
 		bg_iron_mining = 33
 		bg_logging = 17
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_oil_extraction""
 		undiscovered_amount = "5"
+=======
+	}
+	resource = {
+		type = "bg_oil_extraction"
+		undiscovered_amount = 5
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_NORTH_DAKOTA = {
@@ -231,9 +300,17 @@ STATE_NORTH_DAKOTA = {
 	capped_resources = {
 		bg_coal_mining = 48
 		bg_logging = 11
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_oil_extraction""
 		undiscovered_amount = "5"
+=======
+	}
+	resource = {
+		type = "bg_oil_extraction"
+		undiscovered_amount = 5
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_SOUTH_DAKOTA = {
@@ -250,6 +327,7 @@ STATE_SOUTH_DAKOTA = {
 	capped_resources = {
 		bg_coal_mining = 32
 		bg_logging = 9
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_gold_fields""
 		depleted_type = ""bg_gold_mining""
@@ -258,6 +336,17 @@ STATE_SOUTH_DAKOTA = {
 	resource = {
 		type = ""bg_oil_extraction""
 		undiscovered_amount = "5"
+=======
+	}
+	resource = {
+		type = "bg_gold_fields"
+		depleted_type = "bg_gold_mining"
+		undiscovered_amount = 8
+	}
+	resource = {
+		type = "bg_oil_extraction"
+		undiscovered_amount = 5
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	}
 }
 
@@ -274,9 +363,17 @@ STATE_NEBRASKA = {
 	arable_resources = { "bg_maize_farms" "bg_livestock_ranches" }
 	capped_resources = {
 		bg_logging = 5
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_oil_extraction""
 		undiscovered_amount = "5"
+=======
+	}
+	resource = {
+		type = "bg_oil_extraction"
+		undiscovered_amount = 5
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_KANSAS = {
@@ -294,9 +391,17 @@ STATE_KANSAS = {
 		bg_coal_mining = 32
 		bg_lead_mining = 18
 		bg_logging = 7
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_oil_extraction""
 		undiscovered_amount = "20"
+=======
+	}
+	resource = {
+		type = "bg_oil_extraction"
+		undiscovered_amount = 20
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_OKLAHOMA = {
@@ -312,9 +417,17 @@ STATE_OKLAHOMA = {
 	capped_resources = {
 		bg_coal_mining = 40
 		bg_logging = 7
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_oil_extraction""
 		undiscovered_amount = "40"
+=======
+	}
+	resource = {
+		type = "bg_oil_extraction"
+		undiscovered_amount = 40
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_ARKANSAS = {
@@ -331,9 +444,17 @@ STATE_ARKANSAS = {
 	capped_resources = {
 		bg_lead_mining = 45
 		bg_logging = 11
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_oil_extraction""
 		undiscovered_amount = "5"
+=======
+	}
+	resource = {
+		type = "bg_oil_extraction"
+		undiscovered_amount = 5
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_MISSOURI = {
@@ -350,9 +471,17 @@ STATE_MISSOURI = {
 	capped_resources = {
 		bg_lead_mining = 36
 		bg_logging = 16
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_oil_extraction""
 		undiscovered_amount = "5"
+=======
+	}
+	resource = {
+		type = "bg_oil_extraction"
+		undiscovered_amount = 5
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_IOWA = {
@@ -370,6 +499,10 @@ STATE_IOWA = {
 		bg_coal_mining = 64
 		bg_sulfur_mining = 40
 		bg_logging = 11
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_MINNESOTA = {
@@ -387,6 +520,10 @@ STATE_MINNESOTA = {
 		bg_iron_mining = 45
 		bg_sulfur_mining = 40
 		bg_logging = 20
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_WISCONSIN = {
@@ -404,6 +541,10 @@ STATE_WISCONSIN = {
 		bg_iron_mining = 24
 		bg_sulfur_mining = 32
 		bg_logging = 23
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_INDIANA = {
@@ -420,6 +561,10 @@ STATE_INDIANA = {
 	capped_resources = {
 		bg_coal_mining = 48
 		bg_logging = 18
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_MICHIGAN = {
@@ -437,6 +582,10 @@ STATE_MICHIGAN = {
 		bg_iron_mining = 60
 		bg_sulfur_mining = 32
 		bg_logging = 20
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_OHIO = {
@@ -454,9 +603,17 @@ STATE_OHIO = {
 		bg_coal_mining = 60
 		bg_lead_mining = 36
 		bg_logging = 14
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_oil_extraction""
 		undiscovered_amount = "10"
+=======
+	}
+	resource = {
+		type = "bg_oil_extraction"
+		undiscovered_amount = 10
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_KENTUCKY = {
@@ -474,6 +631,10 @@ STATE_KENTUCKY = {
 		bg_coal_mining = 140
 		bg_iron_mining = 33
 		bg_logging = 17
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_TENNESSEE = {
@@ -490,6 +651,10 @@ STATE_TENNESSEE = {
 	capped_resources = {
 		bg_iron_mining = 30
 		bg_logging = 17
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_MISSISSIPPI = {
@@ -508,9 +673,17 @@ STATE_MISSISSIPPI = {
 		bg_coal_mining = 40
 		bg_logging = 14
 		bg_fishing = 5
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_oil_extraction""
 		undiscovered_amount = "10"
+=======
+	}
+	resource = {
+		type = "bg_oil_extraction"
+		undiscovered_amount = 10
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3060
 }
 
@@ -532,9 +705,17 @@ STATE_ALABAMA = {
 		bg_lead_mining = 24
 		bg_logging = 17
 		bg_fishing = 3
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_oil_extraction""
 		undiscovered_amount = "5"
+=======
+	}
+	resource = {
+		type = "bg_oil_extraction"
+		undiscovered_amount = 5
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3060
 }
 
@@ -554,9 +735,17 @@ STATE_FLORIDA = {
 		bg_logging = 23
 		bg_fishing = 15
 		bg_sulfur_mining = 42
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_oil_extraction""
 		undiscovered_amount = "10"
+=======
+	}
+	resource = {
+		type = "bg_oil_extraction"
+		undiscovered_amount = 10
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3060
 }
 
@@ -574,6 +763,10 @@ STATE_GEORGIA = {
 	capped_resources = {
 		bg_logging = 20
 		bg_fishing = 6
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3067
 }
 
@@ -592,6 +785,10 @@ STATE_WEST_VIRGINIA = {
 		bg_coal_mining = 80
 		bg_iron_mining = 24
 		bg_logging = 17
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_MARYLAND = {
@@ -608,6 +805,10 @@ STATE_MARYLAND = {
 	capped_resources = {
 		bg_logging = 6
 		bg_fishing = 9
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3067
 }
 
@@ -623,6 +824,10 @@ STATE_DELAWARE = {
 	capped_resources = {
 		bg_logging = 4
 		bg_fishing = 5
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3067
 }
 
@@ -641,9 +846,17 @@ STATE_PENNSYLVANIA = {
 		bg_coal_mining = 120
 		bg_iron_mining = 57
 		bg_logging = 23
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_oil_extraction""
 		undiscovered_amount = "30"
+=======
+	}
+	resource = {
+		type = "bg_oil_extraction"
+		undiscovered_amount = 30
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_NEW_JERSEY = {
@@ -662,6 +875,10 @@ STATE_NEW_JERSEY = {
 		bg_iron_mining = 45
 		bg_logging = 6
 		bg_fishing = 10
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3067
 }
 
@@ -680,6 +897,10 @@ STATE_ILLINOIS = {
 		bg_coal_mining = 60
 		bg_lead_mining = 90
 		bg_logging = 11
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_RHODE_ISLAND = {
@@ -696,6 +917,10 @@ STATE_RHODE_ISLAND = {
 		bg_logging = 2
 		bg_whaling = 2
 		bg_fishing = 3
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3067
 }
 
@@ -715,6 +940,10 @@ STATE_CONNECTICUT = {
 		bg_whaling = 3
 		bg_fishing = 5
 		bg_logging = 6
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3067
 }
 
@@ -736,6 +965,10 @@ STATE_MASSACHUSETTS = {
 		bg_logging = 14
 		bg_whaling = 8
 		bg_fishing = 10
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3067
 }
 
@@ -755,6 +988,10 @@ STATE_NEW_HAMPSHIRE = {
 		bg_logging = 9
 		bg_whaling = 2
 		bg_fishing = 2
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3017
 }
 
@@ -772,6 +1009,10 @@ STATE_VERMONT = {
 	capped_resources = {
 		bg_iron_mining = 18
 		bg_logging = 6
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_MAINE = {
@@ -790,6 +1031,10 @@ STATE_MAINE = {
 		bg_logging = 17
 		bg_whaling = 4
 		bg_fishing = 8
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3017
 }
 
@@ -809,6 +1054,10 @@ STATE_NORTH_CAROLINA = {
 		bg_coal_mining = 32
 		bg_logging = 15
 		bg_fishing = 6
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3067
 }
 
@@ -826,9 +1075,17 @@ STATE_UTAH = {
 	capped_resources = {
 		bg_iron_mining = 30
 		bg_logging = 6
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_oil_extraction""
 		undiscovered_amount = "5"
+=======
+	}
+	resource = {
+		type = "bg_oil_extraction"
+		undiscovered_amount = 5
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_SOUTH_CAROLINA = {
@@ -845,6 +1102,10 @@ STATE_SOUTH_CAROLINA = {
 	capped_resources = {
 		bg_logging = 11
 		bg_fishing = 5
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3067
 }
 
@@ -863,6 +1124,10 @@ STATE_HAWAIIAN_ISLANDS = {
 		bg_logging = 14
 		bg_whaling = 10
 		bg_fishing = 8
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3001
 }
 
@@ -880,9 +1145,17 @@ STATE_ONTARIO = {
 	capped_resources = {
 		bg_sulfur_mining = 48
 		bg_logging = 23
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_oil_extraction""
 		undiscovered_amount = "40"
+=======
+	}
+	resource = {
+		type = "bg_oil_extraction"
+		undiscovered_amount = 40
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_NEW_BRUNSWICK = {
@@ -902,6 +1175,10 @@ STATE_NEW_BRUNSWICK = {
 		bg_lead_mining = 54
 		bg_logging = 11
 		bg_fishing = 8
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3017
 }
 
@@ -922,6 +1199,10 @@ STATE_QUEBEC = {
 		bg_logging = 23
 		bg_whaling = 4
 		bg_fishing = 8
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3045
 }
 
@@ -943,6 +1224,10 @@ STATE_NEWFOUNDLAND = {
 		bg_logging = 8
 		bg_whaling = 6
 		bg_fishing = 10
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3045
 }
 
@@ -961,9 +1246,17 @@ STATE_ALBERTA = {
 		bg_coal_mining = 48
 		bg_sulfur_mining = 32
 		bg_logging = 23
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_oil_extraction""
 		undiscovered_amount = "50"
+=======
+	}
+	resource = {
+		type = "bg_oil_extraction"
+		undiscovered_amount = 50
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_BRITISH_COLUMBIA = {
@@ -984,10 +1277,19 @@ STATE_BRITISH_COLUMBIA = {
 		bg_logging = 17
 		bg_whaling = 6
 		bg_fishing = 9
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_gold_fields""
 		depleted_type = ""bg_gold_mining""
 		undiscovered_amount = "8"
+=======
+	}
+	resource = {
+		type = "bg_gold_fields"
+		depleted_type = "bg_gold_mining"
+		undiscovered_amount = 8
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3154
 }
 
@@ -1005,9 +1307,17 @@ STATE_SASKATCHEWAN = {
 	capped_resources = {
 		bg_coal_mining = 40
 		bg_logging = 6
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_oil_extraction""
 		undiscovered_amount = "20"
+=======
+	}
+	resource = {
+		type = "bg_oil_extraction"
+		undiscovered_amount = 20
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_MANITOBA = {
@@ -1024,9 +1334,17 @@ STATE_MANITOBA = {
 	capped_resources = {
 		bg_logging = 15
 		bg_fishing = 5
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_oil_extraction""
 		undiscovered_amount = "20"
+=======
+	}
+	resource = {
+		type = "bg_oil_extraction"
+		undiscovered_amount = 20
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_YUKON_TERRITORY = {
@@ -1043,10 +1361,19 @@ STATE_YUKON_TERRITORY = {
 	capped_resources = {
 		bg_iron_mining = 15
 		bg_logging = 11
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_gold_fields""
 		depleted_type = ""bg_gold_mining""
 		undiscovered_amount = "12"
+=======
+	}
+	resource = {
+		type = "bg_gold_fields"
+		depleted_type = "bg_gold_mining"
+		undiscovered_amount = 12
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_NORTHWEST_TERRITORIES = {
@@ -1063,6 +1390,10 @@ STATE_NORTHWEST_TERRITORIES = {
 	capped_resources = {
 		bg_iron_mining = 18
 		bg_logging = 11
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_NUNAVUT = {
@@ -1078,6 +1409,10 @@ STATE_NUNAVUT = {
 	arable_resources = { "bg_livestock_ranches" }
 	capped_resources = {
 		bg_logging = 9
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_BERMUDA = {
@@ -1091,6 +1426,10 @@ STATE_BERMUDA = {
 	arable_resources = { "bg_livestock_ranches" "bg_cotton_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" }
 	capped_resources = {
 		bg_fishing = 2
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3078
 }
 
@@ -1110,9 +1449,17 @@ STATE_TEXAS = {
 		bg_sulfur_mining = 36
 		bg_logging = 7
 		bg_fishing = 6
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_oil_extraction""
 		undiscovered_amount = "50"
+=======
+	}
+	resource = {
+		type = "bg_oil_extraction"
+		undiscovered_amount = 50
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3060
 }
 
@@ -1130,10 +1477,19 @@ STATE_NEVADA = {
 	capped_resources = {
 		bg_iron_mining = 24
 		bg_logging = 4
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_gold_fields""
 		depleted_type = ""bg_gold_mining""
 		undiscovered_amount = "15"
+=======
+	}
+	resource = {
+		type = "bg_gold_fields"
+		depleted_type = "bg_gold_mining"
+		undiscovered_amount = 15
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_ARIZONA = {
@@ -1149,10 +1505,19 @@ STATE_ARIZONA = {
 	capped_resources = {
 		bg_iron_mining = 21
 		bg_logging = 2
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_gold_fields""
 		depleted_type = ""bg_gold_mining""
 		undiscovered_amount = "5"
+=======
+	}
+	resource = {
+		type = "bg_gold_fields"
+		depleted_type = "bg_gold_mining"
+		undiscovered_amount = 5
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_NEW_MEXICO = {
@@ -1168,6 +1533,10 @@ STATE_NEW_MEXICO = {
 	capped_resources = {
 		bg_coal_mining = 20
 		bg_logging = 6
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_CALIFORNIA = {
@@ -1187,6 +1556,7 @@ STATE_CALIFORNIA = {
 		bg_sulfur_mining = 40
 		bg_logging = 13
 		bg_fishing = 14
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_gold_fields""
 		depleted_type = ""bg_gold_mining""
@@ -1195,6 +1565,17 @@ STATE_CALIFORNIA = {
 	resource = {
 		type = ""bg_oil_extraction""
 		undiscovered_amount = "50"
+=======
+	}
+	resource = {
+		type = "bg_gold_fields"
+		depleted_type = "bg_gold_mining"
+		undiscovered_amount = 12
+	}
+	resource = {
+		type = "bg_oil_extraction"
+		undiscovered_amount = 50
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	}
 	naval_exit_id = 3153
 }
@@ -1215,10 +1596,19 @@ STATE_SONORA = {
 		bg_iron_mining = 27
 		bg_logging = 4
 		bg_fishing = 7
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_gold_fields""
 		depleted_type = ""bg_gold_mining""
 		undiscovered_amount = "6"
+=======
+	}
+	resource = {
+		type = "bg_gold_fields"
+		depleted_type = "bg_gold_mining"
+		undiscovered_amount = 6
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3153
 }
 
@@ -1236,6 +1626,10 @@ STATE_CHIHUAHUA = {
 	capped_resources = {
 		bg_lead_mining = 18
 		bg_logging = 6
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_RIO_GRANDE = {
@@ -1252,9 +1646,17 @@ STATE_RIO_GRANDE = {
 	capped_resources = {
 		bg_logging = 5
 		bg_fishing = 8
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_oil_extraction""
 		undiscovered_amount = "50"
+=======
+	}
+	resource = {
+		type = "bg_oil_extraction"
+		undiscovered_amount = 50
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3060
 }
 
@@ -1273,6 +1675,10 @@ STATE_DURANGO = {
 		bg_iron_mining = 17
 		bg_logging = 4
 		bg_fishing = 5
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_SINALOA = {
@@ -1291,6 +1697,10 @@ STATE_SINALOA = {
 		bg_iron_mining = 17
 		bg_logging = 7
 		bg_fishing = 5
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3153
 }
 
@@ -1307,6 +1717,10 @@ STATE_BAJIO = {
 	capped_resources = {
 		bg_iron_mining = 23
 		bg_gold_mining = 4
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_YUCATAN = {
@@ -1323,9 +1737,17 @@ STATE_YUCATAN = {
 	capped_resources = {
 		bg_logging = 18
 		bg_fishing = 9
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_rubber""
 		undiscovered_amount = "16"
+=======
+	}
+	resource = {
+		type = "bg_rubber"
+		undiscovered_amount = 16
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3060
 }
 
@@ -1344,9 +1766,17 @@ STATE_MEXICO = {
 		bg_iron_mining = 9
 		bg_lead_mining = 12
 		bg_logging = 7
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_rubber""
 		undiscovered_amount = "8"
+=======
+	}
+	resource = {
+		type = "bg_rubber"
+		undiscovered_amount = 8
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_VERACRUZ = {
@@ -1366,6 +1796,7 @@ STATE_VERACRUZ = {
 		bg_lead_mining = 12
 		bg_logging = 6
 		bg_fishing = 7
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_rubber""
 		undiscovered_amount = "8"
@@ -1373,6 +1804,16 @@ STATE_VERACRUZ = {
 	resource = {
 		type = ""bg_oil_extraction""
 		undiscovered_amount = "20"
+=======
+	}
+	resource = {
+		type = "bg_rubber"
+		undiscovered_amount = 8
+	}
+	resource = {
+		type = "bg_oil_extraction"
+		undiscovered_amount = 20
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	}
 	naval_exit_id = 3060
 }
@@ -1394,6 +1835,7 @@ STATE_GUERRERO = {
 		bg_lead_mining = 15
 		bg_logging = 8
 		bg_fishing = 4
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_gold_fields""
 		depleted_type = ""bg_gold_mining""
@@ -1402,6 +1844,17 @@ STATE_GUERRERO = {
 	resource = {
 		type = ""bg_rubber""
 		undiscovered_amount = "8"
+=======
+	}
+	resource = {
+		type = "bg_gold_fields"
+		depleted_type = "bg_gold_mining"
+		undiscovered_amount = 3
+	}
+	resource = {
+		type = "bg_rubber"
+		undiscovered_amount = 8
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	}
 	naval_exit_id = 3155
 }
@@ -1423,6 +1876,7 @@ STATE_OAXACA = {
 		bg_lead_mining = 15
 		bg_logging = 7
 		bg_fishing = 4
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_gold_fields""
 		depleted_type = ""bg_gold_mining""
@@ -1431,6 +1885,17 @@ STATE_OAXACA = {
 	resource = {
 		type = ""bg_rubber""
 		undiscovered_amount = "6"
+=======
+	}
+	resource = {
+		type = "bg_gold_fields"
+		depleted_type = "bg_gold_mining"
+		undiscovered_amount = 2
+	}
+	resource = {
+		type = "bg_rubber"
+		undiscovered_amount = 6
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	}
 	naval_exit_id = 3155
 }
@@ -1451,9 +1916,17 @@ STATE_JALISCO = {
 		bg_iron_mining = 33
 		bg_logging = 18
 		bg_fishing = 8
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_rubber""
 		undiscovered_amount = "12"
+=======
+	}
+	resource = {
+		type = "bg_rubber"
+		undiscovered_amount = 12
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3155
 }
 
@@ -1470,10 +1943,19 @@ STATE_ZACATECAS = {
 	arable_resources = { "bg_maize_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_dye_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" "bg_vineyard_plantations" }
 	capped_resources = {
 		bg_iron_mining = 23
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_gold_fields""
 		depleted_type = ""bg_gold_mining""
 		undiscovered_amount = "4"
+=======
+	}
+	resource = {
+		type = "bg_gold_fields"
+		depleted_type = "bg_gold_mining"
+		undiscovered_amount = 4
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_CHIAPAS = {
@@ -1491,9 +1973,17 @@ STATE_CHIAPAS = {
 	capped_resources = {
 		bg_logging = 14
 		bg_fishing = 7
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_rubber""
 		undiscovered_amount = "24"
+=======
+	}
+	resource = {
+		type = "bg_rubber"
+		undiscovered_amount = 24
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3155
 }
 
@@ -1511,6 +2001,10 @@ STATE_BAJA_CALIFORNIA = {
 	capped_resources = {
 		bg_logging = 2
 		bg_fishing = 6
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3153
 }
 

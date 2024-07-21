@@ -13,9 +13,17 @@
 		bg_iron_mining = 27
 		bg_lead_mining = 19
 		bg_logging = 7
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_oil_extraction""
 		undiscovered_amount = "5"
+=======
+	}
+	resource = {
+		type = "bg_oil_extraction"
+		undiscovered_amount = 5
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_PIEDMONT = {
@@ -36,6 +44,10 @@ STATE_PIEDMONT = {
 		bg_lead_mining = 45
 		bg_logging = 8
 		bg_fishing = 6
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3032
 }
 
@@ -57,6 +69,10 @@ STATE_SARDINIA = {
 		bg_sulfur_mining = 20
 		bg_logging = 11
 		bg_fishing = 10
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3032
 }
 
@@ -72,6 +88,10 @@ STATE_MALTA = {
 	arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_sugar_plantations" }
 	capped_resources = {
 		bg_fishing = 3
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3033
 }
 
@@ -90,6 +110,10 @@ STATE_UMBRIA = {
 		bg_iron_mining = 9
 		bg_logging = 7
 		bg_fishing = 5
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3033
 }
 
@@ -106,6 +130,10 @@ STATE_CORSICA = {
 	capped_resources = {
 		bg_logging = 6
 		bg_fishing = 7
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3032
 }
 
@@ -123,6 +151,10 @@ STATE_CAMPANIA = {
 	capped_resources = {
 		bg_logging = 11
 		bg_fishing = 10
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3032
 }
 
@@ -142,6 +174,10 @@ STATE_CALABRIA = {
 		bg_iron_mining = 24
 		bg_logging = 7
 		bg_fishing = 12
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3033
 }
 
@@ -160,6 +196,10 @@ STATE_APULIA = {
 	capped_resources = {
 		bg_logging = 4
 		bg_fishing = 14
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3033
 }
 
@@ -177,6 +217,10 @@ STATE_ABRUZZO = {
 	capped_resources = {
 		bg_logging = 9
 		bg_fishing = 7
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3033
 }
 
@@ -195,6 +239,10 @@ STATE_SAVOY = {
 		bg_iron_mining = 24
 		bg_lead_mining = 24
 		bg_logging = 11
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_EMILIA = {
@@ -212,6 +260,10 @@ STATE_EMILIA = {
 		bg_iron_mining = 24
 		bg_logging = 13
 		bg_fishing = 3
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3032
 }
 
@@ -231,6 +283,10 @@ STATE_TUSCANY = {
 		bg_sulfur_mining = 40
 		bg_logging = 11
 		bg_fishing = 5
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3032
 }
 
@@ -249,6 +305,10 @@ STATE_ROMAGNA = {
 		bg_sulfur_mining = 48
 		bg_logging = 8
 		bg_fishing = 6
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3033
 }
 
@@ -267,6 +327,10 @@ STATE_LAZIO = {
 		bg_logging = 11
 		bg_fishing = 7
 		bg_monuments = 1
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3032
 }
 
@@ -287,6 +351,10 @@ STATE_VENETIA = {
 		bg_sulfur_mining = 36
 		bg_logging = 7
 		bg_fishing = 12
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3033
 }
 
@@ -306,6 +374,10 @@ STATE_SICILY = {
 		bg_sulfur_mining = 100
 		bg_logging = 6
 		bg_fishing = 10
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3033
 }
 
@@ -321,6 +393,10 @@ STATE_TOLEDO = {
 	arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_sugar_plantations" "bg_vineyard_plantations" }
 	capped_resources = {
 		bg_logging = 6
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_GALICIA = {
@@ -338,6 +414,10 @@ STATE_GALICIA = {
 		bg_iron_mining = 14
 		bg_logging = 5
 		bg_fishing = 4
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3029
 }
 
@@ -359,6 +439,10 @@ STATE_ASTURIAS = {
 		bg_iron_mining = 14
 		bg_logging = 5
 		bg_fishing = 7
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3029
 }
 
@@ -376,6 +460,10 @@ STATE_CASTILE = {
 		bg_coal_mining = 36
 		bg_iron_mining = 27
 		bg_logging = 6
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_NAVARRA = {
@@ -395,9 +483,17 @@ STATE_NAVARRA = {
 		bg_iron_mining = 60
 		bg_logging = 11
 		bg_fishing = 6
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_oil_extraction""
 		undiscovered_amount = "10"
+=======
+	}
+	resource = {
+		type = "bg_oil_extraction"
+		undiscovered_amount = 10
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3029
 }
 
@@ -416,6 +512,10 @@ STATE_ARAGON = {
 		bg_lead_mining = 36
 		bg_iron_mining = 18
 		bg_logging = 8
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_CATALONIA = {
@@ -433,6 +533,10 @@ STATE_CATALONIA = {
 		bg_lead_mining = 24
 		bg_logging = 6
 		bg_fishing = 12
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3032
 }
 
@@ -447,6 +551,10 @@ STATE_BALEARES = {
 	capped_resources = {
 		bg_logging = 2
 		bg_fishing = 5
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3032
 }
 
@@ -467,6 +575,10 @@ STATE_ANDALUSIA = {
 		bg_sulfur_mining = 60
 		bg_logging = 4
 		bg_fishing = 9
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3031
 }
 
@@ -485,6 +597,10 @@ STATE_GRANADA = {
 	capped_resources = {
 		bg_logging = 4
 		bg_fishing = 8
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3031
 }
 
@@ -500,6 +616,10 @@ STATE_BADAJOZ = {
 	arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_vineyard_plantations" }
 	capped_resources = {
 		bg_logging = 13
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_VALENCIA = {
@@ -519,6 +639,10 @@ STATE_VALENCIA = {
 		bg_lead_mining = 30
 		bg_logging = 5
 		bg_fishing = 10
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3032
 }
 
@@ -536,6 +660,10 @@ STATE_BEIRA = {
 	capped_resources = {
 		bg_logging = 5
 		bg_fishing = 5
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3029
 }
 
@@ -553,6 +681,10 @@ STATE_ESTREMADURA = {
 	capped_resources = {
 		bg_logging = 4
 		bg_fishing = 8
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3029
 }
 
@@ -573,6 +705,10 @@ STATE_ALENTEJO = {
 		bg_sulfur_mining = 20
 		bg_logging = 2
 		bg_fishing = 4
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3029
 }
 
@@ -590,6 +726,10 @@ STATE_CAPE_VERDE = {
 	capped_resources = {
 		bg_logging = 2
 		bg_fishing = 3
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3088
 }
 
@@ -607,6 +747,10 @@ STATE_CANARY_ISLANDS = {
 	capped_resources = {
 		bg_logging = 2
 		bg_fishing = 4
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3089
 }
 
@@ -623,6 +767,10 @@ STATE_AZORES = {
 	capped_resources = {
 		bg_logging = 2
 		bg_fishing = 5
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3069
 }
 
@@ -638,6 +786,10 @@ STATE_MADEIRA = {
 	capped_resources = {
 		bg_logging = 2
 		bg_fishing = 3
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3089
 }
 
@@ -657,6 +809,10 @@ STATE_EASTERN_THRACE = {
 		bg_logging = 4
 		bg_fishing = 10
 		bg_monuments = 1
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3035
 }
 
@@ -675,6 +831,10 @@ STATE_DOBRUDJA = {
 	capped_resources = {
 		bg_logging = 11
 		bg_fishing = 7
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3036
 }
 
@@ -694,9 +854,17 @@ STATE_ALBANIA = {
 		bg_iron_mining = 24
 		bg_logging = 6
 		bg_fishing = 8
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_oil_extraction""
 		undiscovered_amount = "5"
+=======
+	}
+	resource = {
+		type = "bg_oil_extraction"
+		undiscovered_amount = 5
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3033
 }
 
@@ -714,6 +882,10 @@ STATE_BOSNIA = {
 		bg_iron_mining = 48
 		bg_lead_mining = 39
 		bg_logging = 14
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_NORTHERN_THRACE = {
@@ -731,6 +903,10 @@ STATE_NORTHERN_THRACE = {
 		bg_iron_mining = 33
 		bg_logging = 17
 		bg_fishing = 6
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3036
 }
 
@@ -749,6 +925,10 @@ STATE_BULGARIA = {
 	capped_resources = {
 		bg_logging = 14
 		bg_fishing = 2
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3036
 }
 
@@ -766,6 +946,10 @@ STATE_SLOVENIA = {
 	capped_resources = {
 		bg_coal_mining = 60
 		bg_logging = 11
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_DALMATIA = {
@@ -783,6 +967,10 @@ STATE_DALMATIA = {
 	capped_resources = {
 		bg_logging = 4
 		bg_fishing = 13
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3033
 }
 
@@ -802,6 +990,10 @@ STATE_CROATIA = {
 		bg_coal_mining = 60
 		bg_logging = 11
 		bg_fishing = 5
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3033
 }
 
@@ -818,6 +1010,10 @@ STATE_SLAVONIA = {
 	arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_vineyard_plantations" }
 	capped_resources = {
 		bg_logging = 14
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_ISTRIA = {
@@ -836,6 +1032,10 @@ STATE_ISTRIA = {
 		bg_coal_mining = 44
 		bg_logging = 5
 		bg_fishing = 14
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3033
 }
 
@@ -854,6 +1054,10 @@ STATE_MONTENEGRO = {
 	capped_resources = {
 		bg_lead_mining = 24
 		bg_logging = 4
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3033
 }
 
@@ -871,6 +1075,10 @@ STATE_NORTHERN_SERBIA = {
 	capped_resources = {
 		bg_iron_mining = 24
 		bg_logging = 13
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_SOUTHERN_SERBIA = {
@@ -887,6 +1095,10 @@ STATE_SOUTHERN_SERBIA = {
 		bg_coal_mining = 40
 		bg_lead_mining = 36
 		bg_logging = 14
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_CRETE = {
@@ -901,6 +1113,10 @@ STATE_CRETE = {
 	capped_resources = {
 		bg_logging = 2
 		bg_fishing = 5
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3034
 }
 
@@ -916,6 +1132,10 @@ STATE_WEST_AEGEAN_ISLANDS = {
 	arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_tobacco_plantations" "bg_vineyard_plantations" }
 	capped_resources = {
 		bg_fishing = 4
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3034
 }
 
@@ -931,6 +1151,10 @@ STATE_EAST_AEGEAN_ISLANDS = {
 	arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_tobacco_plantations" "bg_vineyard_plantations" }
 	capped_resources = {
 		bg_fishing = 6
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3034
 }
 
@@ -951,6 +1175,10 @@ STATE_ATTICA = {
 		bg_sulfur_mining = 32
 		bg_logging = 7
 		bg_fishing = 8
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3033
 }
 
@@ -968,6 +1196,10 @@ STATE_THESSALIA = {
 	capped_resources = {
 		bg_logging = 11
 		bg_fishing = 5
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3034
 }
 
@@ -984,6 +1216,10 @@ STATE_SKOPIA = {
 	capped_resources = {
 		bg_iron_mining = 36
 		bg_logging = 16
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_MACEDONIA = {
@@ -1000,6 +1236,10 @@ STATE_MACEDONIA = {
 	capped_resources = {
 		bg_logging = 9
 		bg_fishing = 3
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3034
 }
 
@@ -1018,6 +1258,10 @@ STATE_WESTERN_THRACE = {
 		bg_iron_mining = 27
 		bg_logging = 5
 		bg_fishing = 10
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3035
 }
 
@@ -1032,6 +1276,10 @@ STATE_IONIAN_ISLANDS = {
 	arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_tobacco_plantations" "bg_vineyard_plantations" }
 	capped_resources = {
 		bg_fishing = 5
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3033
 }
 
@@ -1050,6 +1298,10 @@ STATE_PELOPONNESE = {
 		bg_iron_mining = 21
 		bg_logging = 5
 		bg_fishing = 10
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3033
 }
 

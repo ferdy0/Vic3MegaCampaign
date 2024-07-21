@@ -14,6 +14,10 @@
 		bg_sulfur_mining = 20
 		bg_logging = 2
 		bg_fishing = 6
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3034
 }
 
@@ -32,6 +36,10 @@ STATE_UPPER_EGYPT = {
 	capped_resources = {
 		bg_logging = 2
 		bg_fishing = 13
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3047
 }
 
@@ -50,6 +58,10 @@ STATE_MIDDLE_EGYPT = {
 	capped_resources = {
 		bg_logging = 2
 		bg_fishing = 4
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3047
 }
 
@@ -80,6 +92,10 @@ STATE_MATRUH = {
 	arable_resources = { "bg_livestock_ranches" }
 	capped_resources = {
 		bg_fishing = 3
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3034
 }
 
@@ -98,6 +114,10 @@ STATE_SINAI = {
 		bg_fishing = 3
 		bg_iron_mining = 24
 		bg_lead_mining = 24
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3047
 }
 
@@ -115,6 +135,10 @@ STATE_ERITREA = {
 	capped_resources = {
 		bg_iron_mining = 15
 		bg_fishing = 5
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3047
 }
 
@@ -133,9 +157,17 @@ STATE_DONGOLA = {
 	capped_resources = {
 		bg_logging = 4
 		bg_fishing = 4
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_oil_extraction""
 		undiscovered_amount = "5"
+=======
+	}
+	resource = {
+		type = "bg_oil_extraction"
+		undiscovered_amount = 5
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3047
 }
 
@@ -152,9 +184,17 @@ STATE_KORDOFAN = {
 	arable_resources = { "bg_livestock_ranches" }
 	capped_resources = {
 		bg_logging = 4
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_oil_extraction""
 		undiscovered_amount = "5"
+=======
+	}
+	resource = {
+		type = "bg_oil_extraction"
+		undiscovered_amount = 5
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_DARFUR = {
@@ -169,8 +209,14 @@ STATE_DARFUR = {
 	arable_land = 20
 	arable_resources = { "bg_livestock_ranches" }
 	resource = {
+<<<<<<< HEAD
 		type = ""bg_oil_extraction""
 		undiscovered_amount = "10"
+=======
+		type = "bg_oil_extraction"
+		undiscovered_amount = 10
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_BLUE_NILE = {
@@ -186,6 +232,10 @@ STATE_BLUE_NILE = {
 	arable_resources = { "bg_millet_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_cotton_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" }
 	capped_resources = {
 		bg_logging = 14
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_MARRAKECH = {
@@ -202,6 +252,10 @@ STATE_MARRAKECH = {
 	capped_resources = {
 		bg_iron_mining = 30
 		bg_fishing = 8
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3089
 }
 
@@ -220,6 +274,10 @@ STATE_FEZ = {
 		bg_sulfur_mining = 32
 		bg_logging = 4
 		bg_fishing = 5
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3089
 }
 
@@ -238,6 +296,10 @@ STATE_AL_RIF = {
 		bg_logging = 6
 		bg_fishing = 7
 		bg_coal_mining = 6
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3032
 }
 
@@ -259,6 +321,10 @@ STATE_INNER_MOROCCO = {
 		bg_fishing = 4
 		bg_gold_mining = 3
 		bg_coal_mining = 6
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3089
 }
 
@@ -279,6 +345,10 @@ STATE_ALGIERS = {
 		bg_lead_mining = 7
 		bg_logging = 6
 		bg_fishing = 8
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3032
 }
 
@@ -300,9 +370,17 @@ STATE_CONSTANTINE = {
 		bg_sulfur_mining = 18
 		bg_logging = 6
 		bg_fishing = 4
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_oil_extraction""
 		undiscovered_amount = "5"
+=======
+	}
+	resource = {
+		type = "bg_oil_extraction"
+		undiscovered_amount = 5
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3032
 }
 
@@ -322,6 +400,10 @@ STATE_ORAN = {
 		bg_iron_mining = 12
 		bg_fishing = 5
 		bg_logging = 3
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3032
 }
 
@@ -341,6 +423,10 @@ STATE_TUNISIA = {
 		bg_sulfur_mining = 48
 		bg_logging = 9
 		bg_fishing = 7
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3032
 }
 
@@ -358,9 +444,17 @@ STATE_TRIPOLI = {
 	arable_resources = { "bg_livestock_ranches" }
 	capped_resources = {
 		bg_fishing = 5
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_oil_extraction""
 		undiscovered_amount = "30"
+=======
+	}
+	resource = {
+		type = "bg_oil_extraction"
+		undiscovered_amount = 30
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3033
 }
 
@@ -377,6 +471,10 @@ STATE_LIBYA = {
 	arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_vineyard_plantations" }
 	capped_resources = {
 		bg_fishing = 8
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3033
 }
 
@@ -392,8 +490,14 @@ STATE_LIBYAN_DESERT = {
 	arable_land = 10
 	arable_resources = { "bg_livestock_ranches" }
 	resource = {
+<<<<<<< HEAD
 		type = ""bg_oil_extraction""
 		undiscovered_amount = "30"
+=======
+		type = "bg_oil_extraction"
+		undiscovered_amount = 30
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_SAHARA = {
@@ -409,9 +513,17 @@ STATE_SAHARA = {
 	arable_resources = { "bg_livestock_ranches" }
 	capped_resources = {
 		bg_coal_mining = 16
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_oil_extraction""
 		undiscovered_amount = "5"
+=======
+	}
+	resource = {
+		type = "bg_oil_extraction"
+		undiscovered_amount = 5
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_EAST_SAHARA = {
@@ -426,8 +538,14 @@ STATE_EAST_SAHARA = {
 	arable_land = 10
 	arable_resources = { "bg_livestock_ranches" }
 	resource = {
+<<<<<<< HEAD
 		type = ""bg_oil_extraction""
 		undiscovered_amount = "5"
+=======
+		type = "bg_oil_extraction"
+		undiscovered_amount = 5
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_WEST_SAHARA = {
@@ -445,6 +563,10 @@ STATE_WEST_SAHARA = {
 	capped_resources = {
 		bg_sulfur_mining = 36
 		bg_fishing = 11
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3089
 }
 
@@ -464,6 +586,10 @@ STATE_MAURITANIA = {
 		bg_iron_mining = 45
 		bg_fishing = 15
 		bg_whaling = 3
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3088
 }
 
@@ -480,9 +606,17 @@ STATE_INNER_MAURITANIA = {
 	arable_resources = { "bg_livestock_ranches" }
 	capped_resources = {
 		bg_iron_mining = 27
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_oil_extraction""
 		undiscovered_amount = "5"
+=======
+	}
+	resource = {
+		type = "bg_oil_extraction"
+		undiscovered_amount = 5
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_EASTERN_MALI = {
@@ -498,6 +632,10 @@ STATE_EASTERN_MALI = {
 	arable_resources = { "bg_millet_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_opium_plantations" "bg_tobacco_plantations" }
 	capped_resources = {
 		bg_monuments = 1
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_WESTERN_MALI = {
@@ -527,9 +665,17 @@ STATE_TIMBUKTU = {
 	capped_resources = {
 		bg_coal_mining = 36
 		bg_sulfur_mining = 36
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_oil_extraction""
 		undiscovered_amount = "5"
+=======
+	}
+	resource = {
+		type = "bg_oil_extraction"
+		undiscovered_amount = 5
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_NIGER = {
@@ -547,9 +693,17 @@ STATE_NIGER = {
 		bg_coal_mining = 36
 		bg_lead_mining = 18
 		bg_sulfur_mining = 24
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_oil_extraction""
 		undiscovered_amount = "30"
+=======
+	}
+	resource = {
+		type = "bg_oil_extraction"
+		undiscovered_amount = 30
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_CHAD = {
@@ -564,7 +718,13 @@ STATE_CHAD = {
 	arable_land = 30
 	arable_resources = { "bg_livestock_ranches" }
 	resource = {
+<<<<<<< HEAD
 		type = ""bg_oil_extraction""
 		undiscovered_amount = "10"
+=======
+		type = "bg_oil_extraction"
+		undiscovered_amount = 10
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 

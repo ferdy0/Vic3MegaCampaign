@@ -15,10 +15,19 @@
 		bg_lead_mining = 81
 		bg_gold_mining = 2
 		bg_logging = 27
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_gold_fields""
 		depleted_type = ""bg_gold_mining""
 		undiscovered_amount = "6"
+=======
+	}
+	resource = {
+		type = "bg_gold_fields"
+		depleted_type = "bg_gold_mining"
+		undiscovered_amount = 6
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_TOMSK = {
@@ -36,6 +45,10 @@ STATE_TOMSK = {
 		bg_coal_mining = 85
 		bg_iron_mining = 27
 		bg_logging = 26
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_TUVA = {
@@ -53,6 +66,10 @@ STATE_TUVA = {
 		bg_coal_mining = 44
 		bg_iron_mining = 18
 		bg_logging = 14
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_TOBOLSK = {
@@ -70,9 +87,17 @@ STATE_TOBOLSK = {
 		bg_coal_mining = 44
 		bg_iron_mining = 10
 		bg_logging = 30
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_oil_extraction""
 		undiscovered_amount = "60"
+=======
+	}
+	resource = {
+		type = "bg_oil_extraction"
+		undiscovered_amount = 60
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_UPPER_YENISEYSK = {
@@ -90,6 +115,10 @@ STATE_UPPER_YENISEYSK = {
 		bg_coal_mining = 15
 		bg_iron_mining = 10
 		bg_logging = 48
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_OB = {
@@ -106,9 +135,17 @@ STATE_OB = {
 	capped_resources = {
 		bg_coal_mining = 20
 		bg_logging = 22
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_oil_extraction""
 		undiscovered_amount = "60"
+=======
+	}
+	resource = {
+		type = "bg_oil_extraction"
+		undiscovered_amount = 60
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_CHUKOTKA = {
@@ -128,10 +165,19 @@ STATE_CHUKOTKA = {
 		bg_logging = 13
 		bg_whaling = 3
 		bg_fishing = 9
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_gold_fields""
 		depleted_type = ""bg_gold_mining""
 		undiscovered_amount = "4"
+=======
+	}
+	resource = {
+		type = "bg_gold_fields"
+		depleted_type = "bg_gold_mining"
+		undiscovered_amount = 4
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3128
 }
 
@@ -150,10 +196,19 @@ STATE_KAMCHATKA = {
 		bg_logging = 13
 		bg_fishing = 15
 		bg_whaling = 8
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_gold_fields""
 		depleted_type = ""bg_gold_mining""
 		undiscovered_amount = "2"
+=======
+	}
+	resource = {
+		type = "bg_gold_fields"
+		depleted_type = "bg_gold_mining"
+		undiscovered_amount = 2
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3118
 }
 
@@ -174,10 +229,19 @@ STATE_OKHOTSK = {
 		bg_fishing = 10
 		bg_whaling = 5
 		bg_logging = 10
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_gold_fields""
 		depleted_type = ""bg_gold_mining""
 		undiscovered_amount = "8"
+=======
+	}
+	resource = {
+		type = "bg_gold_fields"
+		depleted_type = "bg_gold_mining"
+		undiscovered_amount = 8
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3118
 }
 
@@ -196,6 +260,7 @@ STATE_YAKUTSK = {
 		bg_coal_mining = 36
 		bg_lead_mining = 16
 		bg_logging = 23
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_gold_fields""
 		depleted_type = ""bg_gold_mining""
@@ -204,6 +269,17 @@ STATE_YAKUTSK = {
 	resource = {
 		type = ""bg_oil_extraction""
 		undiscovered_amount = "5"
+=======
+	}
+	resource = {
+		type = "bg_gold_fields"
+		depleted_type = "bg_gold_mining"
+		undiscovered_amount = 8
+	}
+	resource = {
+		type = "bg_oil_extraction"
+		undiscovered_amount = 5
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	}
 }
 
@@ -223,9 +299,17 @@ STATE_TRANS_BAIKAL = {
 		bg_lead_mining = 28
 		bg_sulfur_mining = 44
 		bg_logging = 24
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_oil_extraction""
 		undiscovered_amount = "10"
+=======
+	}
+	resource = {
+		type = "bg_oil_extraction"
+		undiscovered_amount = 10
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 
 STATE_IRKUTSK = {
@@ -243,8 +327,16 @@ STATE_IRKUTSK = {
 		bg_coal_mining = 50
 		bg_iron_mining = 36
 		bg_logging = 30
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_oil_extraction""
 		undiscovered_amount = "10"
+=======
+	}
+	resource = {
+		type = "bg_oil_extraction"
+		undiscovered_amount = 10
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 }
 

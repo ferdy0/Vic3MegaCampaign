@@ -13,9 +13,17 @@
 	capped_resources = {
 		bg_logging = 7
 		bg_fishing = 4
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_rubber""
 		undiscovered_amount = "10"
+=======
+	}
+	resource = {
+		type = "bg_rubber"
+		undiscovered_amount = 10
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3155
 }
 
@@ -35,9 +43,17 @@ STATE_GUATEMALA = {
 		bg_iron_mining = 30
 		bg_logging = 17
 		bg_fishing = 5
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_rubber""
 		undiscovered_amount = "20"
+=======
+	}
+	resource = {
+		type = "bg_rubber"
+		undiscovered_amount = 20
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3026
 }
 
@@ -56,9 +72,17 @@ STATE_HONDURAS = {
 	capped_resources = {
 		bg_logging = 15
 		bg_fishing = 8
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_rubber""
 		undiscovered_amount = "16"
+=======
+	}
+	resource = {
+		type = "bg_rubber"
+		undiscovered_amount = 16
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3026
 }
 
@@ -77,9 +101,17 @@ STATE_NICARAGUA = {
 	capped_resources = {
 		bg_logging = 14
 		bg_fishing = 5
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_rubber""
 		undiscovered_amount = "14"
+=======
+	}
+	resource = {
+		type = "bg_rubber"
+		undiscovered_amount = 14
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3026
 }
 
@@ -99,9 +131,17 @@ STATE_COSTA_RICA = {
 		bg_coal_mining = 24
 		bg_logging = 8
 		bg_fishing = 3
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_rubber""
 		undiscovered_amount = "12"
+=======
+	}
+	resource = {
+		type = "bg_rubber"
+		undiscovered_amount = 12
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3026
 }
 
@@ -121,9 +161,17 @@ STATE_PANAMA = {
 		bg_logging = 8
 		bg_fishing = 6
 		bg_whaling = 2
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_rubber""
 		undiscovered_amount = "12"
+=======
+	}
+	resource = {
+		type = "bg_rubber"
+		undiscovered_amount = 12
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3026
 }
 
@@ -141,9 +189,17 @@ STATE_HAITI = {
 	capped_resources = {
 		bg_logging = 7
 		bg_fishing = 6
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_rubber""
 		undiscovered_amount = "12"
+=======
+	}
+	resource = {
+		type = "bg_rubber"
+		undiscovered_amount = 12
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3061
 }
 
@@ -161,9 +217,17 @@ STATE_SANTO_DOMINGO = {
 	capped_resources = {
 		bg_logging = 11
 		bg_fishing = 7
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_rubber""
 		undiscovered_amount = "12"
+=======
+	}
+	resource = {
+		type = "bg_rubber"
+		undiscovered_amount = 12
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3061
 }
 
@@ -180,9 +244,17 @@ STATE_PUERTO_RICO = {
 	capped_resources = {
 		bg_logging = 2
 		bg_fishing = 4
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_rubber""
 		undiscovered_amount = "6"
+=======
+	}
+	resource = {
+		type = "bg_rubber"
+		undiscovered_amount = 6
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3025
 }
 
@@ -198,6 +270,10 @@ STATE_BAHAMAS = {
 	arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
 	capped_resources = {
 		bg_fishing = 5
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3061
 }
 
@@ -214,9 +290,17 @@ STATE_WEST_INDIES = {
 	arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
 	capped_resources = {
 		bg_fishing = 8
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_oil_extraction""
 		undiscovered_amount = "20"
+=======
+	}
+	resource = {
+		type = "bg_oil_extraction"
+		undiscovered_amount = 20
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3025
 }
 
@@ -233,9 +317,17 @@ STATE_JAMAICA = {
 	capped_resources = {
 		bg_logging = 4
 		bg_fishing = 5
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_rubber""
 		undiscovered_amount = "14"
+=======
+	}
+	resource = {
+		type = "bg_rubber"
+		undiscovered_amount = 14
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3061
 }
 
@@ -256,6 +348,7 @@ STATE_CUBA = {
 		bg_iron_mining = 18
 		bg_logging = 15
 		bg_fishing = 10
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_rubber""
 		undiscovered_amount = "8"
@@ -263,6 +356,16 @@ STATE_CUBA = {
 	resource = {
 		type = ""bg_oil_extraction""
 		undiscovered_amount = "5"
+=======
+	}
+	resource = {
+		type = "bg_rubber"
+		undiscovered_amount = 8
+	}
+	resource = {
+		type = "bg_oil_extraction"
+		undiscovered_amount = 5
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	}
 	naval_exit_id = 3061
 }

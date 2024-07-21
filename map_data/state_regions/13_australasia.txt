@@ -16,6 +16,7 @@
 		bg_logging = 7
 		bg_whaling = 4
 		bg_fishing = 8
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_gold_fields""
 		depleted_type = ""bg_gold_mining""
@@ -24,6 +25,17 @@
 	resource = {
 		type = ""bg_oil_extraction""
 		undiscovered_amount = "10"
+=======
+	}
+	resource = {
+		type = "bg_gold_fields"
+		depleted_type = "bg_gold_mining"
+		undiscovered_amount = 12
+	}
+	resource = {
+		type = "bg_oil_extraction"
+		undiscovered_amount = 10
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	}
 	naval_exit_id = 3122
 }
@@ -44,10 +56,19 @@ STATE_VICTORIA = {
 		bg_logging = 11
 		bg_whaling = 3
 		bg_fishing = 8
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_gold_fields""
 		depleted_type = ""bg_gold_mining""
 		undiscovered_amount = "6"
+=======
+	}
+	resource = {
+		type = "bg_gold_fields"
+		depleted_type = "bg_gold_mining"
+		undiscovered_amount = 6
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3122
 }
 
@@ -69,10 +90,19 @@ STATE_TASMANIA = {
 		bg_logging = 8
 		bg_whaling = 2
 		bg_fishing = 6
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_gold_fields""
 		depleted_type = ""bg_gold_mining""
 		undiscovered_amount = "6"
+=======
+	}
+	resource = {
+		type = "bg_gold_fields"
+		depleted_type = "bg_gold_mining"
+		undiscovered_amount = 6
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3122
 }
 
@@ -94,6 +124,10 @@ STATE_QUEENSLAND = {
 		bg_logging = 5
 		bg_whaling = 3
 		bg_fishing = 12
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3124
 }
 
@@ -115,6 +149,10 @@ STATE_SOUTH_AUSTRALIA = {
 		bg_sulfur_mining = 60
 		bg_whaling = 2
 		bg_fishing = 6
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3121
 }
 
@@ -136,10 +174,19 @@ STATE_WESTERN_AUSTRALIA = {
 		bg_logging = 4
 		bg_whaling = 3
 		bg_fishing = 9
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_gold_fields""
 		depleted_type = ""bg_gold_mining""
 		undiscovered_amount = "8"
+=======
+	}
+	resource = {
+		type = "bg_gold_fields"
+		depleted_type = "bg_gold_mining"
+		undiscovered_amount = 8
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3123
 }
 
@@ -159,6 +206,10 @@ STATE_NORTHERN_TERRITORY = {
 		bg_logging = 5
 		bg_whaling = 2
 		bg_fishing = 6
+<<<<<<< HEAD
+=======
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3126
 }
 
@@ -179,10 +230,19 @@ STATE_NORTH_ISLAND = {
 		bg_logging = 11
 		bg_whaling = 3
 		bg_fishing = 8
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_gold_fields""
 		depleted_type = ""bg_gold_mining""
 		undiscovered_amount = "4"
+=======
+	}
+	resource = {
+		type = "bg_gold_fields"
+		depleted_type = "bg_gold_mining"
+		undiscovered_amount = 4
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3122
 }
 
@@ -201,10 +261,19 @@ STATE_SOUTH_ISLAND = {
 		bg_logging = 7
 		bg_whaling = 4
 		bg_fishing = 10
+<<<<<<< HEAD
 	resource = {
 		type = ""bg_gold_fields""
 		depleted_type = ""bg_gold_mining""
 		undiscovered_amount = "6"
+=======
+	}
+	resource = {
+		type = "bg_gold_fields"
+		depleted_type = "bg_gold_mining"
+		undiscovered_amount = 6
+	}
+>>>>>>> a83419d0a7059f72e4045f0589304c585992dafd
 	naval_exit_id = 3122
 }
 
