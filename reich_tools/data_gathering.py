@@ -281,6 +281,7 @@ def generate_population_data_block(state: State) -> str:
                 block += "\t\t\t\t\t\tcreate_pop = {\n"
                 block += f"\t\t\t\t\t\t\t\tculture = {pop.culture}\n"
                 block += f"\t\t\t\t\t\t\t\treligion = {pop.religion}\n"
+                pop.size = try_conversion_to_int(pop.size)
                 block += f"\t\t\t\t\t\t\t\tsize = {pop.size}\n"
                 block += "\t\t\t\t\t\t}\n"
             block += "\t\t\t\t}\n"
@@ -291,6 +292,7 @@ def generate_population_data_block(state: State) -> str:
 def generate_state_regions_block(state: State) -> str:
     raise_arable_land_to_min(state)
     block = "\n"
+    state.id = try_conversion_to_int(state.id)
     block += f"\tid = {state.id}\n"
     block += f'\tsubsistence_building = "{state.subsistence_building}"\n'
 
@@ -316,7 +318,7 @@ def generate_state_regions_block(state: State) -> str:
 
     if state.wood:
         block += f'\twood = "{state.wood}"\n'
-
+    state.arable_land = try_conversion_to_int(state.arable_land)
     block += f"\tarable_land = {state.arable_land}\n"
 
     if state.arable_resources:
@@ -328,6 +330,7 @@ def generate_state_regions_block(state: State) -> str:
     if state.capped_resources:
         block += "\tcapped_resources = {\n"
         for resource, amount in state.capped_resources.items():
+            amount = try_conversion_to_int(amount)
             block += f"\t\t{resource} = {amount}\n"
 
     if state.resources:
@@ -368,6 +371,14 @@ def raise_arable_land_to_min(state: State):
             f"{state.name}: Population = {pop_sum}, changing arable land from {original_arable_land} to {min_arable_land}"
         )
         state.arable_land = min_arable_land
+
+
+def try_conversion_to_int(value):
+    try:
+        value = int(value)
+    except ValueError:
+        pass
+    return value
 
 
 # Example usage
