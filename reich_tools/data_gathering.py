@@ -248,7 +248,7 @@ def write_state_region_file(filename: str, states_container: States):
 def generate_state_data_block(state: State) -> str:
     block = f"s:{state.name} = {{\n"
     for region in state.regions:
-        block += "\tcreate_state = {\n"
+        block += "\t\tcreate_state = {\n"
         block += f"\t\tcountry = c:{region.country}\n"
         block += f"\t\towned_provinces = {{ {' '.join(region.provinces)} }}\n"
         block += f"\t\tstate_type = {region.type}\n"
