@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:W78 = {
+		create_character = {
+			first_name = "Shah_Ali_II"
+			last_name = "Teleki"
+			ruler = yes
+			culture = cu:bulgarian
+			religion = rel:orthodox
+			birth_date = 1773.9.30
+			traits = {
+				basic_colonial_administrator cautious 
+			}
+		}
+
+	}
+}
