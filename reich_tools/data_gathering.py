@@ -15,6 +15,7 @@ def raise_arable_land_to_min(state: State):
         )
         state.arable_land = min_arable_land
 
+    return
 def parse_state_region_file(filename: str, states_container: States):
     with open(filename, "r") as file:
         data = file.read()
@@ -92,8 +93,8 @@ def add_population_data(states_container: States, filename: str):
     with open(filename, "r") as file:
         data = file.read()
 
+    # Extract state blocks
     state_blocks = re.findall(r"s:(\w+)\s*=\s*({.*?})\s*(?=\s*s:|$)", data, re.DOTALL)
-
     for state_name, state_data in state_blocks:
         # Find the corresponding state in the states container
         state = states_container.states.get(state_name)
@@ -113,7 +114,10 @@ def add_population_data(states_container: States, filename: str):
                 (r for r in state.regions if r.country == region_country), None
             )
             if not region:
-                continue
+                region = Region(region_country, [], "")
+                state.add_region(region)
+
+
 
             # Find all create_pop blocks within each region block
             create_pop_blocks = re.findall(
@@ -128,6 +132,7 @@ def add_population_data(states_container: States, filename: str):
                 )
                 region.add_population(population)
 
+
 def process_state_region_files(folder_path: str, states_container: States, exclude_files=None):
     if exclude_files is None:
         exclude_files = ["99_seas.txt", "readme.info"]
@@ -139,9 +144,9 @@ def process_state_region_files(folder_path: str, states_container: States, exclu
                 file_path = os.path.join(root, filename)
                 parse_state_region_file(file_path, states_container)
 
-def modify_arable_land_in_files(states_folder_path: str):
+def modify_arable_land_in_files(states_container: States, states_folder_path: str):
     # Parse states data from the files in the folder
-    states_container = States()
+
     process_state_region_files(states_folder_path, states_container)
 
     # Modify arable land values in memory
@@ -173,6 +178,7 @@ def modify_arable_land_in_files(states_folder_path: str):
                 with open(file_path, "w") as file:
                     file.writelines(modified_data)
 
+
 # Example usage
 states_folder_path = r"C:\Users\z0281712\Projects\Vic3MegaCampaign\map_data\state_regions"
 population_filepath = r"C:\Users\z0281712\Projects\Vic3MegaCampaign\common\history\pops\99_converted_pops.txt"
@@ -180,7 +186,12 @@ population_filepath = r"C:\Users\z0281712\Projects\Vic3MegaCampaign\common\histo
 # Parse states and population data
 states_container = States()
 process_state_region_files(states_folder_path, states_container)
+
+original_global_arable_land = 0
+for state in states_container.states:
+    print(state)
+print(original_global_arable_land)
 add_population_data(states_container, population_filepath)
 
 # Modify arable land values and write back to the correct files
-modify_arable_land_in_files(states_folder_path)
+modify_arable_land_in_files(states_container, states_folder_path)
