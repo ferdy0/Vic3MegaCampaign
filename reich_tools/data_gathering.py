@@ -1,63 +1,21 @@
-"""Here is the code gathering data from vicky"""
 import math
-import os
 import re
-
+import os
 from models import Population, Region, State, States
 
-from reich_tools.conf import mod_path
-
-
-def parse_state_data(filename: str) -> States:
-    states_container = States()
-
-    with open(filename, "r") as file:
-        data = file.read()
-
-    # Find STATES block
-    states_block_match = re.search(r"STATES\s*=\s*{(.*?)}\s*$", data, re.DOTALL)
-    if not states_block_match:
-        raise ValueError("No STATES block found in the data")
-
-    states_block_data = states_block_match.group(1)
-
-    # Find all state blocks within STATES
-    state_blocks = re.findall(
-        r"s:(\w+)\s*=\s*({.*?})\s*(?=\s*s:|$)", states_block_data, re.DOTALL
-    )
-
-    for state_name, state_data in state_blocks:
-        state = State(state_name.strip())
-
-        # Find all create_state blocks within each state block
-        create_state_blocks = re.findall(
-            r"create_state\s*=\s*{\s*country\s*=\s*c:(\w+)\s*owned_provinces\s*=\s*{([^}]*)}\s*state_type\s*=\s*(\w+)\s*}",
-            state_data,
-            re.DOTALL,
+def raise_arable_land_to_min(state: State):
+    pop_sum = 0
+    for region in state.regions:
+        pop_sum += region.sum_populations()
+    original_arable_land = int(state.arable_land)
+    min_arable_land = int(math.ceil(pop_sum / 5000))
+    if original_arable_land < min_arable_land:
+        print(
+            f"{state.name}: Population = {pop_sum}, changing arable land from {original_arable_land} to {min_arable_land}"
         )
+        state.arable_land = min_arable_land
 
-        for country, provinces_str, region_type in create_state_blocks:
-            provinces = provinces_str.split()
-            region = Region(country, provinces, region_type)
-            state.add_region(region)
-
-        # Find all add_homeland lines within each state block
-        homeland_lines = re.findall(r"add_homeland\s*=\s*cu:([\w-]+)", state_data)
-        for homeland in homeland_lines:
-            state.add_homeland(homeland)
-
-        # Find all add_claim lines within each state block
-        claim_lines = re.findall(r"add_claim\s*=\s*c:(\w+)", state_data)
-        for claim in claim_lines:
-            state.add_claim(claim)
-
-        # Add the state object to the States container
-        states_container.add_state(state)
-
-    return states_container
-
-
-def parse_state_region_file(filename: str, states_container):
+def parse_state_region_file(filename: str, states_container: States):
     with open(filename, "r") as file:
         data = file.read()
 
@@ -70,7 +28,8 @@ def parse_state_region_file(filename: str, states_container):
         state = states_container.states.get(state_name)
 
         if not state:
-            continue
+            state = State(state_name)
+            states_container.add_state(state)
 
         # Extract individual fields
         state.id = extract_field(r"id\s*=\s*(\d+)", block)
@@ -96,20 +55,17 @@ def parse_state_region_file(filename: str, states_container):
 
     return states_container
 
-
 def extract_field(pattern: str, block: str):
     match = re.search(pattern, block)
     if match:
         return match.group(1)
     return None
 
-
 def extract_list(pattern: str, block: str):
     match = re.search(pattern, block)
     if match:
         return [item.strip().strip('"') for item in match.group(1).split()]
     return []
-
 
 def extract_dict(pattern: str, block: str):
     matches = re.findall(pattern, block, re.DOTALL)
@@ -132,7 +88,6 @@ def extract_dict(pattern: str, block: str):
 
     return result
 
-
 def add_population_data(states_container: States, filename: str):
     with open(filename, "r") as file:
         data = file.read()
@@ -141,7 +96,7 @@ def add_population_data(states_container: States, filename: str):
 
     for state_name, state_data in state_blocks:
         # Find the corresponding state in the states container
-        state = states_container.states[state_name]
+        state = states_container.states.get(state_name)
         if not state:
             continue
 
@@ -173,233 +128,59 @@ def add_population_data(states_container: States, filename: str):
                 )
                 region.add_population(population)
 
+def process_state_region_files(folder_path: str, states_container: States, exclude_files=None):
+    if exclude_files is None:
+        exclude_files = ["99_seas.txt", "readme.info"]
 
-def process_state_region_files(folder_path: str, states_container):
     for root, dirs, files in os.walk(folder_path):
         for filename in files:
-            if filename not in ["99_seas.txt", "readme.info"]:
+            if filename not in exclude_files:
                 print(f"Processing: {filename}")
                 file_path = os.path.join(root, filename)
                 parse_state_region_file(file_path, states_container)
-                write_state_region_file(file_path, states_container)
 
+def modify_arable_land_in_files(states_folder_path: str):
+    # Parse states data from the files in the folder
+    states_container = States()
+    process_state_region_files(states_folder_path, states_container)
 
-def write_states_file(filename: str, states_container: States):
-    with open(filename, "r") as file:
-        original_data = file.read()
+    # Modify arable land values in memory
+    for state in states_container.states.values():
+        raise_arable_land_to_min(state)
 
-    states_block_match = re.search(
-        r"STATES\s*=\s*{(.*?)}\s*$", original_data, re.DOTALL
-    )
-    if not states_block_match:
-        raise ValueError("No STATES block found in the data")
+    # Modify the arable land lines in the original data and write back to the correct files
+    for root, dirs, files in os.walk(states_folder_path):
+        for filename in files:
+            if filename not in ["99_seas.txt", "readme.info"]:
+                file_path = os.path.join(root, filename)
+                with open(file_path, "r") as file:
+                    original_data = file.readlines()
 
-    states_block_data = states_block_match.group(1)
+                modified_data = []
+                for line in original_data:
+                    modified_line = line
+                    arable_land_match = re.match(r"(.*arable_land\s*=\s*)(\d+)(.*)", line)
+                    if arable_land_match:
+                        state_name_match = re.search(r"STATE_(\w+)", line)
+                        if state_name_match:
+                            state_name = state_name_match.group(1)
+                            state = states_container.states.get("STATE_" + state_name)
+                            if state:
+                                modified_line = f"{arable_land_match.group(1)}{state.arable_land}{arable_land_match.group(3)}\n"
+                    modified_data.append(modified_line)
 
-    state_blocks = re.findall(
-        r"s:(\w+)\s*=\s*({.*?})\s*(?=\s*s:|$)", states_block_data, re.DOTALL
-    )
-    modified_states_block_data = states_block_data
-
-    for state_name, block in state_blocks:
-        state = states_container.states.get(state_name.strip())
-        if state:
-            new_block = generate_state_data_block(state)
-            modified_states_block_data = modified_states_block_data.replace(
-                f"s:{state_name} = {block}", new_block
-            )
-
-    modified_data = original_data.replace(states_block_data, modified_states_block_data)
-
-    with open(filename, "w") as file:
-        file.write(modified_data)
-
-
-def write_population_file(filename: str, states_container: States):
-    with open(filename, "r") as file:
-        original_data = file.read()
-
-    state_blocks = re.findall(
-        r"s:(\w+)\s*=\s*({.*?})\s*(?=\s*s:|$)", original_data, re.DOTALL
-    )
-    modified_data = original_data
-
-    for state_name, block in state_blocks:
-        state = states_container.states.get(state_name.strip())
-        if state:
-            new_block = generate_population_data_block(state)
-            modified_data = modified_data.replace(
-                f"s:{state_name} = {block}", new_block
-            )
-    modified_data = modified_data.rstrip() + "\n}"
-    with open(filename, "w") as file:
-        file.write(modified_data)
-
-
-def write_state_region_file(filename: str, states_container: States):
-    with open(filename, "r") as file:
-        original_data = file.read()
-
-    state_blocks = re.findall(
-        r"STATE_(\w+)\s*=\s*{([\s\S]*?)}\s*(?=STATE_|$)", original_data
-    )
-
-    modified_data = original_data
-    for state_name, block in state_blocks:
-        state_name = "STATE_" + state_name
-        state = states_container.states.get(state_name)
-        if state:
-            new_block = generate_state_regions_block(state)
-            modified_data = modified_data.replace(block, new_block)
-
-    with open(filename, "w") as file:
-        file.write(modified_data)
-
-
-def generate_state_data_block(state: State) -> str:
-    block = f"\ts:{state.name} = {{\n"
-    for region in state.regions:
-        block += "\t\t\t\tcreate_state = {\n"
-        block += f"\t\t\t\t\t\tcountry = c:{region.country}\n"
-        block += f"\t\t\t\t\t\towned_provinces = {{ {' '.join(region.provinces)} }}\n"
-        block += f"\t\t\t\t\t\tstate_type = {region.type}\n"
-        block += "\t\t\t\t}\n"
-    for homeland in state.homelands:
-        block += f"\t\t\t\tadd_homeland = cu:{homeland}\n"
-    for claim in state.claims:
-        block += f"\t\t\t\tadd_claim = c:{claim}\n"
-    block += "\t\t}"
-    return block
-
-
-def generate_population_data_block(state: State) -> str:
-    block = f"\ts:{state.name} = {{\n"
-    for region in state.regions:
-        if region.populations:
-            block += f"\t\t\t\tregion_state:{region.country} = {{\n"
-            for pop in region.populations:
-                block += "\t\t\t\t\t\tcreate_pop = {\n"
-                block += f"\t\t\t\t\t\t\t\tculture = {pop.culture}\n"
-                block += f"\t\t\t\t\t\t\t\treligion = {pop.religion}\n"
-                pop.size = try_conversion_to_int(pop.size)
-                block += f"\t\t\t\t\t\t\t\tsize = {pop.size}\n"
-                block += "\t\t\t\t\t\t}\n"
-            block += "\t\t\t\t}\n"
-    block += "\t\t}"
-    return block
-
-
-def generate_state_regions_block(state: State) -> str:
-    raise_arable_land_to_min(state)
-    block = "\n"
-    state.id = try_conversion_to_int(state.id)
-    block += f"\tid = {state.id}\n"
-    block += f'\tsubsistence_building = "{state.subsistence_building}"\n'
-
-    # Format provinces list correctly
-    provinces_formatted = " ".join(f'"{prov}"' for prov in state.provinces)
-    block += f"\tprovinces = {{ {provinces_formatted} }}\n"
-
-    if state.traits:
-        traits_formatted = " ".join(f'"{trait}"' for trait in state.traits)
-        block += f"\ttraits = {{ {traits_formatted} }}\n"
-
-    if state.city:
-        block += f'\tcity = "{state.city}"\n'
-
-    if state.port:
-        block += f'\tport = "{state.port}"\n'
-
-    if state.farm:
-        block += f'\tfarm = "{state.farm}"\n'
-
-    if state.mine:
-        block += f'\tmine = "{state.mine}"\n'
-
-    if state.wood:
-        block += f'\twood = "{state.wood}"\n'
-    state.arable_land = try_conversion_to_int(state.arable_land)
-    block += f"\tarable_land = {state.arable_land}\n"
-
-    if state.arable_resources:
-        arable_resources_formatted = " ".join(
-            f'"{res}"' for res in state.arable_resources
-        )
-        block += f"\tarable_resources = {{ {arable_resources_formatted} }}\n"
-
-    if state.capped_resources:
-        block += "\tcapped_resources = {\n"
-        for resource, amount in state.capped_resources.items():
-            amount = try_conversion_to_int(amount)
-            block += f"\t\t{resource} = {amount}\n"
-        block += "\t}\n"
-
-    if state.resources:
-        if isinstance(state.resources, list):
-            for resource in state.resources:
-                block += "\tresource = {\n"
-                for key, value in resource.items():
-                    try:
-                        value = int(value)
-                    except ValueError:
-                        pass
-                    block += f'\t\t{key} = {value}\n'
-
-                block += "\t}\n"
-        else:
-            block += "\tresource = {\n"
-            for key, value in state.resources.items():
-                try:
-                    value = int(value)
-                except ValueError:
-                    pass
-                block += f'\t\t{key} = {value}\n'
-            block += "\t}\n"
-
-    if state.naval_exit_id:
-        block += f"\tnaval_exit_id = {state.naval_exit_id}\n"
-
-    return block
-
-
-def raise_arable_land_to_min(state: State):
-    pop_sum = 0
-    for region in state.regions:
-        pop_sum += region.sum_populations()
-    original_arable_land = int(state.arable_land)
-    min_arable_land = int(math.ceil(pop_sum / 50000))
-    if original_arable_land < min_arable_land:
-        print(
-            f"{state.name}: Population = {pop_sum}, changing arable land from {original_arable_land} to {min_arable_land}"
-        )
-        state.arable_land = min_arable_land
-
-
-def try_conversion_to_int(value):
-    try:
-        value = int(value)
-    except ValueError:
-        pass
-    return value
-
+                # Write the modified data back to the original file
+                with open(file_path, "w") as file:
+                    file.writelines(modified_data)
 
 # Example usage
-states_filepath = mod_path + "/common/history/states/99_converter_states.txt"
-population_filepath = mod_path + "/common/history/pops/99_converted_pops.txt"
-state_regions_folder = mod_path + "/map_data/state_regions"
+states_folder_path = r"C:\Users\z0281712\Projects\Vic3MegaCampaign\map_data\state_regions"
+population_filepath = r"C:\Users\z0281712\Projects\Vic3MegaCampaign\common\history\pops\99_converted_pops.txt"
 
 # Parse states and population data
-states = parse_state_data(states_filepath)
-add_population_data(states, population_filepath)
+states_container = States()
+process_state_region_files(states_folder_path, states_container)
+add_population_data(states_container, population_filepath)
 
-# Modify data in memory
-# modify_data(states)
-#
-# Write back to states file
-write_states_file(states_filepath, states)
-
-# Write back to population file
-write_population_file(population_filepath, states)
-
-# Process state region files in the folder and write back
-process_state_region_files(state_regions_folder, states)
+# Modify arable land values and write back to the correct files
+modify_arable_land_in_files(states_folder_path)
