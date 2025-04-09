@@ -1,6 +1,8 @@
+"""Here is the code gathering data from vicky"""
 import math
-import re
 import os
+import re
+
 from models import Population, Region, State, States
 
 def raise_arable_land_to_min(state: State):
@@ -56,17 +58,20 @@ def parse_state_region_file(filename: str, states_container: States):
 
     return states_container
 
+
 def extract_field(pattern: str, block: str):
     match = re.search(pattern, block)
     if match:
         return match.group(1)
     return None
 
+
 def extract_list(pattern: str, block: str):
     match = re.search(pattern, block)
     if match:
         return [item.strip().strip('"') for item in match.group(1).split()]
     return []
+
 
 def extract_dict(pattern: str, block: str):
     matches = re.findall(pattern, block, re.DOTALL)
@@ -89,12 +94,14 @@ def extract_dict(pattern: str, block: str):
 
     return result
 
+
 def add_population_data(states_container: States, filename: str):
     with open(filename, "r") as file:
         data = file.read()
 
     # Extract state blocks
     state_blocks = re.findall(r"s:(\w+)\s*=\s*({.*?})\s*(?=\s*s:|$)", data, re.DOTALL)
+
     for state_name, state_data in state_blocks:
         # Find the corresponding state in the states container
         state = states_container.states.get(state_name)
@@ -143,6 +150,20 @@ def process_state_region_files(folder_path: str, states_container: States, exclu
                 print(f"Processing: {filename}")
                 file_path = os.path.join(root, filename)
                 parse_state_region_file(file_path, states_container)
+                write_state_region_file(file_path, states_container)
+
+
+def write_states_file(filename: str, states_container: States):
+    with open(filename, "r") as file:
+        original_data = file.read()
+
+    states_block_match = re.search(
+        r"STATES\s*=\s*{(.*?)}\s*$", original_data, re.DOTALL
+    )
+    if not states_block_match:
+        raise ValueError("No STATES block found in the data")
+
+    states_block_data = states_block_match.group(1)
 
 def modify_arable_land_in_files(states_container: States, states_folder_path: str):
     # Parse states data from the files in the folder
